@@ -8,6 +8,7 @@ st.set_page_config(page_title="Python Parts 🐍", layout="wide")
 st.title('Vendas - Acessórios')
 
 # Carrega os dados do arquivo CSV
+
 @st.cache_data
 def load_data():
     url = "https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/vendas_acessorios_fake.csv"
@@ -16,13 +17,11 @@ def load_data():
     except Exception as e:
         st.error(f"Erro ao carregar dados: {str(e)}")
         return pd.DataFrame()
-
+        
+df = load_data()
 df["receita"] = df["quantidade"] * df["preco_unitario"]
 df["lucro"] = df["receita"] - (df["quantidade"] * df["custo_unitario"])
-df["mes"] = df["data_venda"].dt.to_period("M").astype(str)
-
-
-
+df["mes"] = pd.to_datetime(df["data_venda"]).dt.to_period("M").astype(str)
 
 # Sidebar - filtros
 st.sidebar.title("Filtros")
