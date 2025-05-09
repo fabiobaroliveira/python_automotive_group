@@ -30,7 +30,7 @@ with col2:
     Dashboard de vendas de acessórios automotivos
     """)
     if st.button("Acessar Python Parts", key="parts"):
-        st.switch_page("pages/2_🔧_Python_Parts.py")
+        st.switch_page("pages/2_Python_Parts.py")
 
 # Rodapé
 st.markdown("---")
