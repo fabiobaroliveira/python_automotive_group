@@ -5,7 +5,7 @@ import pandas as pd
 st.set_page_config(page_title="Python Parts 🐍", layout="wide")
 
 # Título do aplicativo
-st.title('Vendas - Acessórios')
+st.title('Resumo - Vendas de Acessórios')
 
 # Carregar os dados
 
