@@ -77,8 +77,7 @@ st.write(f"**Estados**: {', '.join(estado_selecionado) if estado_selecionado els
          f"**Leads**: {', '.join(lead_selecionado) if lead_selecionado else 'Todos'}")
 st.write(f"**Total de veículos vendidos:** {len(df_filtrado)}")
 
-# Visualizações
- Seção de análise por marca (sempre visível)
+# Visualizações Seção de análise por marca (sempre visível)
 st.subheader("Vendas por Marca")
 if marca_selecionada:
     # Se há marcas selecionadas, mostra apenas as selecionadas
