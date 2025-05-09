@@ -10,7 +10,7 @@ st.title('🚗 Dashboard de Vendas - Veículos Seminovos')
 # Carrega os dados do arquivo CSV
 @st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/fabiobaroliveira/dashboard_vendas/main/STREAMLIT/vendas_loja_seminovos.csv"
+        url = "https://raw.github.com/fabiobaroliveira/python_automotive_group/blob/main/pages/vendas_loja_seminovos.csv"
     try:
         return pd.read_csv(url, sep=";")
     except Exception as e:
