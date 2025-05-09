@@ -8,10 +8,10 @@ st.set_page_config(page_title="Python Parts 🐍", layout="wide")
 st.title('Vendas - Acessórios')
 
 # Carregar os dados
+
 # URL bruta do arquivo CSV no GitHub
 url = "https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/vendas_acessorios_fake.csv"
-
-df = pd.read_csv("vendas_acessorios_fake.csv", parse_dates=["data_venda"])
+df = pd.read_csv(url, parse_dates=["data_venda"])
 df["receita"] = df["quantidade"] * df["preco_unitario"]
 df["lucro"] = df["receita"] - (df["quantidade"] * df["custo_unitario"])
 df["mes"] = df["data_venda"].dt.to_period("M").astype(str)
