@@ -19,8 +19,8 @@ def load_data():
         return pd.DataFrame()
         
 df = load_data()
-df["receita"] = df["Quantidade"] * df["Preço Unitário"]
-df["lucro"] = df["receita"] - (df["Quantidade"] * df["Custo Unitário"])
+df["receita"] = df["quantidade"] * df["preco_unitario"]
+df["lucro"] = df["receita"] - (df["quantidade"] * df["custo_unitário"])
 df["mes"] = pd.to_datetime(df["Data Venda"]).dt.to_period("M").astype(str)
 
 
