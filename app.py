@@ -22,7 +22,7 @@ with col1:
     Dashboard de vendas de veículos seminovos
     """)
     if st.button("Acessar Python Cars", key="cars"):
-        st.switch_page("pages/1_🚗_Python_Cars.py")
+        st.switch_page("pages/1_Python_Cars.py")
 
 with col2:
     st.markdown("""
