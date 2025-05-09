@@ -7,22 +7,14 @@ st.set_page_config(page_title="Python Parts 🐍", layout="wide")
 # Título do aplicativo
 st.title('Vendas - Acessórios')
 
-# Carrega os dados do arquivo CSV
+# Carregar os dados
+# URL bruta do arquivo CSV no GitHub
+url = "https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/vendas_acessorios_fake.csv"
 
-@st.cache_data
-def load_data():
-    url = "https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/vendas_acessorios_fake.csv"
-    try:
-        return pd.read_csv(url, sep=";")
-    except Exception as e:
-        st.error(f"Erro ao carregar dados: {str(e)}")
-        return pd.DataFrame()
-        
-df = load_data()
+df = pd.read_csv("vendas_acessorios_fake.csv", parse_dates=["data_venda"])
 df["receita"] = df["quantidade"] * df["preco_unitario"]
-df["lucro"] = df["receita"] - (df["quantidade"] * df["custo_unitário"])
-df["mes"] = pd.to_datetime(df["Data Venda"]).dt.to_period("M").astype(str)
-
+df["lucro"] = df["receita"] - (df["quantidade"] * df["custo_unitario"])
+df["mes"] = df["data_venda"].dt.to_period("M").astype(str)
 
 # Sidebar - filtros
 st.sidebar.title("Filtros")
@@ -47,4 +39,3 @@ st.line_chart(receita_mes.set_index("mes"))
 st.subheader("Produtos por Receita")
 top = df_filtrado.groupby("produto_nome")["receita"].sum().sort_values(ascending=False).head(5)
 st.table(top.reset_index())
-
