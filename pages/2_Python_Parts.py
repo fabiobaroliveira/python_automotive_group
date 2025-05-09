@@ -19,9 +19,10 @@ def load_data():
         return pd.DataFrame()
         
 df = load_data()
-df["receita"] = df["quantidade"] * df["preco_unitario"]
-df["lucro"] = df["receita"] - (df["quantidade"] * df["custo_unitario"])
-df["mes"] = pd.to_datetime(df["data_venda"]).dt.to_period("M").astype(str)
+df["receita"] = df["Quantidade"] * df["Preço Unitário"]
+df["lucro"] = df["receita"] - (df["Quantidade"] * df["Custo Unitário"])
+df["mes"] = pd.to_datetime(df["Data Venda"]).dt.to_period("M").astype(str)
+
 
 # Sidebar - filtros
 st.sidebar.title("Filtros")
