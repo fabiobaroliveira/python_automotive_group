@@ -78,17 +78,64 @@ st.write(f"**Estados**: {', '.join(estado_selecionado) if estado_selecionado els
 st.write(f"**Total de veículos vendidos:** {len(df_filtrado)}")
 
 # Visualizações
+ Seção de análise por marca (sempre visível)
 st.subheader("Vendas por Marca")
-st.bar_chart(df_filtrado.groupby("Marca").size())
+if marca_selecionada:
+    # Se há marcas selecionadas, mostra apenas as selecionadas
+    vendas_por_marca = df_filtrado.groupby("Marca").size()
+else:
+    # Se nenhuma marca selecionada, mostra todas
+    vendas_por_marca = df_filtrado.groupby("Marca").size()
 
+st.bar_chart(vendas_por_marca, 
+            x_label="Unidades Vendidas", 
+            color="#494C3A", 
+            horizontal=True)
+
+# Seção de análise por modelo
 st.subheader("Vendas por Modelo")
-st.bar_chart(df_filtrado.groupby("Modelo").size())
+vendas_por_modelo = df_filtrado.groupby("Modelo").size()
 
+if modelo_selecionado:
+    # Se há estados selecionados, mostra apenas os selecionados
+    vendas_por_modelo = df_filtrado.groupby("Modelo").size()
+else:
+    # Se nenhum estado selecionado, mostra todos
+    vendas_por_modelo = df_filtrado.groupby("Modelo").size()
+
+st.bar_chart(vendas_por_modelo,
+                color="#494C3A",
+                horizontal=True,
+                use_container_width=True)    
+
+# Seção de análise por estado
 st.subheader("Vendas por Estado")
-st.bar_chart(df_filtrado.groupby("Estado").size())
+if estado_selecionado:
+    # Se há estados selecionados, mostra apenas os selecionados
+    vendas_por_estado = df_filtrado.groupby("Estado").size()
+else:
+    # Se nenhum estado selecionado, mostra todos
+    vendas_por_estado = df_filtrado.groupby("Estado").size()
 
-st.subheader("Vendas por Canal de Lead")
-st.bar_chart(df_filtrado.groupby("Origem_lead").size())
+st.bar_chart(vendas_por_estado, 
+            x_label="Unidades Vendidas", 
+            color="#494C3A", 
+            horizontal=True)
+
+# Seção de análise por Canal
+st.subheader("Vendas por Lead")
+if lead_selecionado:
+    # Se há estados selecionados, mostra apenas os selecionados
+    vendas_por_lead = df_filtrado.groupby("Origem_lead").size()
+else:
+    # Se nenhum estado selecionado, mostra todos
+    vendas_por_lead = df_filtrado.groupby("Origem_lead").size()
+
+st.bar_chart(vendas_por_lead, 
+            x_label="Unidades Vendidas", 
+            color="#494C3A", 
+            horizontal=True)
+
 
 # Rodapé
 st.markdown("---")
