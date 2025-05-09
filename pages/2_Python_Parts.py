@@ -39,3 +39,7 @@ st.line_chart(receita_mes.set_index("mes"))
 st.subheader("Produtos por Receita")
 top = df_filtrado.groupby("produto_nome")["receita"].sum().sort_values(ascending=False).head(5)
 st.table(top.reset_index())
+
+# Rodapé
+st.markdown("---")
+st.markdown("Python Parts 🐍 - Dados fictícios gerados para fins didáticos")
