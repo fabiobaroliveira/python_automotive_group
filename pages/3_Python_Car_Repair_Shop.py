@@ -8,14 +8,12 @@ st.set_page_config(page_title="Python Car Repair Shop 🐍", layout="wide")
 st.title("🧑‍🔧 Python Car Repair Shop")
 st.markdown("---")
 
-sys.path.append(python_automotive_group/main/pages/gerar_dados_oficina.py)
+# Carregar os dados
 
-# Gerar dados
-clientes_df = gerar_clientes()
-veiculos_df = gerar_veiculos(clientes_df=clientes_df)
-agendamentos_df = gerar_agendamentos(veiculos_df=veiculos_df)
-
-
+# URL bruta do arquivo CSV no GitHub
+url = "https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/clientes.csv"
+url = "https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/veiculos.csv"
+url = "https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/agendamentos.csv"
 
 #Agendado do Dia
 # Filtra agendamentos apenas para a data de hoje
