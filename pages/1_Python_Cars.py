@@ -22,17 +22,7 @@ df = load_data()
 # Sidebar para filtros
 with st.sidebar:
     st.header("Filtros")
-    df['Data_venda'] = pd.to_datetime(df['Data_venda'])
-    data_inicial = df['Data_venda'].min()
-    data_final = df['Data_venda'].max()
-
-    intervalo_data = st.date_input(
-        "Selecione o período",
-        value=(data_inicial, data_final),
-        min_value=data_inicial,
-        max_value=data_final
-    )
-
+    
     marca_selecionada = st.multiselect(
         "Selecione uma ou mais marcas:",
         options=sorted(df['Marca'].unique())
@@ -64,10 +54,6 @@ if estado_selecionado:
     df_filtrado = df_filtrado[df_filtrado['Estado'].isin(estado_selecionado)]
 if lead_selecionado:
     df_filtrado = df_filtrado[df_filtrado['Origem_lead'].isin(lead_selecionado)]
-
-if len(intervalo_data) == 2:
-    inicio, fim = pd.to_datetime(intervalo_data[0]), pd.to_datetime(intervalo_data[1])
-    df_filtrado = df_filtrado[(df_filtrado['Data_venda'] >= inicio) & (df_filtrado['Data_venda'] <= fim)]
 
 # Resumo dos filtros aplicados
 st.write("**Filtros aplicados:**")
