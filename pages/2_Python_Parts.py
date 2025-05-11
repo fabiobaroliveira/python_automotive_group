@@ -24,7 +24,7 @@ canal = st.sidebar.multiselect("Canal de Venda", options=df["canal_venda"].uniqu
     
 
 # Aplicar filtros
-df_filtrado = df[df["regiao"].isin(regiao) & df["canal_venda"].isin(canal)]
+df_filtrado = df[df["regiao"].isin(regiao) & df["canal_venda"].isin(canal)] & (df["mes"] == periodo)
 
 # Métricas principais
 st.metric("Receita Total", f"R$ {df_filtrado['receita'].sum():,.2f}")
