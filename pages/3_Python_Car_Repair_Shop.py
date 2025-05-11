@@ -4,7 +4,6 @@ import pandas as pd
 from datetime import date
 import sys
 import os
-
 from gerar_dados_oficina import gerar_clientes, gerar_veiculos, gerar_agendamentos
 
 st.set_page_config(page_title="Python Car Repair Shop 🐍", layout="wide")
