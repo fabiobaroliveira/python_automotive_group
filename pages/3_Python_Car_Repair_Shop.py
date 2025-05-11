@@ -11,8 +11,7 @@ st.set_page_config(page_title="Python Car Repair Shop 🐍", layout="wide")
 st.title("🧑‍🔧 Python Car Repair Shop")
 st.markdown("---")
 
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(SCRIPT_DIR) # Adiciona o diretório onde o script está
+sys.path.append(python_automotive_group/main/pages/gerar_dados_oficina.py)
 
 # Gerar dados
 clientes_df = gerar_clientes()
