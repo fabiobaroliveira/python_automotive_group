@@ -89,3 +89,7 @@ col1, col2, col3 = st.columns(3)
 col1.metric("Receita Total [Prevista]", f"R$ {valor_total_previsto:,.2f}")
 col2.metric("Receita Total [Realizado]", f"R$ {valor_total_realizado:,.2f}")
 col3.metric("Receita Média", f"R$ {valor_medio:,.2f}")
+
+# Rodapé
+st.markdown("---")
+st.markdown("Python Car Repair 🐍 - Dados fictícios gerados para fins didáticos")
