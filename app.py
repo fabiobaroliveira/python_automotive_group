@@ -37,7 +37,7 @@ with col3:
     ### 🧑‍🔧 Python Car Repair Shop
     Dashboard para uma oficina mecânica
     """)
-    if st.button("Acessar Python Car Repair Shop", key="parts"):
+    if st.button("Acessar Python Car Repair Shop", key="repair"):
         st.switch_page("pages/3_Python_Car_Repair_Shop.py")
 
 # Rodapé
