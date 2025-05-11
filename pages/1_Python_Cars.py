@@ -26,7 +26,7 @@ with st.sidebar:
     data_inicial = df['Data_venda'].min()
     data_final = df['Data_venda'].max()
 
-    intervalo_data = st.date_input(
+ x = intervalo_data = st.date_input(
         "Selecione o período",
         value=(data_inicial, data_final),
         min_value=data_inicial,
