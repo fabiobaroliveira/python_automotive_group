@@ -27,6 +27,13 @@ with st.sidebar:
     df['Data_venda'] = pd.to_datetime(df['Data_venda'])
     data_inicial = df['Data_venda'].min()
     data_final = df['Data_venda'].max()
+
+    intervalo_data = st.date_input(
+        "Selecione o período",
+        value=(data_inicial, data_final),
+        min_value=data_inicial,
+        max_value=data_final
+    )    
     
     marca_selecionada = st.multiselect(
         "Selecione uma ou mais marcas:",
