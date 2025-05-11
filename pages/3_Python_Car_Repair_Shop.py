@@ -9,11 +9,10 @@ st.title("🧑‍🔧 Python Car Repair Shop")
 st.markdown("---")
 
 # Carregar os dados
+clientes_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/clientes.csv")
+veiculos_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/veiculos.csv")
+agendamentos_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/agendamentos.csv")
 
-# URL bruta do arquivo CSV no GitHub
-url = "https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/clientes.csv"
-url = "https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/veiculos.csv"
-url = "https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/agendamentos.csv"
 
 #Agendado do Dia
 # Filtra agendamentos apenas para a data de hoje
