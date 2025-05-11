@@ -18,7 +18,7 @@ df["mes"] = df["data_venda"].dt.to_period("M").astype(str)
 
 # Sidebar - filtros
 st.sidebar.title("Filtros")
-periodo = st.select_slider("Período", options=df["mes"].unique(), value=df["mes"].unique()[-1])
+periodo = st.slider("Período", min_value=df["mes"].min(), max_value=df["mes"].max(), value=df["mes"].max())
 regiao = st.sidebar.multiselect("Região", options=df["regiao"].unique(), default=df["regiao"].unique())
 canal = st.sidebar.multiselect("Canal de Venda", options=df["canal_venda"].unique(), default=df["canal_venda"].unique())
     
