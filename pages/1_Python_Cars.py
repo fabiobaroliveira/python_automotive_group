@@ -32,7 +32,11 @@ with st.sidebar:
         min_value=data_inicial,
         max_value=data_final
     )
-
+      st.slider("Selecione o período",
+            min_value=data_inicial,
+            max_value=data_final,
+            value=(data_inicial,
+                   data_final))
     marca_selecionada = st.multiselect(
         "Selecione uma ou mais marcas:",
         options=sorted(df['Marca'].unique())
