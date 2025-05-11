@@ -16,12 +16,8 @@ agendamentos_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveir
 # Converter data_agendamento para tipo datetime.date
 agendamentos_df["data_agendamento"] = pd.to_datetime(agendamentos_df["data_agendamento"]).dt.date
 
-agendamentos_df['id_cliente'] = agendamentos_df['id_cliente'].astype(str)
+agendamentos_df['cliente_id'] = agendamentos_df['cliente_id'].astype(str)
 clientes_df['id_cliente'] = clientes_df['id_cliente'].astype(str)
-
-agendamentos_df['id_veiculo'] = agendamentos_df['id_veiculo'].astype(str)
-veiculos_df['id_veiculo'] = veiculos_df['id_veiculo'].astype(str)
-
 
 #Agendado do Dia
 
@@ -31,7 +27,8 @@ agendamentos_hoje = agendamentos_df[agendamentos_df["data_agendamento"] == hoje]
 # Junta com veículos
 agenda_veiculo = agendamentos_hoje.merge(veiculos_df, on="id_veiculo", how="left")
 # Junta com clientes
-agenda_completa = agenda_veiculo.merge(clientes_df[["id_cliente", "nome"]], on="id_cliente", how="left")
+agenda_completa = agenda_veiculo.merge(clientes_df[["id_cliente", "nome"]],
+                                       left_on="cliente_id", right_on="id_cliente", how="left")
 
 # Seleciona e reorganiza as colunas
 agenda_final = agenda_completa[[
