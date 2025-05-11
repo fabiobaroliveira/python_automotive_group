@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 from datetime import date
@@ -13,8 +12,6 @@ clientes_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/py
 veiculos_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/veiculos.csv")
 agendamentos_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/agendamentos.csv")
 
-# Converter data_agendamento para tipo datetime.date
-agendamentos_df["data_agendamento"] = pd.to_datetime(agendamentos_df["data_agendamento"]).dt.date
 
 #Agendado do Dia
 # Filtra agendamentos apenas para a data de hoje
@@ -23,8 +20,7 @@ agendamentos_hoje = agendamentos_df[agendamentos_df["data_agendamento"] == hoje]
 # Junta com veículos
 agenda_veiculo = agendamentos_hoje.merge(veiculos_df, on="id_veiculo", how="left")
 # Junta com clientes
-agenda_completa = agenda_veiculo.merge(clientes_df[["id_cliente", "nome"]],
-                                       left_on="cliente_id", right_on="id_cliente", how="left")
+agenda_completa = agenda_veiculo.merge(clientes_df[["id_cliente", "nome"]], on="id_cliente", how="left")
 
 # Seleciona e reorganiza as colunas
 agenda_final = agenda_completa[[
