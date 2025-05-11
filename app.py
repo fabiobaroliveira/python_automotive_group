@@ -4,7 +4,8 @@ import streamlit as st
 st.set_page_config(
     page_title="Python AG",
     page_icon="🐍",
-    layout="wide"
+    layout="wide",
+    auto_reload=False
 )
 
 # Título e introdução
