@@ -26,7 +26,7 @@ with col1:
 
 with col2:
     st.markdown("""
-    ### 🔧 Python Parts
+    ### 🚛 Python Parts
     Dashboard de vendas de acessórios automotivos
     """)
     if st.button("Acessar Python Parts", key="parts"):
