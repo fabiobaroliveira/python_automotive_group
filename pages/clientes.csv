@@ -1,0 +1,51 @@
+id_cliente,nome,cpf,telefone,email,data_nascimento,sexo,endereco,numero,bairro,cep,cidade,estado
+1,Yan Sampaio,417.628.953-82,0300 587 0036,joao-vitor23@example.org,1977-05-06,Masculino,"Estrada Rodrigues, 65",2,São Geraldo,81926919,São Paulo,São Paulo
+2,Gabrielly Azevedo,327.461.895-00,(071) 2756-3612,rnogueira@example.net,1959-05-25,Feminino,"Avenida de Teixeira, 78",55,Vila Barragem Santa Lúcia,09251905,São Paulo,São Paulo
+3,Heitor Gonçalves,360.945.178-57,+55 71 4282-1872,joao-pedronovaes@example.net,2000-11-12,Masculino,"Viela de da Cunha, 41",491,Vila Sesc,74887-023,São Paulo,São Paulo
+4,Antônio Correia,049.362.578-00,(061) 7734-7493,olivia10@example.net,1958-12-25,Masculino,"Vereda Bernardo Farias, 349",666,Buritis,43364223,São Paulo,São Paulo
+5,Gustavo Rios,769.531.028-02,+55 (061) 2791 2085,nogueiramaria-liz@example.com,1967-12-21,Masculino,Trecho de Rezende,7,Vila Copasa,96142396,São Paulo,São Paulo
+6,Bryan Cirino,970.312.845-97,31 1906-2893,uabreu@example.com,1999-09-13,Masculino,"Jardim Thiago Pereira, 94",7,Vila De Sá,54835-279,São Paulo,São Paulo
+7,Mariah Sales,564.812.093-15,+55 81 4674-2538,silvagael@example.org,1965-12-10,Feminino,"Colônia Sophie Cavalcante, 33",48,Santa Cruz,67979-774,São Paulo,São Paulo
+8,Yuri Cavalcante,321.547.698-37,0800 424 5443,usilva@example.net,1960-11-10,Masculino,"Passarela Enrico Castro, 284",59,Jardinópolis,66894651,São Paulo,São Paulo
+9,Heitor Barros,927.531.086-68,(071) 0298-1340,goncalvesbella@example.net,1964-05-23,Masculino,"Vila Raquel Peixoto, 9",94,Aeroporto,22699426,São Paulo,São Paulo
+10,André Casa Grande,409.856.271-58,+55 31 2519-2992,emanuel91@example.com,1981-08-11,Masculino,"Rua de Sales, 21",58,Olhos D'água,03057244,São Paulo,São Paulo
+11,Benício da Luz,738.519.426-55,+55 81 5302 4224,emanuel29@example.net,1998-06-25,Masculino,"Recanto de Alves, 77",467,Caiçara - Adelaide,08099725,São Paulo,São Paulo
+12,Marcos Vinicius Nogueira,138.792.405-23,+55 (031) 9374-1168,diogocunha@example.org,2000-11-20,Masculino,"Campo de Rodrigues, 9",655,Boa União 2ª Seção,45330-751,São Paulo,São Paulo
+13,Vinicius Pinto,072.159.384-41,+55 (031) 3157 7969,aragaoisis@example.org,1996-03-15,Masculino,"Viaduto Cunha, 63",87,São Jorge 2ª Seção,94622-266,São Paulo,São Paulo
+14,Arthur Campos,405.681.273-07,51 2690 4788,daniela16@example.net,1987-12-20,Masculino,Vila de Freitas,3,Xodo-Marize,88115435,São Paulo,São Paulo
+15,Maria Luísa Nogueira,283.167.459-09,31 0967 4923,aparecidanoah@example.org,1969-11-09,Feminino,"Chácara de Mendes, 76",112,Teixeira Dias,23854526,São Paulo,São Paulo
+16,Evelyn Correia,829.607.345-56,+55 31 6638 0570,enzo-gabriel84@example.org,1993-01-16,Feminino,"Morro Pires, 57",48,Vila Betânia,41579336,São Paulo,São Paulo
+17,Eduardo Costela,457.103.892-50,+55 (021) 3645-2200,leocastro@example.com,1999-10-10,Masculino,Residencial Raquel Moraes,70,Juliana,95159742,São Paulo,São Paulo
+18,Ravi Lima,809.327.654-83,0800 400 4489,bryanteixeira@example.net,2003-12-08,Masculino,"Campo de Rodrigues, 81",33,Vila Atila De Paiva,95335-982,São Paulo,São Paulo
+19,Laís Caldeira,793.685.140-20,+55 84 4670-6732,jda-luz@example.com,1999-12-28,Feminino,"Sítio de Macedo, 19",20,União,31774-680,São Paulo,São Paulo
+20,Natália Peixoto,054.918.362-06,(051) 3053 6868,nogueiraleonardo@example.net,1964-11-13,Feminino,"Recanto de Cunha, 817",59,Conjunto Providencia,62530020,São Paulo,São Paulo
+21,Mariane Gonçalves,041.258.793-97,41 7350-8605,maria-isis70@example.com,1964-01-26,Feminino,"Fazenda Nogueira, 203",314,Ambrosina,28222251,São Paulo,São Paulo
+22,Vitória Jesus,683.192.407-78,0300 902 0029,henry-gabrielmendes@example.com,1963-11-29,Feminino,"Conjunto de Câmara, 9",62,Nova Gameleira,47360356,São Paulo,São Paulo
+23,Rafael Rocha,498.316.570-39,31 2656-8773,cassianosabrina@example.com,1995-09-01,Masculino,"Estação de Vieira, 82",4,Conjunto Celso Machado,52288146,São Paulo,São Paulo
+24,Bianca Carvalho,327.869.450-38,+55 (031) 7067 0343,orezende@example.com,1977-06-14,Feminino,Quadra Igor Duarte,56,Álvaro Camargos,08523-048,São Paulo,São Paulo
+25,Oliver Pastor,801.542.397-04,+55 (011) 5264-7558,da-motaeduarda@example.com,2003-06-20,Masculino,"Passarela de Aragão, 69",35,Leonina,55522958,São Paulo,São Paulo
+26,Felipe das Neves,607.418.593-00,+55 84 5421 7157,marina06@example.net,1967-01-08,Masculino,"Vale Antony Peixoto, 15",31,Vila Sesc,88910-351,São Paulo,São Paulo
+27,Erick Sá,910.584.362-60,+55 61 4939-2271,luizacastro@example.com,1960-06-23,Masculino,"Viela de Aparecida, 9",30,Vila Cloris,39832618,São Paulo,São Paulo
+28,Matheus Pires,461.250.789-49,+55 (051) 1846-3427,monteiroaugusto@example.net,1981-09-15,Masculino,"Rua Nogueira, 8",684,Vila Cloris,75480-339,São Paulo,São Paulo
+29,Maya Rezende,863.751.294-19,71 1574 3683,leticia54@example.com,2003-12-17,Feminino,"Loteamento Alves, 52",364,Laranjeiras,95932-245,São Paulo,São Paulo
+30,Enrico Peixoto,428.716.509-85,+55 (081) 7963-8699,andrecasa-grande@example.net,1996-11-18,Masculino,Distrito Helena Albuquerque,4,São Pedro,54332042,São Paulo,São Paulo
+31,Caleb da Rocha,264.875.130-08,0800 096 6562,fpereira@example.net,1956-08-08,Masculino,"Favela Melo, 11",5,Maravilha,37378-767,São Paulo,São Paulo
+32,Júlia Duarte,906.182.374-96,+55 (021) 1515-4552,alicerios@example.org,1993-01-29,Feminino,"Área Enrico Castro, 53",61,Cenaculo,14590-942,São Paulo,São Paulo
+33,Lavínia da Cunha,213.579.068-03,51 9898 7340,pietrapastor@example.com,1961-02-04,Feminino,Morro Santos,13,Cidade Jardim Taquaril,86654512,São Paulo,São Paulo
+34,Bruna Martins,901.726.385-77,+55 (061) 4683-7847,das-nevesnicole@example.com,1985-04-08,Feminino,Via de da Costa,78,Vila Paraíso,52726891,São Paulo,São Paulo
+35,Davi Miguel da Conceição,508.964.732-10,0800 938 9129,barrosjoao@example.org,1985-07-20,Masculino,"Área Rocha, 922",89,Jardim Leblon,20553-652,São Paulo,São Paulo
+36,Eduardo Mendes,926.317.840-22,21 1131-5422,valentim20@example.org,2002-07-31,Masculino,"Loteamento Casa Grande, 35",5,Padre Eustáquio,72678450,São Paulo,São Paulo
+37,Camila Aragão,930.127.865-03,0800-328-9523,antony98@example.com,1998-01-17,Feminino,"Passarela Jesus, 26",18,Santana Do Cafezal,59944431,São Paulo,São Paulo
+38,Ana Liz Nunes,025.893.167-12,21 7185 4243,pintomaya@example.com,1971-01-21,Feminino,"Residencial Nathan da Luz, 414",38,Santa Tereza,95673-132,São Paulo,São Paulo
+39,Ana Liz Garcia,072.154.639-07,11 3792-7994,hadassarodrigues@example.net,1984-09-28,Feminino,"Condomínio Otto Ferreira, 156",62,Funcionários,51086013,São Paulo,São Paulo
+40,Ana Sophia Araújo,587.941.326-82,0500 895 5314,hda-luz@example.com,1965-06-12,Feminino,"Residencial de Ramos, 791",1,Copacabana,13185-601,São Paulo,São Paulo
+41,Pietra Melo,478.032.569-29,41 8496-3274,cardosomaya@example.org,1991-08-30,Feminino,"Colônia Rezende, 34",18,Conjunto Novo Dom Bosco,69784119,São Paulo,São Paulo
+42,Sabrina Viana,281.674.359-46,71 6507 2802,ymelo@example.org,1993-03-20,Feminino,"Esplanada de Barbosa, 70",97,Piraja,88450172,São Paulo,São Paulo
+43,Pedro Gonçalves,891.527.640-01,+55 81 9310-2724,monteiroana-liz@example.net,1965-03-23,Masculino,"Praia de Vargas, 34",54,Califórnia,74837-072,São Paulo,São Paulo
+44,Renan Melo,015.397.246-70,+55 (071) 2449 0514,ana36@example.com,1992-02-04,Masculino,Sítio de Campos,16,Vitoria,02058932,São Paulo,São Paulo
+45,Augusto das Neves,560.429.871-94,+55 41 3818 7138,duartegabriela@example.net,1985-09-30,Masculino,"Travessa Caleb Mendonça, 58",157,Conjunto Floramar,49527435,São Paulo,São Paulo
+46,Gael Fernandes,791.460.238-87,41 7523-2819,ravy94@example.net,1986-04-15,Masculino,"Rodovia de Brito, 32",12,Esplanada,76587-779,São Paulo,São Paulo
+47,Maria Vitória Aparecida,816.203.945-70,(031) 2897-7509,arthur-miguelgarcia@example.com,1966-06-27,Feminino,"Rua de Sales, 714",96,Canadá,64544368,São Paulo,São Paulo
+48,Clarice Moura,741.682.305-62,71 3448 7409,vitoria83@example.net,1996-02-05,Feminino,"Trecho de Montenegro, 50",42,Nova Cintra,88217152,São Paulo,São Paulo
+49,Luiz Henrique Macedo,041.586.793-20,+55 61 0281-6327,alexandreduarte@example.org,1979-12-17,Masculino,"Área de Cavalcante, 772",7,Piratininga,13787-297,São Paulo,São Paulo
+50,Brenda Cassiano,750.693.481-75,0800 365 6796,liviapacheco@example.org,1961-05-19,Feminino,"Fazenda de Peixoto, 27",6,São Jorge 1ª Seção,65315-540,São Paulo,São Paulo
