@@ -12,11 +12,14 @@ clientes_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/py
 veiculos_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/veiculos.csv")
 agendamentos_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/agendamentos.csv")
 
+# Converter a coluna de data para datetime
+agendamentos_df["data_agendamento"] = pd.to_datetime(agendamentos_df["data_agendamento"]).dt.date
 
-#Agendado do Dia
+# Agendado do Dia
 # Filtra agendamentos apenas para a data de hoje
 hoje = date.today()
 agendamentos_hoje = agendamentos_df[agendamentos_df["data_agendamento"] == hoje]
+
 # Junta com veículos
 agenda_veiculo = agendamentos_hoje.merge(veiculos_df, on="id_veiculo", how="left")
 # Junta com clientes
@@ -36,18 +39,18 @@ agenda_final = agenda_completa[[
 # Ordena por horário
 agenda_final = agenda_final.sort_values(by="horario_agendamento").reset_index(drop=True)
 
-# Filtra os confirmardos (status "Confirmardo")
-confirmardos = agenda_final[agenda_final["status"] == "Confirmardo"]
+# Filtra os confirmados (status "Confirmardo") - Corrigindo o typo no nome do status
+confirmados = agenda_final[agenda_final["status"] == "Confirmardo"]
 
 st.title("📆 Agenda do dia")
-#subititulo
+# subtitulo
 st.subheader(f"Hoje é {hoje.strftime('%d/%m/%Y')}")
 # Estatísticas simples
 st.markdown("---")
 col1, col2 = st.columns(2)
 col1.metric("📆 Agendamentos", len(agenda_final))
-col2.metric("✅ Confirmardos", len(confirmardos))
-st.dataframe(agenda_final,use_container_width=True, hide_index=True)
+col2.metric("✅ Confirmados", len(confirmados))
+st.dataframe(agenda_final, use_container_width=True, hide_index=True)
 
 
 # Consultas
