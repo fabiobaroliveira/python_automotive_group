@@ -21,17 +21,13 @@ df = load_data()
 
 # Sidebar para filtros
 with st.sidebar:
+    
     st.header("Filtros")
+    
     df['Data_venda'] = pd.to_datetime(df['Data_venda'])
     data_inicial = df['Data_venda'].min()
     data_final = df['Data_venda'].max()
-
- x = intervalo_data = st.date_input(
-        "Selecione o período",
-        value=(data_inicial, data_final),
-        min_value=data_inicial,
-        max_value=data_final
-    )
+    
     periodo = st.select_slider(
         "Selecione o período",
         options=["Semanal", "Mensal", "Trimestral", "Semestral", "Anual"]
