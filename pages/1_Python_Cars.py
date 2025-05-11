@@ -68,8 +68,9 @@ if lead_selecionado:
     df_filtrado = df_filtrado[df_filtrado['Origem_lead'].isin(lead_selecionado)]
 
 if len(intervalo_data) == 2:
-    inicio, fim = pd.to_datetime(intervalo_data[0]), pd.to_datetime(intervalo_data[1])
-    df_filtrado = df_filtrado[(df_filtrado['Data_venda'] >= inicio) & (df_filtrado['Data_venda'] <= fim)]
+    mask = (df['Data_venda'] >= pd.to_datetime(intervalo_data[0])) & \
+           (df['Data_venda'] <= pd.to_datetime(intervalo_data[1]))
+    df_filtrado = df_filtrado.loc[mask]  
 
 # Resumo dos filtros aplicados
 st.write("**Filtros aplicados:**")
