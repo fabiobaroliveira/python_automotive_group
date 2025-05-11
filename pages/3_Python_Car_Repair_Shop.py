@@ -16,6 +16,13 @@ agendamentos_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveir
 # Converter data_agendamento para tipo datetime.date
 agendamentos_df["data_agendamento"] = pd.to_datetime(agendamentos_df["data_agendamento"]).dt.date
 
+agendamentos_df['id_cliente'] = agendamentos_df['id_cliente'].astype(str)
+clientes_df['id_cliente'] = clientes_df['id_cliente'].astype(str)
+
+agendamentos_df['id_veiculo'] = agendamentos_df['id_veiculo'].astype(str)
+veiculos_df['id_veiculo'] = veiculos_df['id_veiculo'].astype(str)
+
+
 #Agendado do Dia
 
 # Filtra agendamentos apenas para a data de hoje
