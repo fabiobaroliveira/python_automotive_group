@@ -14,7 +14,7 @@ st.markdown("""
 """)
 
 # Colunas para os cards de seleção
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown("""
@@ -31,6 +31,14 @@ with col2:
     """)
     if st.button("Acessar Python Parts", key="parts"):
         st.switch_page("pages/2_Python_Parts.py")
+
+with col3:
+    st.markdown("""
+    ### 🧑‍🔧 Python Car Repair Shop
+    Dashboard para uma oficina mecânica
+    """)
+    if st.button("Acessar Python Car Repair Shop", key="parts"):
+        st.switch_page("pages/3_Python_Car_Repair_Shop.py")
 
 # Rodapé
 st.markdown("---")
