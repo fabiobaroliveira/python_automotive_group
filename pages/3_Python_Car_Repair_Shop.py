@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 from datetime import date
-import streamlit as st
 import sys
 from gerar_dados_oficina import gerar_clientes, gerar_veiculos, gerar_agendamentos
 
@@ -11,7 +10,7 @@ st.set_page_config(page_title="Python Car Repair Shop 🐍", layout="wide")
 st.title("🧑‍🔧 Python Car Repair Shop")
 st.markdown("---")
 
-sys.path.append(pages/gerar_dados_oficina.py)
+sys.path.append(python_automotive_group/main/pages/gerar_dados_oficina.py)
 # Gerar dados
 clientes_df = gerar_clientes()
 veiculos_df = gerar_veiculos(clientes_df=clientes_df)
