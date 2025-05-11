@@ -50,7 +50,7 @@ st.markdown("---")
 col1, col2 = st.columns(2)
 col1.metric("📆 Agendamentos", len(agenda_final))
 col2.metric("✅ Confirmados", len(confirmados))
-st.dataframe(agenda_final, use_container_width=False, hide_index=True)
+st.dataframe(agenda_final, use_container_width=True, hide_index=True)
 
 
 # Consultas
