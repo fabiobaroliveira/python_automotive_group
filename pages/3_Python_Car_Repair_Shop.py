@@ -16,11 +16,7 @@ agendamentos_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveir
 # Converter data_agendamento para tipo datetime.date
 agendamentos_df["data_agendamento"] = pd.to_datetime(agendamentos_df["data_agendamento"]).dt.date
 
-agendamentos_df['cliente_id'] = agendamentos_df['cliente_id'].astype(str)
-clientes_df['id_cliente'] = clientes_df['id_cliente'].astype(str)
-
 #Agendado do Dia
-
 # Filtra agendamentos apenas para a data de hoje
 hoje = date.today()
 agendamentos_hoje = agendamentos_df[agendamentos_df["data_agendamento"] == hoje]
