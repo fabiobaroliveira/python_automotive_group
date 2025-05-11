@@ -3,6 +3,8 @@ import streamlit as st
 import pandas as pd
 from datetime import date
 import sys
+import os
+
 from gerar_dados_oficina import gerar_clientes, gerar_veiculos, gerar_agendamentos
 
 st.set_page_config(page_title="Python Car Repair Shop 🐍", layout="wide")
@@ -10,7 +12,9 @@ st.set_page_config(page_title="Python Car Repair Shop 🐍", layout="wide")
 st.title("🧑‍🔧 Python Car Repair Shop")
 st.markdown("---")
 
-sys.path.append(python_automotive_group/main/pages/gerar_dados_oficina.py)
+sys.path.append("python_automotive_group/main/pages") 
+os.path.exists("python_automotive_group/main/pages/gerar_dados_oficina.py")
+
 # Gerar dados
 clientes_df = gerar_clientes()
 veiculos_df = gerar_veiculos(clientes_df=clientes_df)
@@ -41,7 +45,7 @@ agenda_final = agenda_completa[[
 # Ordena por horário
 agenda_final = agenda_final.sort_values(by="horario_agendamento").reset_index(drop=True)
 
-# Filtra os confirmados (status "Confirmado")
+# Filtra os confirmardos (status "Confirmardo")
 confirmardos = agenda_final[agenda_final["status"] == "Confirmardo"]
 
 st.title("📆 Agenda do dia")
@@ -51,7 +55,7 @@ st.subheader(f"Hoje é {hoje.strftime('%d/%m/%Y')}")
 st.markdown("---")
 col1, col2 = st.columns(2)
 col1.metric("📆 Agendamentos", len(agenda_final))
-col2.metric("✅ Confirmados", len(confirmardos))
+col2.metric("✅ Confirmardos", len(confirmardos))
 st.dataframe(agenda_final,use_container_width=True, hide_index=True)
 
 
