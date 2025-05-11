@@ -91,4 +91,4 @@ col3.metric("Receita Média", f"R$ {valor_medio:,.2f}")
 
 # Rodapé
 st.markdown("---")
-st.markdown("Python Car Repair 🐍 - Dados fictícios gerados para fins didáticos")
+st.markdown("Python Car Repair Shop 🐍 - Dados fictícios gerados para fins didáticos")
