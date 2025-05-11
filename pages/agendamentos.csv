@@ -1,0 +1,2001 @@
+id_agendamento,id_veiculo,data_agendamento,horario_agendamento,tipo_servico,valor,status
+1,23,2025-09-28,11:00,Freios,1325.24,Confirmardo
+2,26,2026-04-11,10:00,Suspensão,533.09,Cancelado
+3,31,2025-08-04,16:00,Freios,1860.87,Cancelado
+4,2,2025-08-23,09:00,Freios,224.06,Pendente
+5,76,2025-12-27,14:00,Troca de óleo,482.3,Confirmardo
+6,82,2025-10-27,11:00,Revisão,1514.41,Cancelado
+7,22,2025-11-22,12:00,Troca de óleo,1990.17,Cancelado
+8,44,2026-04-28,09:00,Suspensão,130.09,Cancelado
+9,33,2025-11-27,13:00,Troca de óleo,1623.41,Cancelado
+10,66,2025-07-23,13:00,Freios,1412.55,Pendente
+11,3,2025-09-23,11:00,Freios,461.79,Confirmardo
+12,37,2026-05-07,10:00,Revisão,1199.68,Pendente
+13,36,2026-04-10,12:00,Troca de óleo,1070.22,Confirmardo
+14,50,2025-10-15,11:00,Revisão,873.69,Pendente
+15,89,2025-05-27,11:00,Diagnóstico,1597.5,Cancelado
+16,23,2026-04-06,13:00,Suspensão,1179.58,Cancelado
+17,63,2026-01-09,11:00,Suspensão,737.06,Confirmardo
+18,18,2025-07-10,09:00,Freios,549.9,Confirmardo
+19,15,2025-06-23,14:00,Freios,1869.35,Confirmardo
+20,5,2025-12-12,16:00,Freios,627.95,Confirmardo
+21,46,2025-07-27,09:00,Freios,822.47,Pendente
+22,46,2026-03-06,16:00,Suspensão,1966.02,Confirmardo
+23,53,2025-08-20,14:00,Troca de óleo,741.53,Confirmardo
+24,29,2026-01-01,08:00,Diagnóstico,1753.63,Cancelado
+25,47,2025-09-10,10:00,Revisão,964.16,Pendente
+26,76,2025-12-05,14:00,Suspensão,1306.27,Pendente
+27,24,2025-10-21,14:00,Revisão,962.47,Cancelado
+28,63,2025-10-16,13:00,Revisão,651.88,Cancelado
+29,3,2026-05-05,08:00,Troca de óleo,494.78,Pendente
+30,1,2025-09-04,14:00,Revisão,1891.89,Confirmardo
+31,64,2026-03-07,15:00,Troca de óleo,1080.18,Confirmardo
+32,100,2025-11-26,15:00,Diagnóstico,1778.33,Confirmardo
+33,46,2025-06-23,13:00,Suspensão,1609.72,Cancelado
+34,61,2025-09-19,16:00,Suspensão,621.3,Pendente
+35,19,2025-07-09,09:00,Suspensão,958.11,Cancelado
+36,54,2025-08-15,13:00,Revisão,1037.59,Pendente
+37,55,2025-09-19,12:00,Suspensão,1869.77,Pendente
+38,70,2026-01-27,11:00,Troca de óleo,611.93,Cancelado
+39,39,2026-03-29,11:00,Diagnóstico,795.66,Pendente
+40,64,2025-10-03,14:00,Freios,1503.89,Confirmardo
+41,66,2025-05-09,16:00,Suspensão,1825.89,Confirmardo
+42,78,2025-10-26,14:00,Suspensão,107.78,Confirmardo
+43,56,2025-11-02,09:00,Suspensão,1806.63,Pendente
+44,79,2026-01-23,11:00,Revisão,1661.93,Confirmardo
+45,9,2026-03-13,08:00,Troca de óleo,1017.69,Cancelado
+46,58,2025-10-28,09:00,Suspensão,1453.91,Confirmardo
+47,50,2025-05-17,15:00,Revisão,587.32,Cancelado
+48,86,2025-12-26,09:00,Suspensão,1810.01,Cancelado
+49,47,2025-09-14,10:00,Revisão,1208.46,Confirmardo
+50,11,2025-11-12,14:00,Revisão,1337.42,Cancelado
+51,54,2026-03-27,13:00,Revisão,287.22,Confirmardo
+52,47,2026-04-14,09:00,Freios,745.52,Confirmardo
+53,86,2026-04-01,09:00,Diagnóstico,355.52,Pendente
+54,87,2026-04-16,12:00,Suspensão,1044.99,Cancelado
+55,85,2025-07-11,11:00,Revisão,1852.79,Confirmardo
+56,89,2025-10-19,09:00,Revisão,1975.36,Pendente
+57,23,2026-04-06,11:00,Diagnóstico,1599.32,Cancelado
+58,71,2026-04-13,15:00,Revisão,732.81,Pendente
+59,31,2026-02-18,11:00,Freios,662.73,Pendente
+60,90,2026-01-20,10:00,Troca de óleo,307.81,Confirmardo
+61,91,2025-12-05,11:00,Freios,619.38,Confirmardo
+62,19,2026-01-24,09:00,Suspensão,553.84,Confirmardo
+63,90,2026-02-21,16:00,Suspensão,756.75,Cancelado
+64,52,2025-10-23,15:00,Revisão,1047.95,Pendente
+65,61,2026-04-26,10:00,Revisão,1743.31,Confirmardo
+66,36,2025-07-15,12:00,Freios,1888.44,Pendente
+67,91,2026-04-19,11:00,Suspensão,789.37,Pendente
+68,39,2025-05-19,10:00,Diagnóstico,1370.61,Pendente
+69,52,2026-02-19,15:00,Suspensão,801.39,Pendente
+70,60,2025-12-03,11:00,Suspensão,297.8,Pendente
+71,54,2025-07-08,12:00,Diagnóstico,1369.65,Confirmardo
+72,97,2026-02-10,10:00,Freios,1939.16,Pendente
+73,56,2025-11-20,12:00,Revisão,532.13,Confirmardo
+74,21,2025-05-23,08:00,Suspensão,427.5,Cancelado
+75,39,2026-01-19,14:00,Revisão,1639.5,Confirmardo
+76,46,2026-05-03,16:00,Freios,1639.19,Confirmardo
+77,57,2025-08-12,12:00,Freios,968.7,Cancelado
+78,59,2025-09-26,12:00,Diagnóstico,1856.28,Cancelado
+79,21,2025-12-11,11:00,Suspensão,633.0,Cancelado
+80,28,2025-08-03,09:00,Diagnóstico,663.26,Confirmardo
+81,71,2025-08-22,08:00,Suspensão,1385.37,Confirmardo
+82,64,2025-07-19,14:00,Diagnóstico,1988.34,Pendente
+83,59,2025-10-06,08:00,Troca de óleo,587.3,Cancelado
+84,44,2025-12-09,09:00,Revisão,1856.89,Confirmardo
+85,11,2025-07-18,11:00,Suspensão,172.33,Cancelado
+86,91,2025-10-05,10:00,Freios,986.84,Pendente
+87,27,2025-07-29,11:00,Freios,223.15,Pendente
+88,78,2025-09-01,13:00,Diagnóstico,627.35,Cancelado
+89,59,2025-05-09,11:00,Revisão,719.42,Cancelado
+90,39,2025-12-16,09:00,Diagnóstico,1886.95,Confirmardo
+91,44,2026-04-08,13:00,Freios,1261.81,Pendente
+92,30,2025-07-03,16:00,Diagnóstico,925.03,Cancelado
+93,51,2025-12-09,15:00,Revisão,1960.06,Confirmardo
+94,31,2025-06-14,08:00,Freios,1581.77,Confirmardo
+95,48,2026-03-19,09:00,Troca de óleo,1539.9,Cancelado
+96,22,2025-07-20,16:00,Revisão,548.19,Confirmardo
+97,35,2025-11-09,11:00,Suspensão,1631.06,Confirmardo
+98,20,2025-12-23,16:00,Revisão,1295.05,Cancelado
+99,31,2026-03-14,10:00,Diagnóstico,224.81,Cancelado
+100,9,2025-11-30,13:00,Freios,142.18,Pendente
+101,25,2025-11-07,12:00,Suspensão,138.05,Confirmardo
+102,30,2025-07-25,08:00,Diagnóstico,400.72,Confirmardo
+103,79,2026-03-20,08:00,Diagnóstico,633.74,Confirmardo
+104,53,2025-09-18,08:00,Revisão,994.49,Pendente
+105,4,2025-07-17,12:00,Revisão,1058.16,Pendente
+106,30,2025-11-27,10:00,Diagnóstico,1328.15,Pendente
+107,96,2026-01-10,09:00,Freios,1539.45,Confirmardo
+108,67,2026-01-23,09:00,Revisão,652.61,Pendente
+109,3,2025-05-29,08:00,Troca de óleo,1836.6,Pendente
+110,26,2025-09-23,11:00,Suspensão,124.47,Confirmardo
+111,26,2026-01-02,11:00,Freios,1868.48,Cancelado
+112,65,2025-10-10,13:00,Suspensão,458.21,Confirmardo
+113,73,2025-05-28,15:00,Diagnóstico,914.34,Pendente
+114,95,2025-09-02,10:00,Suspensão,496.48,Pendente
+115,28,2026-01-13,10:00,Troca de óleo,351.72,Pendente
+116,13,2026-02-05,12:00,Troca de óleo,764.33,Cancelado
+117,50,2026-03-31,08:00,Troca de óleo,1292.56,Confirmardo
+118,40,2026-01-06,10:00,Troca de óleo,1183.47,Cancelado
+119,70,2025-08-23,09:00,Suspensão,1918.49,Cancelado
+120,26,2025-11-01,14:00,Freios,897.05,Pendente
+121,92,2025-10-15,14:00,Revisão,634.76,Confirmardo
+122,77,2026-04-13,16:00,Freios,814.4,Confirmardo
+123,11,2026-01-19,13:00,Troca de óleo,543.03,Pendente
+124,67,2025-07-10,10:00,Freios,266.3,Confirmardo
+125,9,2026-05-05,08:00,Freios,1149.78,Confirmardo
+126,9,2025-05-23,08:00,Revisão,809.68,Cancelado
+127,96,2025-05-26,16:00,Revisão,814.19,Pendente
+128,63,2025-10-14,14:00,Revisão,1541.77,Cancelado
+129,58,2025-06-13,12:00,Diagnóstico,522.46,Cancelado
+130,80,2025-08-24,12:00,Revisão,855.11,Cancelado
+131,17,2025-09-27,16:00,Troca de óleo,1249.58,Confirmardo
+132,10,2025-10-08,13:00,Diagnóstico,984.28,Pendente
+133,74,2025-08-09,12:00,Troca de óleo,235.35,Cancelado
+134,70,2026-01-29,16:00,Suspensão,1135.92,Cancelado
+135,73,2025-06-06,14:00,Revisão,1702.29,Pendente
+136,98,2025-10-28,08:00,Freios,1128.77,Pendente
+137,32,2025-06-23,16:00,Troca de óleo,524.5,Confirmardo
+138,88,2026-03-20,15:00,Troca de óleo,1275.82,Cancelado
+139,42,2025-08-01,13:00,Diagnóstico,817.73,Pendente
+140,21,2025-12-11,12:00,Suspensão,1814.79,Cancelado
+141,15,2026-03-18,14:00,Diagnóstico,1195.79,Pendente
+142,40,2025-06-14,11:00,Revisão,1874.31,Pendente
+143,48,2026-03-08,11:00,Freios,1898.16,Cancelado
+144,18,2026-04-24,11:00,Suspensão,1876.73,Cancelado
+145,34,2025-07-28,09:00,Suspensão,736.81,Cancelado
+146,9,2025-05-20,16:00,Revisão,300.78,Cancelado
+147,9,2026-02-16,13:00,Troca de óleo,687.08,Cancelado
+148,60,2025-05-28,14:00,Troca de óleo,250.14,Cancelado
+149,71,2025-11-26,16:00,Troca de óleo,555.87,Cancelado
+150,47,2025-11-23,10:00,Diagnóstico,1127.42,Cancelado
+151,36,2026-01-14,09:00,Suspensão,227.54,Cancelado
+152,22,2025-06-21,08:00,Diagnóstico,1261.52,Confirmardo
+153,7,2025-05-07,12:00,Suspensão,469.87,Confirmardo
+154,28,2025-12-11,12:00,Revisão,119.31,Confirmardo
+155,92,2025-10-13,14:00,Freios,403.28,Pendente
+156,19,2025-10-29,11:00,Revisão,341.39,Pendente
+157,84,2026-04-19,09:00,Suspensão,710.45,Confirmardo
+158,57,2026-04-03,12:00,Troca de óleo,1062.2,Confirmardo
+159,8,2026-03-27,10:00,Troca de óleo,183.06,Cancelado
+160,3,2026-02-28,11:00,Suspensão,1216.18,Cancelado
+161,8,2026-03-08,13:00,Revisão,1751.55,Cancelado
+162,90,2026-01-21,10:00,Diagnóstico,507.16,Confirmardo
+163,27,2025-08-06,12:00,Freios,601.74,Confirmardo
+164,55,2025-06-19,16:00,Diagnóstico,1306.79,Pendente
+165,3,2025-06-02,08:00,Freios,191.81,Confirmardo
+166,86,2025-09-19,11:00,Troca de óleo,856.88,Cancelado
+167,20,2025-08-05,14:00,Revisão,871.6,Pendente
+168,53,2025-11-15,10:00,Suspensão,1015.1,Cancelado
+169,8,2026-02-17,15:00,Suspensão,1562.84,Pendente
+170,78,2025-05-29,16:00,Diagnóstico,803.64,Pendente
+171,8,2025-09-22,08:00,Suspensão,1251.86,Pendente
+172,96,2026-01-26,14:00,Diagnóstico,1746.28,Confirmardo
+173,56,2025-11-04,16:00,Revisão,310.45,Pendente
+174,10,2025-06-06,15:00,Revisão,1976.02,Confirmardo
+175,93,2026-04-11,08:00,Revisão,1449.21,Cancelado
+176,46,2025-08-16,11:00,Diagnóstico,1183.69,Cancelado
+177,4,2025-09-03,15:00,Suspensão,718.85,Confirmardo
+178,55,2026-01-05,15:00,Revisão,1613.27,Confirmardo
+179,65,2025-05-31,16:00,Troca de óleo,405.42,Confirmardo
+180,40,2025-05-06,14:00,Suspensão,272.61,Confirmardo
+181,55,2026-03-10,09:00,Suspensão,1797.36,Cancelado
+182,70,2025-11-12,12:00,Suspensão,426.19,Cancelado
+183,50,2026-02-01,11:00,Diagnóstico,170.24,Confirmardo
+184,65,2025-07-21,14:00,Troca de óleo,774.89,Confirmardo
+185,17,2025-09-20,13:00,Revisão,1507.55,Confirmardo
+186,22,2026-03-31,15:00,Revisão,722.28,Confirmardo
+187,19,2026-02-09,15:00,Revisão,1844.52,Cancelado
+188,53,2026-04-01,11:00,Suspensão,1458.75,Cancelado
+189,69,2025-12-25,15:00,Revisão,680.41,Pendente
+190,3,2026-04-21,16:00,Diagnóstico,282.01,Pendente
+191,1,2025-09-19,14:00,Diagnóstico,1540.86,Pendente
+192,30,2026-03-31,12:00,Freios,1192.94,Pendente
+193,58,2025-10-11,12:00,Freios,245.71,Cancelado
+194,57,2025-07-02,13:00,Revisão,1959.58,Confirmardo
+195,64,2025-09-16,12:00,Diagnóstico,348.18,Confirmardo
+196,82,2026-03-01,15:00,Freios,1361.18,Pendente
+197,16,2025-07-17,13:00,Suspensão,1849.21,Pendente
+198,32,2025-11-17,10:00,Diagnóstico,1595.25,Confirmardo
+199,23,2025-05-28,09:00,Freios,1323.61,Pendente
+200,39,2025-12-20,09:00,Revisão,189.21,Cancelado
+201,13,2025-09-03,12:00,Diagnóstico,1868.44,Confirmardo
+202,67,2025-10-13,11:00,Freios,454.35,Confirmardo
+203,75,2025-06-27,15:00,Revisão,1118.94,Cancelado
+204,35,2025-11-13,08:00,Suspensão,1815.05,Confirmardo
+205,36,2025-09-05,15:00,Freios,935.69,Cancelado
+206,56,2026-04-29,15:00,Revisão,916.51,Cancelado
+207,43,2026-03-01,13:00,Revisão,121.93,Pendente
+208,92,2026-02-13,14:00,Troca de óleo,824.98,Cancelado
+209,98,2025-06-28,08:00,Freios,1609.01,Cancelado
+210,29,2025-10-18,13:00,Suspensão,315.9,Cancelado
+211,24,2025-11-23,11:00,Troca de óleo,761.36,Cancelado
+212,78,2026-01-23,13:00,Troca de óleo,1444.83,Cancelado
+213,54,2026-03-15,10:00,Troca de óleo,1807.46,Confirmardo
+214,40,2026-02-20,16:00,Revisão,1671.59,Cancelado
+215,54,2025-12-01,13:00,Freios,637.58,Confirmardo
+216,35,2025-06-10,15:00,Suspensão,356.81,Pendente
+217,70,2026-04-20,14:00,Suspensão,607.17,Pendente
+218,7,2025-08-04,14:00,Revisão,331.96,Confirmardo
+219,1,2025-10-02,14:00,Freios,1085.7,Pendente
+220,67,2026-04-05,14:00,Troca de óleo,1782.26,Confirmardo
+221,62,2025-09-03,08:00,Suspensão,1308.66,Pendente
+222,27,2025-08-15,12:00,Revisão,1620.17,Pendente
+223,38,2025-09-09,13:00,Troca de óleo,456.45,Pendente
+224,10,2025-08-13,12:00,Suspensão,1876.56,Cancelado
+225,45,2025-08-21,13:00,Diagnóstico,1395.61,Confirmardo
+226,72,2025-07-10,12:00,Revisão,952.1,Cancelado
+227,23,2025-06-15,12:00,Diagnóstico,533.36,Confirmardo
+228,12,2025-08-18,16:00,Diagnóstico,1526.94,Cancelado
+229,35,2026-01-21,12:00,Troca de óleo,586.37,Confirmardo
+230,4,2025-09-16,16:00,Troca de óleo,954.29,Pendente
+231,98,2026-05-08,11:00,Troca de óleo,174.3,Pendente
+232,73,2025-07-08,08:00,Suspensão,671.91,Cancelado
+233,52,2025-12-08,10:00,Diagnóstico,463.9,Cancelado
+234,3,2025-11-27,09:00,Suspensão,694.83,Confirmardo
+235,98,2025-10-23,09:00,Revisão,865.05,Confirmardo
+236,37,2025-06-27,09:00,Revisão,112.85,Confirmardo
+237,21,2025-12-14,13:00,Suspensão,287.28,Pendente
+238,9,2025-05-07,09:00,Suspensão,1642.08,Cancelado
+239,5,2026-02-02,13:00,Suspensão,589.51,Confirmardo
+240,80,2025-10-28,15:00,Suspensão,327.15,Confirmardo
+241,22,2025-10-11,13:00,Freios,1534.24,Cancelado
+242,56,2025-06-24,09:00,Revisão,1243.81,Pendente
+243,16,2025-12-23,08:00,Troca de óleo,773.77,Cancelado
+244,57,2025-08-23,14:00,Diagnóstico,1729.78,Confirmardo
+245,100,2025-10-20,14:00,Diagnóstico,1264.06,Confirmardo
+246,58,2026-01-16,08:00,Troca de óleo,1284.89,Pendente
+247,79,2025-12-30,14:00,Suspensão,1723.96,Pendente
+248,61,2025-10-29,08:00,Diagnóstico,467.25,Pendente
+249,21,2025-09-29,13:00,Revisão,287.23,Pendente
+250,10,2025-12-20,10:00,Diagnóstico,1286.94,Pendente
+251,89,2025-06-12,14:00,Suspensão,1133.73,Confirmardo
+252,9,2026-01-19,13:00,Diagnóstico,1252.15,Pendente
+253,61,2025-11-11,13:00,Freios,1659.95,Cancelado
+254,70,2025-12-03,09:00,Revisão,1403.36,Confirmardo
+255,10,2025-11-19,09:00,Diagnóstico,1344.58,Cancelado
+256,11,2025-09-06,14:00,Troca de óleo,927.69,Confirmardo
+257,12,2025-08-19,15:00,Suspensão,1119.35,Cancelado
+258,58,2026-02-11,11:00,Revisão,1679.76,Cancelado
+259,31,2026-02-28,11:00,Diagnóstico,593.34,Confirmardo
+260,73,2025-11-29,16:00,Diagnóstico,835.23,Cancelado
+261,79,2025-10-10,14:00,Revisão,1591.17,Pendente
+262,71,2026-02-14,08:00,Diagnóstico,1134.53,Pendente
+263,73,2026-02-19,11:00,Revisão,683.8,Pendente
+264,88,2025-10-31,12:00,Revisão,951.55,Cancelado
+265,27,2025-05-29,11:00,Troca de óleo,307.8,Cancelado
+266,15,2025-07-20,09:00,Suspensão,111.71,Pendente
+267,5,2025-12-22,09:00,Revisão,207.45,Pendente
+268,66,2025-07-19,08:00,Diagnóstico,990.55,Pendente
+269,58,2025-10-19,15:00,Diagnóstico,1482.8,Confirmardo
+270,63,2025-05-29,12:00,Suspensão,1806.92,Confirmardo
+271,58,2025-07-23,11:00,Suspensão,1679.74,Confirmardo
+272,40,2025-05-15,13:00,Diagnóstico,874.8,Cancelado
+273,7,2026-01-06,08:00,Suspensão,948.07,Cancelado
+274,53,2025-06-08,15:00,Freios,150.72,Cancelado
+275,28,2026-04-24,11:00,Freios,175.42,Pendente
+276,63,2025-12-28,14:00,Suspensão,963.77,Cancelado
+277,45,2025-05-20,14:00,Troca de óleo,656.98,Cancelado
+278,55,2025-05-30,10:00,Revisão,1312.68,Cancelado
+279,49,2025-06-11,15:00,Diagnóstico,733.94,Pendente
+280,61,2025-11-25,09:00,Suspensão,492.65,Cancelado
+281,14,2026-04-03,15:00,Diagnóstico,330.33,Cancelado
+282,71,2026-04-01,11:00,Freios,1720.41,Pendente
+283,2,2025-09-27,13:00,Troca de óleo,1587.34,Cancelado
+284,38,2025-08-01,09:00,Diagnóstico,762.78,Confirmardo
+285,7,2025-08-30,13:00,Diagnóstico,1422.01,Pendente
+286,77,2025-08-23,16:00,Troca de óleo,1443.31,Pendente
+287,43,2025-10-12,09:00,Troca de óleo,1770.47,Pendente
+288,74,2025-10-22,10:00,Revisão,1347.62,Confirmardo
+289,28,2025-07-31,16:00,Troca de óleo,130.35,Pendente
+290,94,2025-12-27,13:00,Freios,863.46,Pendente
+291,74,2025-11-07,09:00,Suspensão,669.21,Pendente
+292,76,2025-09-13,10:00,Troca de óleo,914.58,Confirmardo
+293,58,2025-09-09,15:00,Diagnóstico,1520.7,Cancelado
+294,35,2026-02-01,14:00,Troca de óleo,931.0,Cancelado
+295,19,2025-10-23,10:00,Freios,1307.15,Confirmardo
+296,32,2025-12-22,10:00,Troca de óleo,1261.5,Confirmardo
+297,72,2026-01-02,15:00,Diagnóstico,679.17,Cancelado
+298,34,2025-12-13,13:00,Revisão,435.75,Confirmardo
+299,79,2025-11-12,10:00,Revisão,290.06,Pendente
+300,66,2025-06-24,10:00,Freios,527.6,Cancelado
+301,79,2025-06-22,10:00,Troca de óleo,1665.75,Cancelado
+302,13,2026-03-20,13:00,Suspensão,719.08,Pendente
+303,24,2026-03-07,11:00,Diagnóstico,1817.26,Cancelado
+304,17,2025-11-10,14:00,Suspensão,596.83,Cancelado
+305,21,2025-05-04,13:00,Freios,1098.87,Confirmardo
+306,14,2025-06-24,14:00,Freios,1766.95,Pendente
+307,27,2025-08-06,11:00,Freios,1328.59,Cancelado
+308,15,2026-02-16,11:00,Suspensão,1396.32,Pendente
+309,1,2026-02-21,12:00,Freios,1925.35,Pendente
+310,15,2025-12-25,10:00,Revisão,569.52,Cancelado
+311,73,2025-05-05,14:00,Freios,213.68,Cancelado
+312,12,2026-03-02,08:00,Diagnóstico,1236.46,Confirmardo
+313,95,2025-12-30,09:00,Revisão,656.09,Confirmardo
+314,72,2026-04-29,11:00,Troca de óleo,470.4,Pendente
+315,62,2026-04-20,13:00,Revisão,936.56,Confirmardo
+316,93,2026-02-20,10:00,Revisão,1295.05,Confirmardo
+317,26,2026-03-08,12:00,Freios,664.67,Cancelado
+318,23,2025-06-03,08:00,Diagnóstico,1735.51,Confirmardo
+319,73,2025-05-21,13:00,Revisão,1294.25,Confirmardo
+320,4,2026-05-01,13:00,Diagnóstico,1165.66,Pendente
+321,67,2025-08-21,13:00,Diagnóstico,1445.66,Confirmardo
+322,70,2025-12-12,12:00,Freios,1496.81,Cancelado
+323,92,2025-12-24,11:00,Diagnóstico,297.67,Confirmardo
+324,49,2025-10-16,10:00,Troca de óleo,236.09,Confirmardo
+325,63,2025-08-27,15:00,Freios,1328.25,Pendente
+326,13,2025-11-10,13:00,Revisão,642.84,Confirmardo
+327,44,2026-02-24,11:00,Freios,765.59,Pendente
+328,76,2025-06-07,15:00,Revisão,1076.65,Confirmardo
+329,66,2026-01-14,15:00,Diagnóstico,218.93,Pendente
+330,89,2026-01-16,15:00,Revisão,1645.05,Cancelado
+331,16,2025-12-07,13:00,Revisão,1205.2,Confirmardo
+332,59,2025-05-05,10:00,Freios,624.58,Cancelado
+333,100,2025-09-08,13:00,Suspensão,1990.4,Pendente
+334,37,2026-02-09,16:00,Diagnóstico,1554.87,Cancelado
+335,8,2026-03-02,13:00,Freios,1465.89,Pendente
+336,85,2025-07-11,10:00,Freios,306.83,Pendente
+337,28,2025-10-03,13:00,Revisão,875.73,Pendente
+338,11,2025-05-10,10:00,Revisão,617.85,Confirmardo
+339,76,2026-03-20,13:00,Troca de óleo,1474.06,Pendente
+340,80,2025-09-15,14:00,Suspensão,1115.61,Pendente
+341,13,2026-01-17,16:00,Suspensão,294.58,Cancelado
+342,36,2025-08-03,14:00,Troca de óleo,1654.15,Pendente
+343,58,2025-11-16,08:00,Diagnóstico,883.53,Confirmardo
+344,82,2026-01-02,11:00,Freios,1009.78,Pendente
+345,37,2025-12-14,12:00,Freios,1989.86,Confirmardo
+346,3,2026-03-16,11:00,Revisão,1881.17,Confirmardo
+347,43,2025-06-22,12:00,Troca de óleo,873.58,Pendente
+348,39,2025-11-08,08:00,Troca de óleo,1743.89,Confirmardo
+349,65,2025-05-12,14:00,Freios,545.46,Pendente
+350,61,2025-07-09,13:00,Diagnóstico,1947.01,Cancelado
+351,93,2025-09-16,08:00,Freios,1545.21,Cancelado
+352,98,2025-11-09,16:00,Diagnóstico,609.05,Confirmardo
+353,78,2025-06-25,11:00,Troca de óleo,970.56,Cancelado
+354,16,2025-09-07,11:00,Revisão,817.47,Cancelado
+355,57,2026-03-02,13:00,Revisão,832.85,Confirmardo
+356,2,2025-08-13,13:00,Suspensão,1915.4,Pendente
+357,75,2026-02-13,14:00,Freios,551.07,Confirmardo
+358,45,2026-05-06,12:00,Diagnóstico,799.24,Pendente
+359,72,2025-07-13,16:00,Revisão,1226.2,Confirmardo
+360,58,2025-05-18,08:00,Revisão,414.56,Confirmardo
+361,96,2026-02-01,11:00,Troca de óleo,134.94,Pendente
+362,87,2025-11-01,10:00,Suspensão,823.05,Pendente
+363,85,2025-11-08,12:00,Diagnóstico,1310.57,Confirmardo
+364,52,2026-03-27,13:00,Revisão,1840.22,Pendente
+365,41,2026-02-19,13:00,Suspensão,1647.31,Confirmardo
+366,29,2026-05-07,09:00,Freios,636.96,Confirmardo
+367,98,2025-05-13,15:00,Freios,1840.65,Confirmardo
+368,59,2025-06-08,08:00,Freios,473.98,Pendente
+369,2,2025-08-18,10:00,Freios,1829.29,Cancelado
+370,22,2025-11-29,16:00,Freios,724.07,Confirmardo
+371,70,2025-09-28,11:00,Freios,147.74,Confirmardo
+372,23,2026-04-18,14:00,Freios,208.09,Pendente
+373,18,2025-08-27,13:00,Freios,1111.58,Pendente
+374,52,2026-04-08,14:00,Troca de óleo,1980.86,Pendente
+375,84,2026-05-09,14:00,Freios,105.9,Cancelado
+376,25,2025-06-13,08:00,Troca de óleo,1163.36,Confirmardo
+377,78,2025-11-28,15:00,Diagnóstico,832.91,Pendente
+378,54,2026-02-09,10:00,Freios,973.57,Confirmardo
+379,87,2026-01-26,09:00,Freios,1533.67,Pendente
+380,39,2025-12-24,16:00,Troca de óleo,159.83,Confirmardo
+381,34,2025-05-08,15:00,Freios,1470.62,Pendente
+382,61,2025-11-20,16:00,Freios,1352.71,Confirmardo
+383,15,2025-08-19,11:00,Diagnóstico,329.34,Pendente
+384,80,2025-11-21,09:00,Revisão,1478.15,Cancelado
+385,85,2025-12-16,15:00,Diagnóstico,275.92,Pendente
+386,60,2025-10-08,13:00,Freios,1625.05,Pendente
+387,33,2026-04-10,13:00,Troca de óleo,117.48,Cancelado
+388,73,2025-06-25,08:00,Freios,850.27,Confirmardo
+389,2,2025-12-25,08:00,Troca de óleo,1427.76,Confirmardo
+390,28,2025-09-18,13:00,Troca de óleo,1153.03,Confirmardo
+391,53,2026-01-11,14:00,Troca de óleo,616.42,Cancelado
+392,28,2025-12-20,16:00,Suspensão,1655.28,Pendente
+393,47,2026-01-24,15:00,Freios,818.45,Confirmardo
+394,1,2026-02-22,13:00,Troca de óleo,338.13,Cancelado
+395,88,2026-03-15,15:00,Suspensão,955.68,Pendente
+396,54,2026-01-01,16:00,Suspensão,1708.39,Cancelado
+397,73,2026-02-04,09:00,Revisão,1145.23,Cancelado
+398,54,2026-04-11,14:00,Freios,853.54,Cancelado
+399,26,2025-10-25,10:00,Revisão,413.36,Pendente
+400,72,2026-01-04,12:00,Freios,1311.6,Cancelado
+401,19,2026-02-05,09:00,Diagnóstico,1176.35,Cancelado
+402,8,2026-02-18,15:00,Diagnóstico,839.78,Pendente
+403,30,2025-09-10,09:00,Suspensão,1298.28,Pendente
+404,28,2025-12-24,09:00,Troca de óleo,436.68,Confirmardo
+405,95,2025-10-31,10:00,Revisão,1697.8,Confirmardo
+406,9,2025-08-30,15:00,Troca de óleo,1415.25,Cancelado
+407,18,2025-07-22,10:00,Freios,1661.62,Confirmardo
+408,9,2025-10-10,13:00,Revisão,537.47,Confirmardo
+409,21,2025-07-10,16:00,Diagnóstico,1550.44,Confirmardo
+410,69,2025-07-16,13:00,Troca de óleo,1908.23,Pendente
+411,26,2025-10-16,16:00,Diagnóstico,1336.2,Confirmardo
+412,27,2026-02-12,15:00,Freios,252.84,Confirmardo
+413,23,2025-09-27,09:00,Revisão,1508.96,Pendente
+414,32,2025-12-26,13:00,Revisão,1908.37,Cancelado
+415,13,2025-11-07,08:00,Suspensão,485.34,Confirmardo
+416,8,2025-10-04,09:00,Suspensão,1354.84,Pendente
+417,69,2025-09-07,08:00,Diagnóstico,1476.55,Cancelado
+418,69,2025-09-21,16:00,Diagnóstico,1298.3,Confirmardo
+419,34,2025-06-10,14:00,Troca de óleo,1606.05,Cancelado
+420,3,2025-09-06,13:00,Revisão,331.79,Confirmardo
+421,42,2025-09-27,09:00,Diagnóstico,1732.33,Pendente
+422,24,2025-07-09,13:00,Suspensão,106.24,Cancelado
+423,39,2025-05-06,13:00,Diagnóstico,359.48,Confirmardo
+424,74,2026-03-11,16:00,Suspensão,822.56,Cancelado
+425,57,2025-05-27,11:00,Revisão,625.87,Pendente
+426,49,2026-05-10,14:00,Revisão,741.27,Cancelado
+427,13,2026-02-07,09:00,Diagnóstico,1242.82,Pendente
+428,53,2025-08-02,09:00,Suspensão,649.41,Pendente
+429,81,2025-10-22,16:00,Suspensão,1711.9,Cancelado
+430,22,2025-10-16,13:00,Freios,486.94,Cancelado
+431,69,2026-03-15,12:00,Revisão,457.75,Cancelado
+432,43,2025-11-26,09:00,Diagnóstico,264.76,Cancelado
+433,31,2026-03-03,14:00,Freios,1014.91,Pendente
+434,48,2025-12-16,12:00,Freios,249.97,Confirmardo
+435,20,2025-08-01,12:00,Troca de óleo,1955.27,Pendente
+436,47,2026-02-11,16:00,Suspensão,1041.61,Confirmardo
+437,19,2026-03-19,16:00,Troca de óleo,1636.99,Cancelado
+438,69,2025-12-15,12:00,Revisão,1304.31,Pendente
+439,89,2026-04-16,09:00,Diagnóstico,178.34,Cancelado
+440,100,2025-07-16,09:00,Freios,286.76,Pendente
+441,42,2025-10-19,15:00,Diagnóstico,629.11,Confirmardo
+442,23,2025-11-20,11:00,Diagnóstico,619.29,Cancelado
+443,33,2026-02-11,10:00,Diagnóstico,651.23,Pendente
+444,46,2025-12-17,09:00,Troca de óleo,1278.35,Confirmardo
+445,88,2025-11-12,08:00,Suspensão,1935.51,Confirmardo
+446,65,2025-05-29,10:00,Suspensão,982.36,Confirmardo
+447,42,2026-01-27,10:00,Troca de óleo,1695.35,Cancelado
+448,59,2025-12-14,08:00,Diagnóstico,243.1,Cancelado
+449,26,2025-09-24,14:00,Revisão,1863.01,Cancelado
+450,41,2025-06-26,16:00,Suspensão,1079.92,Cancelado
+451,13,2026-05-01,14:00,Troca de óleo,959.18,Cancelado
+452,87,2026-03-21,09:00,Revisão,332.68,Confirmardo
+453,57,2026-01-23,15:00,Suspensão,1021.91,Pendente
+454,32,2025-08-01,11:00,Troca de óleo,313.88,Cancelado
+455,53,2025-12-11,13:00,Diagnóstico,850.87,Cancelado
+456,2,2025-09-11,09:00,Revisão,1000.65,Pendente
+457,60,2025-05-14,16:00,Diagnóstico,569.39,Confirmardo
+458,87,2025-09-19,14:00,Freios,142.47,Cancelado
+459,23,2025-11-24,09:00,Troca de óleo,1371.59,Cancelado
+460,86,2025-12-18,09:00,Troca de óleo,1726.83,Confirmardo
+461,17,2026-03-13,14:00,Suspensão,166.56,Cancelado
+462,21,2025-05-04,12:00,Troca de óleo,853.41,Cancelado
+463,62,2025-05-26,10:00,Revisão,140.63,Confirmardo
+464,11,2026-05-08,12:00,Suspensão,647.72,Cancelado
+465,73,2026-03-30,13:00,Revisão,1533.2,Cancelado
+466,89,2025-10-10,08:00,Suspensão,1144.37,Pendente
+467,36,2025-07-15,13:00,Revisão,1595.49,Cancelado
+468,38,2025-08-21,11:00,Freios,156.08,Pendente
+469,13,2025-11-07,09:00,Suspensão,1061.78,Confirmardo
+470,60,2026-01-13,16:00,Troca de óleo,1767.6,Confirmardo
+471,28,2026-04-18,16:00,Diagnóstico,509.9,Confirmardo
+472,38,2026-04-27,13:00,Revisão,1942.33,Pendente
+473,25,2025-12-30,11:00,Suspensão,354.34,Cancelado
+474,5,2026-02-05,13:00,Freios,344.37,Confirmardo
+475,93,2025-08-12,12:00,Suspensão,1985.96,Pendente
+476,98,2025-09-05,10:00,Troca de óleo,1947.86,Confirmardo
+477,10,2025-07-13,10:00,Diagnóstico,458.79,Pendente
+478,4,2026-04-25,10:00,Troca de óleo,1402.06,Confirmardo
+479,80,2025-07-19,15:00,Suspensão,1543.81,Pendente
+480,74,2026-03-01,15:00,Troca de óleo,1923.53,Cancelado
+481,27,2025-10-24,14:00,Revisão,985.17,Confirmardo
+482,15,2025-06-30,10:00,Revisão,1801.72,Confirmardo
+483,77,2026-01-20,16:00,Suspensão,443.04,Cancelado
+484,14,2026-02-04,09:00,Suspensão,1514.16,Confirmardo
+485,73,2025-07-31,09:00,Diagnóstico,1215.48,Cancelado
+486,95,2026-04-13,16:00,Suspensão,1132.98,Confirmardo
+487,42,2026-05-03,12:00,Revisão,1187.13,Cancelado
+488,57,2026-04-15,15:00,Revisão,465.17,Pendente
+489,97,2026-02-23,09:00,Suspensão,1975.5,Pendente
+490,16,2025-12-08,09:00,Diagnóstico,339.3,Confirmardo
+491,71,2025-12-05,09:00,Troca de óleo,412.75,Cancelado
+492,84,2025-10-02,14:00,Revisão,1873.25,Confirmardo
+493,33,2025-12-23,15:00,Troca de óleo,1062.66,Pendente
+494,43,2025-12-12,09:00,Revisão,120.52,Pendente
+495,55,2025-08-07,14:00,Suspensão,491.92,Pendente
+496,30,2026-01-13,08:00,Diagnóstico,1072.36,Confirmardo
+497,73,2026-01-11,16:00,Diagnóstico,1321.48,Confirmardo
+498,93,2025-07-08,09:00,Suspensão,1821.18,Cancelado
+499,22,2026-03-04,16:00,Suspensão,678.08,Pendente
+500,45,2025-12-26,15:00,Troca de óleo,1824.58,Pendente
+501,37,2025-10-07,16:00,Suspensão,1563.31,Pendente
+502,48,2026-05-10,14:00,Freios,265.2,Cancelado
+503,15,2025-10-06,08:00,Suspensão,802.53,Confirmardo
+504,90,2025-10-03,10:00,Diagnóstico,944.43,Confirmardo
+505,6,2025-08-20,12:00,Revisão,1682.57,Pendente
+506,87,2025-12-23,10:00,Revisão,371.26,Pendente
+507,2,2025-07-23,12:00,Suspensão,634.03,Cancelado
+508,15,2025-10-18,08:00,Troca de óleo,650.07,Cancelado
+509,56,2025-12-24,13:00,Troca de óleo,1912.07,Pendente
+510,43,2025-09-10,13:00,Revisão,1075.33,Pendente
+511,10,2025-09-02,12:00,Troca de óleo,1956.83,Confirmardo
+512,18,2026-04-04,14:00,Freios,815.63,Confirmardo
+513,49,2025-11-25,12:00,Diagnóstico,813.01,Cancelado
+514,61,2026-03-06,15:00,Suspensão,658.33,Pendente
+515,45,2026-02-15,13:00,Revisão,1076.98,Cancelado
+516,35,2026-03-23,16:00,Diagnóstico,542.67,Cancelado
+517,99,2026-03-02,12:00,Revisão,1612.25,Confirmardo
+518,8,2025-05-18,13:00,Suspensão,1056.99,Pendente
+519,3,2025-08-21,10:00,Suspensão,156.55,Confirmardo
+520,38,2026-01-14,09:00,Freios,1435.32,Pendente
+521,4,2025-12-19,12:00,Suspensão,1547.04,Confirmardo
+522,88,2025-11-23,16:00,Revisão,475.49,Cancelado
+523,91,2025-12-18,12:00,Revisão,1117.77,Cancelado
+524,12,2025-10-18,08:00,Diagnóstico,1695.88,Pendente
+525,13,2026-04-23,16:00,Diagnóstico,126.44,Pendente
+526,64,2025-09-18,15:00,Revisão,1356.44,Confirmardo
+527,68,2026-03-25,12:00,Freios,1510.76,Pendente
+528,9,2025-07-21,09:00,Diagnóstico,142.9,Pendente
+529,14,2025-07-03,15:00,Revisão,1988.49,Confirmardo
+530,79,2025-07-21,09:00,Troca de óleo,1110.99,Cancelado
+531,64,2026-03-01,15:00,Troca de óleo,153.06,Cancelado
+532,23,2025-08-21,15:00,Troca de óleo,1111.84,Pendente
+533,21,2026-02-03,14:00,Revisão,1596.62,Confirmardo
+534,78,2025-05-29,16:00,Troca de óleo,1158.07,Confirmardo
+535,20,2026-03-14,12:00,Revisão,818.38,Pendente
+536,26,2025-10-22,12:00,Suspensão,1641.43,Cancelado
+537,9,2026-03-11,14:00,Freios,595.58,Confirmardo
+538,45,2025-06-24,15:00,Diagnóstico,191.53,Pendente
+539,69,2025-07-24,12:00,Freios,1584.47,Cancelado
+540,26,2025-08-05,08:00,Troca de óleo,1269.47,Cancelado
+541,54,2025-06-25,13:00,Freios,1617.0,Confirmardo
+542,8,2026-04-14,08:00,Troca de óleo,577.76,Cancelado
+543,7,2025-07-20,11:00,Freios,1953.2,Cancelado
+544,65,2025-10-05,15:00,Diagnóstico,1447.31,Confirmardo
+545,77,2026-04-13,12:00,Revisão,482.0,Cancelado
+546,50,2026-02-17,12:00,Revisão,1513.45,Confirmardo
+547,57,2025-10-10,09:00,Troca de óleo,238.9,Pendente
+548,4,2025-12-14,15:00,Revisão,102.01,Pendente
+549,87,2025-07-16,15:00,Troca de óleo,1057.33,Pendente
+550,68,2026-03-13,12:00,Revisão,1446.2,Confirmardo
+551,72,2026-05-08,11:00,Troca de óleo,1261.81,Pendente
+552,62,2025-07-26,11:00,Freios,1929.33,Confirmardo
+553,45,2025-05-24,15:00,Freios,1390.0,Pendente
+554,50,2026-02-23,09:00,Revisão,1760.47,Pendente
+555,27,2025-10-03,09:00,Diagnóstico,889.47,Cancelado
+556,37,2025-06-21,15:00,Troca de óleo,760.94,Pendente
+557,44,2025-11-29,16:00,Revisão,1774.13,Confirmardo
+558,35,2026-04-30,14:00,Freios,376.85,Cancelado
+559,46,2025-09-01,12:00,Diagnóstico,657.22,Pendente
+560,97,2025-06-23,11:00,Freios,275.78,Confirmardo
+561,84,2025-10-07,09:00,Freios,1716.04,Cancelado
+562,98,2025-07-08,12:00,Troca de óleo,568.25,Cancelado
+563,98,2026-01-27,12:00,Diagnóstico,813.49,Cancelado
+564,79,2025-05-08,11:00,Revisão,879.9,Confirmardo
+565,55,2025-11-28,11:00,Troca de óleo,198.46,Confirmardo
+566,98,2026-01-21,11:00,Freios,1142.49,Cancelado
+567,5,2025-08-13,12:00,Revisão,744.15,Confirmardo
+568,22,2026-02-14,13:00,Suspensão,1621.9,Pendente
+569,72,2026-04-21,12:00,Revisão,185.54,Cancelado
+570,27,2025-05-29,16:00,Revisão,822.57,Pendente
+571,92,2025-11-23,12:00,Diagnóstico,1556.74,Pendente
+572,29,2025-05-28,12:00,Revisão,199.8,Cancelado
+573,14,2025-06-11,16:00,Suspensão,706.78,Pendente
+574,12,2026-02-19,09:00,Diagnóstico,875.32,Confirmardo
+575,3,2026-04-21,10:00,Troca de óleo,279.8,Cancelado
+576,38,2026-04-04,08:00,Diagnóstico,786.92,Confirmardo
+577,42,2026-03-11,08:00,Freios,1103.44,Pendente
+578,61,2025-07-30,15:00,Freios,1322.92,Cancelado
+579,92,2025-05-27,08:00,Troca de óleo,133.56,Cancelado
+580,5,2025-05-22,10:00,Diagnóstico,1003.92,Confirmardo
+581,47,2026-03-16,12:00,Diagnóstico,1957.24,Cancelado
+582,27,2025-09-17,10:00,Revisão,217.33,Cancelado
+583,9,2025-12-26,13:00,Freios,1728.79,Pendente
+584,50,2026-04-15,08:00,Revisão,795.75,Confirmardo
+585,33,2025-07-11,13:00,Suspensão,1733.32,Confirmardo
+586,17,2025-08-08,14:00,Suspensão,1827.51,Confirmardo
+587,13,2025-07-03,16:00,Suspensão,1084.73,Pendente
+588,61,2025-07-07,13:00,Freios,1395.23,Cancelado
+589,86,2025-06-14,08:00,Diagnóstico,502.61,Pendente
+590,40,2025-07-03,16:00,Troca de óleo,874.47,Cancelado
+591,79,2026-03-31,11:00,Freios,1655.09,Pendente
+592,47,2025-09-17,10:00,Suspensão,1474.14,Pendente
+593,68,2025-11-05,11:00,Suspensão,756.81,Cancelado
+594,38,2025-10-22,11:00,Troca de óleo,1458.0,Confirmardo
+595,86,2025-09-04,12:00,Suspensão,1238.79,Confirmardo
+596,84,2025-07-03,10:00,Diagnóstico,1401.22,Cancelado
+597,68,2026-02-19,11:00,Revisão,1209.12,Cancelado
+598,13,2025-10-01,12:00,Freios,472.67,Cancelado
+599,83,2025-10-28,10:00,Suspensão,480.45,Cancelado
+600,12,2026-04-07,08:00,Suspensão,305.73,Confirmardo
+601,6,2026-01-29,09:00,Freios,1996.25,Pendente
+602,63,2025-11-17,11:00,Troca de óleo,1472.87,Pendente
+603,9,2025-10-29,14:00,Revisão,857.61,Cancelado
+604,84,2025-06-12,16:00,Freios,1594.75,Confirmardo
+605,13,2026-03-04,15:00,Troca de óleo,1122.61,Cancelado
+606,68,2025-06-08,13:00,Troca de óleo,204.79,Confirmardo
+607,35,2025-05-30,15:00,Troca de óleo,101.49,Pendente
+608,7,2025-06-12,08:00,Revisão,911.38,Cancelado
+609,15,2025-11-18,16:00,Freios,319.17,Pendente
+610,75,2025-11-19,16:00,Diagnóstico,198.45,Cancelado
+611,26,2026-02-09,10:00,Revisão,885.47,Pendente
+612,4,2025-10-27,15:00,Freios,210.97,Pendente
+613,96,2025-11-16,08:00,Troca de óleo,334.69,Pendente
+614,66,2025-08-29,10:00,Suspensão,1480.75,Confirmardo
+615,25,2025-12-28,13:00,Freios,773.72,Cancelado
+616,13,2025-08-30,09:00,Suspensão,459.76,Confirmardo
+617,66,2025-07-01,16:00,Revisão,1800.96,Confirmardo
+618,52,2025-08-18,11:00,Freios,977.72,Cancelado
+619,25,2025-07-25,08:00,Freios,1133.75,Pendente
+620,2,2025-10-28,08:00,Revisão,1283.03,Pendente
+621,1,2025-08-15,14:00,Freios,913.53,Cancelado
+622,84,2025-05-06,08:00,Diagnóstico,281.97,Cancelado
+623,70,2025-12-31,09:00,Troca de óleo,1429.09,Pendente
+624,80,2026-02-09,15:00,Revisão,1336.64,Confirmardo
+625,41,2025-11-25,15:00,Suspensão,1686.69,Confirmardo
+626,11,2026-02-04,12:00,Suspensão,1484.09,Confirmardo
+627,13,2025-11-09,10:00,Troca de óleo,1889.22,Confirmardo
+628,56,2025-07-28,12:00,Revisão,282.05,Pendente
+629,31,2025-11-22,14:00,Revisão,1036.68,Pendente
+630,27,2025-12-21,11:00,Suspensão,640.6,Cancelado
+631,8,2025-10-01,08:00,Revisão,636.61,Pendente
+632,74,2026-03-11,12:00,Diagnóstico,422.43,Cancelado
+633,28,2025-06-08,13:00,Freios,583.11,Cancelado
+634,40,2025-10-30,09:00,Freios,705.08,Pendente
+635,39,2025-10-25,13:00,Suspensão,783.88,Cancelado
+636,15,2026-01-10,09:00,Suspensão,215.77,Cancelado
+637,20,2025-11-24,13:00,Suspensão,517.47,Confirmardo
+638,2,2025-08-10,14:00,Suspensão,146.96,Pendente
+639,29,2025-09-04,12:00,Troca de óleo,887.29,Pendente
+640,54,2025-07-23,08:00,Suspensão,1394.59,Pendente
+641,52,2025-08-27,15:00,Freios,530.8,Confirmardo
+642,62,2026-01-08,11:00,Suspensão,1360.73,Cancelado
+643,38,2025-12-08,13:00,Suspensão,306.37,Cancelado
+644,13,2025-08-13,10:00,Freios,477.09,Pendente
+645,29,2026-02-13,12:00,Troca de óleo,1501.57,Confirmardo
+646,87,2026-03-03,10:00,Troca de óleo,795.47,Confirmardo
+647,81,2026-04-15,13:00,Freios,1377.65,Cancelado
+648,4,2026-01-28,16:00,Freios,1689.59,Cancelado
+649,59,2025-06-13,11:00,Troca de óleo,1078.39,Confirmardo
+650,44,2025-11-04,08:00,Freios,1752.85,Pendente
+651,77,2025-11-06,13:00,Troca de óleo,530.11,Cancelado
+652,54,2025-09-15,14:00,Suspensão,1811.7,Confirmardo
+653,81,2026-04-14,13:00,Troca de óleo,1492.77,Confirmardo
+654,41,2025-05-16,08:00,Freios,233.31,Confirmardo
+655,84,2026-01-06,11:00,Revisão,227.4,Confirmardo
+656,86,2025-10-30,14:00,Freios,263.41,Pendente
+657,50,2025-05-20,16:00,Revisão,103.49,Confirmardo
+658,40,2025-12-12,15:00,Freios,892.2,Cancelado
+659,80,2025-10-29,10:00,Diagnóstico,864.63,Pendente
+660,69,2025-08-10,14:00,Revisão,1628.0,Cancelado
+661,45,2026-03-09,15:00,Freios,908.16,Confirmardo
+662,97,2025-12-27,10:00,Suspensão,573.35,Cancelado
+663,73,2025-08-27,09:00,Freios,377.46,Cancelado
+664,49,2025-06-26,09:00,Troca de óleo,1546.99,Confirmardo
+665,91,2026-02-23,13:00,Freios,1558.65,Confirmardo
+666,88,2025-10-06,08:00,Freios,1604.69,Confirmardo
+667,85,2026-03-26,13:00,Diagnóstico,1322.96,Pendente
+668,81,2025-06-27,16:00,Freios,1188.9,Confirmardo
+669,11,2026-05-01,12:00,Revisão,898.69,Cancelado
+670,40,2025-10-27,11:00,Troca de óleo,1155.96,Cancelado
+671,93,2025-10-22,10:00,Diagnóstico,1399.43,Cancelado
+672,59,2025-11-03,13:00,Freios,1783.82,Pendente
+673,4,2025-10-21,08:00,Troca de óleo,1318.61,Cancelado
+674,97,2026-01-18,15:00,Troca de óleo,1998.23,Pendente
+675,83,2026-04-19,08:00,Suspensão,947.01,Cancelado
+676,12,2025-07-14,16:00,Suspensão,184.04,Cancelado
+677,16,2025-09-11,11:00,Diagnóstico,205.51,Confirmardo
+678,17,2025-11-09,14:00,Troca de óleo,814.85,Pendente
+679,77,2025-05-13,11:00,Diagnóstico,1818.14,Cancelado
+680,86,2026-04-19,16:00,Suspensão,1474.46,Cancelado
+681,36,2025-05-27,13:00,Suspensão,1958.74,Pendente
+682,88,2025-09-27,13:00,Revisão,661.38,Confirmardo
+683,72,2025-06-06,08:00,Diagnóstico,752.5,Pendente
+684,83,2025-12-12,12:00,Revisão,284.52,Pendente
+685,68,2025-10-13,12:00,Revisão,1736.98,Confirmardo
+686,23,2026-02-19,12:00,Troca de óleo,997.49,Confirmardo
+687,20,2025-10-30,11:00,Freios,459.16,Cancelado
+688,26,2026-01-13,14:00,Diagnóstico,979.65,Confirmardo
+689,18,2025-09-01,14:00,Diagnóstico,1568.36,Confirmardo
+690,31,2025-05-25,14:00,Diagnóstico,980.58,Pendente
+691,85,2025-08-06,10:00,Revisão,373.23,Cancelado
+692,68,2025-07-21,14:00,Revisão,1317.53,Pendente
+693,77,2025-09-30,12:00,Troca de óleo,1594.69,Confirmardo
+694,13,2025-06-11,08:00,Freios,1091.61,Pendente
+695,95,2025-11-16,13:00,Suspensão,1941.48,Pendente
+696,20,2025-12-05,15:00,Troca de óleo,276.87,Pendente
+697,71,2026-04-14,13:00,Suspensão,778.6,Cancelado
+698,68,2025-06-29,16:00,Diagnóstico,1839.03,Pendente
+699,29,2025-10-04,14:00,Freios,548.11,Confirmardo
+700,76,2025-06-25,14:00,Freios,969.31,Confirmardo
+701,37,2025-12-30,15:00,Diagnóstico,1295.22,Cancelado
+702,41,2026-04-01,14:00,Diagnóstico,676.75,Pendente
+703,27,2025-12-21,12:00,Suspensão,917.04,Cancelado
+704,76,2025-10-01,16:00,Suspensão,1780.77,Confirmardo
+705,63,2026-04-03,16:00,Revisão,928.14,Confirmardo
+706,65,2026-01-02,15:00,Suspensão,1511.9,Pendente
+707,12,2025-07-15,12:00,Revisão,781.89,Pendente
+708,49,2026-02-04,15:00,Freios,1477.55,Cancelado
+709,65,2025-09-26,15:00,Freios,312.29,Pendente
+710,90,2026-04-21,16:00,Diagnóstico,1145.27,Confirmardo
+711,64,2025-12-03,16:00,Revisão,1104.11,Confirmardo
+712,64,2025-10-19,08:00,Diagnóstico,534.9,Cancelado
+713,31,2026-05-05,15:00,Diagnóstico,1421.16,Confirmardo
+714,29,2025-11-22,11:00,Troca de óleo,1888.61,Pendente
+715,76,2026-02-20,13:00,Suspensão,401.75,Pendente
+716,95,2026-01-25,16:00,Diagnóstico,210.68,Pendente
+717,34,2026-03-07,10:00,Suspensão,1079.81,Pendente
+718,74,2025-06-23,13:00,Revisão,195.0,Pendente
+719,91,2025-06-29,08:00,Diagnóstico,487.21,Pendente
+720,91,2025-11-27,13:00,Freios,1234.51,Cancelado
+721,88,2025-06-14,14:00,Suspensão,591.09,Pendente
+722,64,2025-05-23,10:00,Troca de óleo,657.17,Pendente
+723,8,2025-10-22,09:00,Suspensão,1935.74,Confirmardo
+724,63,2026-04-17,10:00,Freios,820.72,Confirmardo
+725,40,2025-07-28,13:00,Revisão,631.32,Confirmardo
+726,53,2025-12-29,09:00,Troca de óleo,965.88,Confirmardo
+727,23,2025-12-16,14:00,Suspensão,796.51,Confirmardo
+728,49,2026-04-24,12:00,Troca de óleo,206.95,Cancelado
+729,14,2026-03-08,10:00,Troca de óleo,597.17,Cancelado
+730,37,2026-03-01,08:00,Suspensão,178.02,Confirmardo
+731,6,2025-12-31,10:00,Diagnóstico,245.78,Confirmardo
+732,25,2025-09-14,10:00,Revisão,358.32,Cancelado
+733,26,2025-09-25,11:00,Troca de óleo,925.51,Pendente
+734,96,2026-03-27,09:00,Diagnóstico,1120.53,Cancelado
+735,28,2025-05-21,16:00,Suspensão,1548.18,Cancelado
+736,15,2026-03-01,08:00,Troca de óleo,1313.64,Pendente
+737,3,2025-07-14,14:00,Revisão,1334.83,Cancelado
+738,67,2025-11-21,11:00,Troca de óleo,333.7,Confirmardo
+739,95,2025-07-16,11:00,Suspensão,892.57,Pendente
+740,87,2026-04-19,14:00,Suspensão,1864.41,Pendente
+741,76,2025-07-13,12:00,Freios,927.04,Cancelado
+742,36,2025-07-30,10:00,Diagnóstico,808.43,Confirmardo
+743,33,2026-03-29,08:00,Revisão,605.86,Cancelado
+744,27,2026-02-09,10:00,Revisão,1070.88,Pendente
+745,14,2026-05-09,12:00,Suspensão,1103.84,Pendente
+746,78,2026-01-29,14:00,Suspensão,440.89,Cancelado
+747,67,2025-05-12,08:00,Diagnóstico,1663.1,Confirmardo
+748,36,2026-05-10,12:00,Suspensão,1866.01,Confirmardo
+749,2,2026-05-08,09:00,Diagnóstico,1177.67,Confirmardo
+750,21,2026-01-07,09:00,Freios,1484.54,Pendente
+751,77,2026-04-06,10:00,Suspensão,979.81,Pendente
+752,65,2026-03-29,09:00,Diagnóstico,282.29,Confirmardo
+753,60,2025-07-16,12:00,Freios,711.78,Cancelado
+754,66,2025-09-28,10:00,Freios,476.95,Confirmardo
+755,48,2025-10-30,11:00,Freios,343.07,Cancelado
+756,28,2026-02-03,15:00,Freios,1934.17,Confirmardo
+757,89,2025-10-30,09:00,Freios,1316.17,Confirmardo
+758,10,2025-12-10,13:00,Troca de óleo,1043.3,Pendente
+759,53,2026-01-29,16:00,Troca de óleo,1250.07,Pendente
+760,15,2025-09-28,15:00,Diagnóstico,672.26,Confirmardo
+761,54,2026-02-03,16:00,Freios,1307.93,Cancelado
+762,27,2026-04-15,08:00,Troca de óleo,1152.59,Confirmardo
+763,98,2026-02-06,09:00,Suspensão,1331.48,Confirmardo
+764,83,2026-01-16,15:00,Diagnóstico,1474.61,Confirmardo
+765,26,2026-03-06,16:00,Suspensão,1258.06,Cancelado
+766,39,2026-05-08,10:00,Troca de óleo,125.63,Confirmardo
+767,94,2025-05-19,16:00,Suspensão,834.36,Pendente
+768,69,2025-12-18,09:00,Freios,1988.72,Pendente
+769,85,2026-01-17,09:00,Diagnóstico,1362.93,Cancelado
+770,49,2025-11-18,14:00,Suspensão,153.0,Confirmardo
+771,30,2025-07-28,08:00,Freios,568.81,Cancelado
+772,18,2025-12-19,15:00,Freios,928.9,Confirmardo
+773,9,2025-07-12,14:00,Suspensão,1281.98,Pendente
+774,28,2026-01-30,08:00,Diagnóstico,920.52,Confirmardo
+775,31,2025-12-26,09:00,Revisão,215.27,Confirmardo
+776,96,2025-10-27,12:00,Freios,1735.53,Confirmardo
+777,93,2026-01-05,09:00,Freios,398.21,Pendente
+778,87,2025-06-25,11:00,Diagnóstico,987.7,Cancelado
+779,38,2025-07-03,16:00,Troca de óleo,205.77,Pendente
+780,14,2026-03-17,12:00,Freios,454.7,Pendente
+781,21,2025-08-18,14:00,Suspensão,648.73,Pendente
+782,65,2025-08-24,08:00,Freios,241.77,Cancelado
+783,15,2026-04-07,14:00,Troca de óleo,217.16,Cancelado
+784,47,2025-07-29,15:00,Revisão,1156.22,Cancelado
+785,19,2025-11-13,14:00,Freios,1677.65,Pendente
+786,98,2025-10-29,14:00,Diagnóstico,811.66,Pendente
+787,12,2026-03-14,09:00,Suspensão,694.9,Cancelado
+788,28,2025-12-05,12:00,Suspensão,1419.31,Cancelado
+789,16,2026-05-08,16:00,Troca de óleo,455.9,Confirmardo
+790,11,2025-09-11,11:00,Revisão,1406.23,Cancelado
+791,13,2025-09-25,12:00,Suspensão,1287.35,Confirmardo
+792,47,2025-08-31,16:00,Suspensão,702.04,Cancelado
+793,1,2025-08-11,12:00,Troca de óleo,1541.93,Confirmardo
+794,96,2026-02-06,16:00,Diagnóstico,1327.32,Confirmardo
+795,51,2025-10-29,13:00,Troca de óleo,641.65,Pendente
+796,4,2026-03-26,10:00,Troca de óleo,1581.12,Pendente
+797,42,2025-06-19,15:00,Diagnóstico,1315.38,Cancelado
+798,55,2026-02-14,14:00,Diagnóstico,354.76,Confirmardo
+799,27,2026-02-26,16:00,Troca de óleo,1018.64,Cancelado
+800,67,2026-01-09,10:00,Diagnóstico,1072.33,Confirmardo
+801,3,2026-02-21,09:00,Diagnóstico,310.96,Cancelado
+802,92,2026-02-02,13:00,Freios,789.23,Confirmardo
+803,86,2025-08-13,16:00,Suspensão,386.59,Cancelado
+804,36,2025-06-30,10:00,Diagnóstico,1517.0,Cancelado
+805,76,2025-05-09,12:00,Freios,633.66,Cancelado
+806,79,2025-10-15,09:00,Troca de óleo,1557.42,Confirmardo
+807,54,2026-02-21,12:00,Revisão,884.17,Confirmardo
+808,2,2025-09-11,15:00,Troca de óleo,285.34,Confirmardo
+809,81,2025-06-21,15:00,Diagnóstico,568.06,Cancelado
+810,69,2026-01-14,12:00,Freios,1605.7,Pendente
+811,25,2025-10-30,12:00,Diagnóstico,458.91,Cancelado
+812,21,2025-12-27,09:00,Revisão,425.75,Pendente
+813,43,2026-04-11,08:00,Diagnóstico,524.63,Cancelado
+814,14,2026-01-17,16:00,Freios,1200.07,Confirmardo
+815,60,2026-03-10,09:00,Diagnóstico,1430.34,Cancelado
+816,19,2025-08-21,11:00,Freios,1213.79,Confirmardo
+817,41,2025-07-03,11:00,Revisão,1746.45,Pendente
+818,17,2025-09-28,08:00,Freios,1517.71,Pendente
+819,96,2025-08-10,14:00,Diagnóstico,1917.21,Confirmardo
+820,27,2025-07-20,11:00,Troca de óleo,192.93,Pendente
+821,42,2025-10-15,14:00,Suspensão,1041.53,Cancelado
+822,87,2025-07-21,15:00,Troca de óleo,1669.11,Cancelado
+823,100,2025-07-01,14:00,Revisão,1861.54,Pendente
+824,86,2025-10-28,13:00,Revisão,1527.81,Cancelado
+825,28,2025-12-06,09:00,Troca de óleo,723.65,Pendente
+826,9,2026-02-22,12:00,Freios,1480.99,Cancelado
+827,16,2025-06-27,11:00,Revisão,241.76,Pendente
+828,100,2026-02-03,12:00,Freios,459.42,Cancelado
+829,31,2025-07-30,09:00,Freios,390.35,Cancelado
+830,30,2026-01-06,10:00,Diagnóstico,474.03,Pendente
+831,71,2025-07-05,09:00,Troca de óleo,1727.54,Confirmardo
+832,45,2026-04-16,13:00,Freios,851.31,Confirmardo
+833,55,2026-04-21,14:00,Revisão,1289.42,Cancelado
+834,72,2026-02-04,09:00,Suspensão,265.62,Confirmardo
+835,70,2026-03-11,14:00,Freios,209.9,Confirmardo
+836,99,2025-11-23,13:00,Troca de óleo,639.58,Confirmardo
+837,18,2026-01-12,12:00,Troca de óleo,127.77,Confirmardo
+838,83,2025-10-14,09:00,Diagnóstico,1159.95,Pendente
+839,39,2025-06-13,12:00,Diagnóstico,907.79,Confirmardo
+840,3,2025-10-03,14:00,Revisão,313.69,Pendente
+841,52,2025-10-24,11:00,Troca de óleo,899.38,Pendente
+842,81,2026-04-18,12:00,Diagnóstico,1700.13,Confirmardo
+843,92,2025-08-11,10:00,Freios,1089.79,Confirmardo
+844,58,2025-10-22,14:00,Diagnóstico,855.53,Pendente
+845,40,2026-04-28,10:00,Freios,326.42,Confirmardo
+846,50,2025-08-16,16:00,Revisão,291.17,Cancelado
+847,5,2025-07-24,15:00,Troca de óleo,791.44,Pendente
+848,46,2026-03-23,11:00,Suspensão,982.48,Pendente
+849,89,2026-02-08,10:00,Troca de óleo,1066.07,Confirmardo
+850,35,2026-01-03,15:00,Suspensão,1481.23,Cancelado
+851,13,2025-10-10,12:00,Suspensão,904.33,Cancelado
+852,1,2025-09-16,15:00,Suspensão,166.93,Confirmardo
+853,21,2026-02-14,14:00,Revisão,146.86,Confirmardo
+854,87,2025-06-20,13:00,Troca de óleo,645.15,Cancelado
+855,69,2025-08-05,14:00,Troca de óleo,865.56,Cancelado
+856,20,2026-04-01,11:00,Troca de óleo,1738.36,Confirmardo
+857,38,2025-06-02,15:00,Suspensão,1688.01,Cancelado
+858,2,2026-02-25,09:00,Revisão,1396.69,Confirmardo
+859,80,2025-11-29,08:00,Revisão,989.12,Confirmardo
+860,74,2025-12-20,08:00,Freios,1491.23,Pendente
+861,98,2026-01-01,09:00,Troca de óleo,1181.08,Cancelado
+862,44,2025-08-02,11:00,Suspensão,1784.73,Confirmardo
+863,58,2025-07-27,09:00,Freios,239.41,Confirmardo
+864,7,2026-02-12,14:00,Freios,1904.76,Pendente
+865,66,2025-06-15,12:00,Suspensão,990.35,Confirmardo
+866,60,2025-12-04,08:00,Freios,1319.34,Confirmardo
+867,96,2025-06-22,16:00,Suspensão,1425.81,Cancelado
+868,67,2026-04-18,14:00,Troca de óleo,1566.28,Pendente
+869,89,2026-02-08,14:00,Diagnóstico,1590.55,Pendente
+870,26,2025-11-17,11:00,Revisão,753.33,Cancelado
+871,37,2026-01-09,08:00,Diagnóstico,1582.69,Pendente
+872,30,2025-07-30,11:00,Troca de óleo,1283.13,Cancelado
+873,80,2025-06-03,08:00,Troca de óleo,1912.87,Pendente
+874,90,2026-04-28,15:00,Troca de óleo,1116.01,Cancelado
+875,62,2026-04-19,12:00,Revisão,1468.63,Pendente
+876,38,2026-03-11,11:00,Freios,976.45,Cancelado
+877,33,2025-08-27,15:00,Troca de óleo,1648.3,Confirmardo
+878,40,2025-06-27,13:00,Revisão,1933.72,Pendente
+879,89,2025-07-03,09:00,Revisão,424.22,Pendente
+880,83,2026-02-11,14:00,Troca de óleo,1651.99,Cancelado
+881,89,2025-08-11,12:00,Freios,1846.1,Cancelado
+882,8,2025-11-24,12:00,Freios,656.48,Pendente
+883,95,2025-10-17,14:00,Freios,1613.36,Confirmardo
+884,69,2025-09-26,11:00,Troca de óleo,1737.99,Pendente
+885,70,2025-11-20,15:00,Freios,1519.65,Confirmardo
+886,75,2025-05-29,09:00,Troca de óleo,1249.09,Confirmardo
+887,46,2026-04-30,15:00,Suspensão,1470.42,Confirmardo
+888,13,2025-08-19,08:00,Revisão,1229.0,Pendente
+889,30,2025-07-17,14:00,Diagnóstico,986.9,Pendente
+890,26,2025-12-08,08:00,Revisão,1034.11,Confirmardo
+891,12,2026-01-14,13:00,Diagnóstico,520.02,Cancelado
+892,84,2025-10-03,16:00,Suspensão,1860.53,Cancelado
+893,15,2026-02-20,15:00,Diagnóstico,1912.44,Cancelado
+894,13,2025-11-05,11:00,Suspensão,1525.09,Pendente
+895,89,2026-03-21,14:00,Freios,1171.02,Cancelado
+896,87,2025-09-11,12:00,Suspensão,457.67,Pendente
+897,1,2025-05-10,12:00,Revisão,746.16,Cancelado
+898,41,2025-07-24,14:00,Revisão,229.12,Pendente
+899,43,2025-07-06,08:00,Troca de óleo,160.93,Pendente
+900,15,2025-06-15,15:00,Freios,1885.42,Confirmardo
+901,95,2025-10-18,08:00,Troca de óleo,1714.55,Cancelado
+902,73,2025-11-18,10:00,Troca de óleo,142.27,Pendente
+903,49,2025-07-23,09:00,Suspensão,1646.37,Confirmardo
+904,13,2025-11-18,13:00,Diagnóstico,982.81,Cancelado
+905,28,2026-04-21,13:00,Revisão,1879.61,Cancelado
+906,25,2026-02-27,16:00,Revisão,1013.53,Confirmardo
+907,91,2025-09-05,16:00,Freios,900.41,Pendente
+908,41,2026-01-12,14:00,Revisão,1599.38,Pendente
+909,33,2025-05-27,10:00,Diagnóstico,722.76,Confirmardo
+910,64,2026-01-11,14:00,Freios,1485.03,Pendente
+911,99,2026-03-21,09:00,Diagnóstico,1352.77,Pendente
+912,79,2026-02-27,15:00,Revisão,1734.02,Pendente
+913,87,2026-05-01,11:00,Suspensão,745.43,Cancelado
+914,69,2025-10-03,15:00,Diagnóstico,348.14,Confirmardo
+915,50,2026-04-01,14:00,Revisão,1294.45,Cancelado
+916,50,2026-03-18,16:00,Revisão,1145.15,Cancelado
+917,58,2026-02-18,10:00,Suspensão,1234.36,Confirmardo
+918,87,2025-09-08,11:00,Revisão,663.32,Confirmardo
+919,56,2025-08-12,14:00,Diagnóstico,707.18,Pendente
+920,37,2026-02-21,14:00,Suspensão,1864.47,Pendente
+921,20,2026-02-28,12:00,Troca de óleo,1399.0,Pendente
+922,90,2026-03-18,11:00,Suspensão,1793.7,Confirmardo
+923,29,2025-12-08,12:00,Diagnóstico,1841.07,Pendente
+924,53,2025-11-16,13:00,Troca de óleo,1603.84,Cancelado
+925,88,2026-02-05,13:00,Revisão,1297.48,Confirmardo
+926,67,2025-07-30,13:00,Suspensão,868.54,Cancelado
+927,81,2025-12-24,08:00,Diagnóstico,1705.57,Confirmardo
+928,91,2025-11-16,14:00,Revisão,458.03,Confirmardo
+929,43,2025-12-24,16:00,Suspensão,1842.77,Pendente
+930,46,2025-06-21,12:00,Freios,336.75,Confirmardo
+931,67,2025-09-18,08:00,Suspensão,1906.44,Cancelado
+932,18,2025-12-29,11:00,Suspensão,1016.77,Pendente
+933,13,2025-05-22,14:00,Troca de óleo,1015.09,Confirmardo
+934,10,2026-03-31,14:00,Freios,100.61,Cancelado
+935,86,2026-02-01,11:00,Freios,633.73,Pendente
+936,60,2025-11-04,14:00,Freios,906.51,Cancelado
+937,32,2025-12-19,16:00,Freios,136.86,Pendente
+938,93,2025-06-05,10:00,Suspensão,172.17,Pendente
+939,21,2026-01-09,14:00,Diagnóstico,1680.98,Pendente
+940,42,2026-04-02,13:00,Revisão,1421.45,Pendente
+941,97,2026-01-26,13:00,Revisão,1187.3,Cancelado
+942,77,2026-03-22,12:00,Troca de óleo,1569.99,Confirmardo
+943,22,2026-03-01,13:00,Diagnóstico,1366.2,Pendente
+944,77,2025-11-17,11:00,Freios,1958.45,Cancelado
+945,100,2026-01-26,12:00,Diagnóstico,1533.78,Pendente
+946,26,2026-01-14,10:00,Diagnóstico,412.14,Cancelado
+947,18,2026-01-09,15:00,Suspensão,1467.38,Confirmardo
+948,63,2026-01-29,12:00,Troca de óleo,190.18,Confirmardo
+949,49,2025-10-05,12:00,Revisão,1741.24,Pendente
+950,9,2025-10-01,09:00,Troca de óleo,348.69,Cancelado
+951,14,2026-01-28,14:00,Revisão,1023.6,Confirmardo
+952,41,2026-01-07,16:00,Freios,1191.62,Pendente
+953,7,2025-10-10,12:00,Troca de óleo,374.79,Cancelado
+954,60,2025-10-05,11:00,Diagnóstico,303.97,Confirmardo
+955,48,2026-01-21,15:00,Troca de óleo,1279.85,Cancelado
+956,64,2025-06-20,08:00,Freios,1863.45,Confirmardo
+957,75,2025-08-15,08:00,Revisão,1628.03,Confirmardo
+958,96,2025-11-23,11:00,Revisão,1454.6,Pendente
+959,20,2026-02-07,10:00,Freios,676.74,Pendente
+960,66,2026-02-10,12:00,Freios,1711.78,Pendente
+961,60,2025-12-28,08:00,Revisão,469.72,Cancelado
+962,14,2025-08-13,14:00,Freios,322.48,Confirmardo
+963,28,2026-01-27,16:00,Troca de óleo,1954.64,Cancelado
+964,35,2025-06-13,13:00,Revisão,585.75,Confirmardo
+965,51,2025-06-23,13:00,Revisão,1502.49,Cancelado
+966,25,2025-09-05,14:00,Freios,926.97,Cancelado
+967,93,2025-09-01,12:00,Revisão,722.11,Pendente
+968,86,2026-02-21,16:00,Revisão,1994.48,Pendente
+969,45,2025-07-22,08:00,Revisão,1654.5,Cancelado
+970,68,2025-09-22,16:00,Diagnóstico,1279.13,Pendente
+971,71,2025-07-24,11:00,Suspensão,1949.63,Cancelado
+972,73,2026-01-06,09:00,Troca de óleo,1329.93,Pendente
+973,5,2025-11-17,12:00,Troca de óleo,1540.6,Cancelado
+974,51,2025-06-13,10:00,Troca de óleo,1751.2,Cancelado
+975,83,2026-03-01,15:00,Revisão,700.37,Confirmardo
+976,48,2025-11-17,09:00,Troca de óleo,1306.31,Pendente
+977,74,2025-08-22,15:00,Troca de óleo,409.08,Cancelado
+978,45,2026-01-16,15:00,Suspensão,1136.68,Pendente
+979,3,2025-05-12,09:00,Suspensão,943.63,Confirmardo
+980,3,2026-01-20,15:00,Troca de óleo,1252.26,Cancelado
+981,19,2026-05-10,16:00,Suspensão,1625.33,Cancelado
+982,26,2026-01-01,10:00,Revisão,1348.78,Confirmardo
+983,62,2025-05-30,08:00,Suspensão,1798.75,Confirmardo
+984,33,2026-02-28,10:00,Troca de óleo,1007.78,Confirmardo
+985,41,2025-09-13,11:00,Troca de óleo,616.2,Cancelado
+986,7,2026-03-24,08:00,Freios,1980.93,Pendente
+987,90,2026-01-29,16:00,Revisão,413.88,Pendente
+988,79,2025-12-16,13:00,Suspensão,482.17,Confirmardo
+989,14,2025-07-07,12:00,Diagnóstico,988.0,Cancelado
+990,19,2026-02-03,11:00,Freios,649.85,Pendente
+991,46,2025-07-22,12:00,Revisão,1418.76,Confirmardo
+992,24,2025-08-26,13:00,Diagnóstico,1645.43,Cancelado
+993,57,2025-09-13,16:00,Suspensão,466.33,Pendente
+994,7,2025-12-22,12:00,Troca de óleo,228.41,Cancelado
+995,22,2025-09-18,14:00,Revisão,1984.46,Pendente
+996,44,2025-06-09,11:00,Revisão,1154.73,Pendente
+997,68,2025-05-23,15:00,Troca de óleo,1463.43,Cancelado
+998,18,2026-04-29,13:00,Troca de óleo,837.4,Pendente
+999,17,2026-01-02,12:00,Freios,1660.68,Confirmardo
+1000,15,2026-01-16,08:00,Freios,1501.15,Pendente
+1001,15,2025-06-09,10:00,Revisão,211.6,Pendente
+1002,87,2026-04-10,11:00,Suspensão,1519.7,Cancelado
+1003,91,2025-08-30,11:00,Diagnóstico,1050.6,Confirmardo
+1004,97,2025-05-08,08:00,Revisão,475.96,Cancelado
+1005,50,2026-01-30,09:00,Suspensão,1061.86,Pendente
+1006,62,2025-09-22,11:00,Freios,124.79,Pendente
+1007,34,2025-07-18,12:00,Diagnóstico,323.51,Confirmardo
+1008,45,2026-01-22,12:00,Suspensão,1344.59,Confirmardo
+1009,27,2026-01-11,14:00,Suspensão,975.58,Cancelado
+1010,23,2026-01-10,16:00,Suspensão,424.47,Cancelado
+1011,56,2025-09-29,16:00,Diagnóstico,1693.04,Pendente
+1012,69,2025-06-08,15:00,Diagnóstico,937.23,Confirmardo
+1013,26,2025-07-15,10:00,Diagnóstico,662.68,Pendente
+1014,54,2025-12-12,16:00,Suspensão,1950.09,Confirmardo
+1015,64,2025-05-04,08:00,Suspensão,1801.37,Cancelado
+1016,90,2026-02-24,09:00,Revisão,1247.99,Cancelado
+1017,70,2025-11-02,16:00,Revisão,1535.75,Confirmardo
+1018,77,2026-03-14,12:00,Revisão,179.53,Confirmardo
+1019,25,2026-04-08,12:00,Diagnóstico,677.77,Confirmardo
+1020,20,2025-11-01,08:00,Troca de óleo,563.62,Cancelado
+1021,2,2025-08-06,10:00,Troca de óleo,808.54,Pendente
+1022,30,2026-01-15,14:00,Diagnóstico,1510.39,Cancelado
+1023,65,2025-10-27,14:00,Suspensão,241.63,Pendente
+1024,8,2026-03-27,10:00,Suspensão,225.7,Cancelado
+1025,15,2025-06-20,15:00,Suspensão,968.57,Confirmardo
+1026,51,2026-02-04,15:00,Revisão,480.45,Confirmardo
+1027,5,2025-09-28,10:00,Troca de óleo,483.04,Confirmardo
+1028,16,2026-03-16,10:00,Troca de óleo,1940.79,Pendente
+1029,29,2025-10-15,12:00,Suspensão,565.12,Confirmardo
+1030,97,2025-07-25,13:00,Diagnóstico,699.51,Pendente
+1031,16,2026-02-22,16:00,Troca de óleo,1256.18,Pendente
+1032,49,2025-08-11,14:00,Diagnóstico,1512.25,Pendente
+1033,54,2025-09-23,13:00,Revisão,848.16,Confirmardo
+1034,44,2025-12-06,15:00,Freios,485.81,Pendente
+1035,45,2026-03-19,10:00,Troca de óleo,283.62,Cancelado
+1036,97,2026-02-05,15:00,Troca de óleo,987.94,Confirmardo
+1037,78,2026-02-03,12:00,Revisão,1413.6,Confirmardo
+1038,95,2025-05-04,11:00,Freios,1291.97,Confirmardo
+1039,77,2025-07-19,15:00,Troca de óleo,694.91,Pendente
+1040,98,2025-09-06,12:00,Troca de óleo,257.18,Cancelado
+1041,32,2025-10-25,08:00,Diagnóstico,824.19,Cancelado
+1042,43,2025-12-11,10:00,Suspensão,195.18,Confirmardo
+1043,43,2025-11-18,15:00,Diagnóstico,1563.74,Cancelado
+1044,63,2025-05-31,12:00,Suspensão,1861.31,Pendente
+1045,64,2025-08-27,13:00,Suspensão,1430.45,Cancelado
+1046,6,2025-06-14,11:00,Suspensão,1502.69,Confirmardo
+1047,55,2026-04-29,13:00,Freios,272.44,Cancelado
+1048,53,2025-12-03,16:00,Suspensão,1985.55,Cancelado
+1049,23,2025-10-10,14:00,Troca de óleo,1117.92,Pendente
+1050,59,2025-09-05,10:00,Diagnóstico,1787.01,Pendente
+1051,61,2026-01-30,12:00,Freios,303.54,Cancelado
+1052,88,2025-08-19,14:00,Freios,598.36,Confirmardo
+1053,45,2025-11-16,11:00,Suspensão,1817.69,Cancelado
+1054,7,2025-07-05,10:00,Diagnóstico,1172.08,Pendente
+1055,16,2025-08-29,16:00,Diagnóstico,1768.83,Pendente
+1056,57,2026-01-31,15:00,Revisão,1901.38,Pendente
+1057,42,2026-05-06,12:00,Revisão,1733.12,Confirmardo
+1058,32,2025-07-30,16:00,Revisão,1155.59,Confirmardo
+1059,69,2026-01-26,13:00,Diagnóstico,1621.94,Confirmardo
+1060,58,2025-11-22,16:00,Troca de óleo,969.92,Pendente
+1061,81,2026-03-16,11:00,Suspensão,1892.17,Confirmardo
+1062,83,2025-12-21,08:00,Diagnóstico,605.98,Confirmardo
+1063,23,2026-02-21,09:00,Diagnóstico,924.46,Pendente
+1064,96,2025-12-09,16:00,Freios,602.87,Confirmardo
+1065,49,2025-12-30,14:00,Freios,797.32,Pendente
+1066,81,2025-10-12,11:00,Suspensão,1833.03,Confirmardo
+1067,28,2025-07-27,15:00,Freios,475.67,Pendente
+1068,35,2026-03-07,08:00,Revisão,1066.74,Confirmardo
+1069,76,2025-07-18,14:00,Revisão,798.17,Pendente
+1070,87,2026-02-08,14:00,Freios,1398.04,Cancelado
+1071,71,2025-11-04,15:00,Suspensão,856.19,Pendente
+1072,96,2026-02-04,15:00,Freios,410.19,Cancelado
+1073,80,2025-05-28,10:00,Freios,977.1,Cancelado
+1074,31,2025-10-25,15:00,Revisão,650.14,Pendente
+1075,63,2025-09-05,15:00,Freios,686.05,Pendente
+1076,27,2025-09-28,13:00,Diagnóstico,1324.51,Cancelado
+1077,94,2025-05-06,16:00,Freios,1563.06,Pendente
+1078,35,2026-01-03,12:00,Freios,1945.41,Confirmardo
+1079,35,2026-03-28,13:00,Suspensão,1706.16,Cancelado
+1080,92,2025-09-16,16:00,Diagnóstico,282.73,Confirmardo
+1081,26,2026-03-06,09:00,Troca de óleo,824.19,Pendente
+1082,68,2026-02-07,09:00,Troca de óleo,407.03,Confirmardo
+1083,67,2026-04-20,14:00,Troca de óleo,666.29,Cancelado
+1084,46,2025-09-03,14:00,Diagnóstico,736.72,Confirmardo
+1085,7,2026-01-17,12:00,Suspensão,1878.64,Confirmardo
+1086,8,2025-07-24,10:00,Suspensão,258.33,Cancelado
+1087,18,2025-11-13,15:00,Diagnóstico,1495.41,Cancelado
+1088,69,2026-02-19,10:00,Revisão,772.17,Confirmardo
+1089,7,2025-08-15,15:00,Diagnóstico,655.87,Confirmardo
+1090,68,2025-05-08,12:00,Freios,1342.77,Confirmardo
+1091,11,2025-09-29,15:00,Revisão,326.54,Confirmardo
+1092,86,2025-05-20,11:00,Freios,1115.05,Pendente
+1093,30,2026-04-17,16:00,Revisão,1348.43,Pendente
+1094,91,2026-03-17,16:00,Diagnóstico,695.07,Pendente
+1095,47,2025-08-17,10:00,Troca de óleo,1549.25,Confirmardo
+1096,44,2026-03-03,09:00,Freios,1344.67,Cancelado
+1097,44,2025-05-26,13:00,Freios,222.3,Cancelado
+1098,34,2026-02-08,13:00,Diagnóstico,122.05,Confirmardo
+1099,60,2025-06-05,12:00,Suspensão,1830.22,Pendente
+1100,39,2025-05-31,13:00,Revisão,1505.69,Pendente
+1101,39,2026-02-07,08:00,Diagnóstico,1371.83,Confirmardo
+1102,45,2025-09-19,08:00,Suspensão,1905.35,Confirmardo
+1103,76,2025-06-03,13:00,Troca de óleo,201.43,Pendente
+1104,40,2025-08-10,11:00,Diagnóstico,1635.16,Cancelado
+1105,64,2025-07-16,12:00,Diagnóstico,1197.93,Pendente
+1106,37,2025-05-20,09:00,Suspensão,653.14,Cancelado
+1107,72,2025-09-17,09:00,Diagnóstico,1564.27,Confirmardo
+1108,49,2025-05-25,08:00,Freios,1092.53,Cancelado
+1109,64,2025-07-13,11:00,Revisão,103.35,Pendente
+1110,71,2025-08-20,10:00,Revisão,1665.82,Pendente
+1111,20,2026-01-01,09:00,Troca de óleo,1581.07,Confirmardo
+1112,10,2026-02-10,08:00,Troca de óleo,930.1,Confirmardo
+1113,69,2025-05-07,12:00,Freios,1107.93,Cancelado
+1114,89,2026-02-18,14:00,Freios,1780.96,Pendente
+1115,28,2025-11-27,11:00,Revisão,914.51,Pendente
+1116,81,2025-10-12,08:00,Diagnóstico,859.94,Cancelado
+1117,21,2025-09-25,08:00,Diagnóstico,436.57,Cancelado
+1118,56,2025-09-02,16:00,Suspensão,1449.5,Cancelado
+1119,69,2025-10-24,15:00,Troca de óleo,1399.86,Pendente
+1120,76,2026-02-10,08:00,Troca de óleo,920.21,Cancelado
+1121,53,2025-05-19,16:00,Revisão,1327.77,Cancelado
+1122,77,2026-03-24,09:00,Revisão,826.28,Confirmardo
+1123,35,2025-10-03,11:00,Diagnóstico,1766.99,Cancelado
+1124,69,2025-06-07,16:00,Troca de óleo,1194.48,Confirmardo
+1125,88,2025-12-05,16:00,Diagnóstico,690.74,Cancelado
+1126,8,2026-04-05,16:00,Freios,1553.19,Cancelado
+1127,82,2025-07-26,09:00,Suspensão,1364.88,Pendente
+1128,5,2025-08-07,12:00,Suspensão,854.82,Pendente
+1129,36,2025-10-02,15:00,Diagnóstico,1934.98,Cancelado
+1130,50,2026-03-27,15:00,Suspensão,1094.93,Pendente
+1131,50,2025-05-23,16:00,Diagnóstico,1057.22,Pendente
+1132,21,2025-06-29,08:00,Revisão,403.7,Pendente
+1133,77,2025-05-12,09:00,Freios,431.16,Pendente
+1134,88,2025-11-14,15:00,Diagnóstico,1340.08,Cancelado
+1135,31,2025-09-20,11:00,Diagnóstico,1525.48,Pendente
+1136,1,2026-01-19,14:00,Troca de óleo,707.84,Cancelado
+1137,67,2025-11-14,11:00,Troca de óleo,331.07,Pendente
+1138,73,2025-08-23,12:00,Troca de óleo,1807.81,Cancelado
+1139,23,2026-01-26,11:00,Revisão,1196.59,Cancelado
+1140,49,2026-02-03,14:00,Diagnóstico,906.75,Cancelado
+1141,68,2025-07-15,15:00,Diagnóstico,1471.23,Confirmardo
+1142,63,2026-05-08,15:00,Suspensão,406.38,Confirmardo
+1143,63,2025-09-07,12:00,Troca de óleo,1763.74,Pendente
+1144,19,2025-08-15,13:00,Troca de óleo,173.5,Pendente
+1145,67,2026-01-31,08:00,Revisão,784.76,Confirmardo
+1146,28,2025-07-31,12:00,Revisão,1909.15,Pendente
+1147,27,2025-06-05,08:00,Suspensão,841.58,Cancelado
+1148,36,2025-12-08,09:00,Troca de óleo,268.51,Cancelado
+1149,42,2025-06-11,09:00,Troca de óleo,349.96,Pendente
+1150,84,2025-09-26,10:00,Revisão,599.21,Cancelado
+1151,95,2025-09-22,10:00,Diagnóstico,1787.35,Pendente
+1152,32,2025-09-11,10:00,Freios,771.37,Cancelado
+1153,82,2025-07-24,10:00,Diagnóstico,126.12,Cancelado
+1154,25,2026-03-25,14:00,Suspensão,1905.31,Cancelado
+1155,48,2026-03-25,09:00,Freios,1782.28,Confirmardo
+1156,94,2026-01-22,13:00,Revisão,1737.89,Cancelado
+1157,90,2025-10-18,15:00,Diagnóstico,966.42,Confirmardo
+1158,70,2025-10-20,11:00,Suspensão,1674.82,Confirmardo
+1159,33,2026-03-29,16:00,Troca de óleo,1908.54,Confirmardo
+1160,87,2025-12-18,10:00,Suspensão,1127.08,Cancelado
+1161,20,2025-10-22,16:00,Suspensão,1784.74,Pendente
+1162,24,2025-05-31,10:00,Troca de óleo,1818.33,Cancelado
+1163,52,2025-11-04,13:00,Revisão,230.37,Pendente
+1164,21,2025-11-12,08:00,Suspensão,1787.03,Pendente
+1165,95,2026-01-19,10:00,Diagnóstico,987.97,Confirmardo
+1166,41,2025-07-28,08:00,Revisão,429.65,Cancelado
+1167,47,2025-09-07,10:00,Freios,514.84,Cancelado
+1168,12,2025-05-11,15:00,Troca de óleo,683.65,Confirmardo
+1169,63,2025-09-25,10:00,Diagnóstico,1509.73,Confirmardo
+1170,8,2025-07-17,15:00,Revisão,1274.47,Cancelado
+1171,79,2025-10-18,13:00,Revisão,1960.24,Confirmardo
+1172,73,2025-12-28,08:00,Freios,1551.97,Confirmardo
+1173,47,2025-06-16,15:00,Suspensão,968.75,Cancelado
+1174,49,2026-05-02,15:00,Revisão,1485.64,Confirmardo
+1175,66,2025-11-24,09:00,Freios,1830.46,Confirmardo
+1176,86,2025-12-23,10:00,Suspensão,893.88,Confirmardo
+1177,63,2025-08-31,13:00,Suspensão,1290.62,Cancelado
+1178,100,2026-04-01,16:00,Troca de óleo,1697.53,Pendente
+1179,50,2025-05-07,08:00,Suspensão,1909.48,Confirmardo
+1180,96,2026-03-04,08:00,Revisão,1562.4,Pendente
+1181,44,2025-11-02,09:00,Freios,453.81,Pendente
+1182,17,2025-09-16,11:00,Freios,1238.31,Pendente
+1183,78,2026-01-02,14:00,Troca de óleo,225.49,Cancelado
+1184,98,2025-05-15,09:00,Suspensão,350.44,Confirmardo
+1185,2,2025-11-15,13:00,Diagnóstico,1672.47,Confirmardo
+1186,23,2025-08-28,14:00,Freios,1601.75,Pendente
+1187,66,2026-01-17,11:00,Troca de óleo,1104.18,Cancelado
+1188,96,2025-06-19,11:00,Suspensão,202.65,Cancelado
+1189,1,2025-12-17,12:00,Suspensão,111.52,Confirmardo
+1190,100,2026-05-07,16:00,Troca de óleo,1685.31,Cancelado
+1191,93,2026-01-23,09:00,Diagnóstico,229.74,Pendente
+1192,99,2025-07-20,14:00,Suspensão,320.84,Cancelado
+1193,43,2026-03-14,11:00,Revisão,1880.81,Confirmardo
+1194,32,2025-08-05,08:00,Freios,1826.6,Cancelado
+1195,70,2026-03-09,11:00,Diagnóstico,1165.1,Cancelado
+1196,41,2025-08-03,12:00,Freios,668.07,Cancelado
+1197,58,2025-10-24,15:00,Revisão,1989.26,Cancelado
+1198,80,2025-10-22,10:00,Revisão,1350.79,Pendente
+1199,60,2025-06-05,15:00,Diagnóstico,922.94,Pendente
+1200,35,2025-10-25,16:00,Freios,908.62,Cancelado
+1201,40,2025-10-18,12:00,Suspensão,1033.31,Pendente
+1202,11,2025-07-25,16:00,Suspensão,1079.85,Confirmardo
+1203,15,2025-09-15,14:00,Troca de óleo,389.83,Confirmardo
+1204,32,2025-12-27,09:00,Freios,1638.75,Pendente
+1205,75,2026-01-22,08:00,Diagnóstico,220.27,Pendente
+1206,74,2025-12-18,14:00,Troca de óleo,173.67,Cancelado
+1207,10,2025-07-03,11:00,Troca de óleo,1550.64,Confirmardo
+1208,43,2025-06-21,15:00,Troca de óleo,798.4,Pendente
+1209,82,2026-02-12,09:00,Diagnóstico,1551.41,Cancelado
+1210,69,2025-08-18,16:00,Suspensão,1783.01,Pendente
+1211,7,2025-10-30,12:00,Diagnóstico,1754.88,Confirmardo
+1212,37,2025-08-10,14:00,Freios,1383.37,Pendente
+1213,32,2026-02-02,11:00,Revisão,1695.18,Cancelado
+1214,92,2025-07-09,14:00,Revisão,806.47,Pendente
+1215,22,2026-01-25,15:00,Suspensão,1298.09,Pendente
+1216,33,2025-06-28,12:00,Diagnóstico,295.41,Pendente
+1217,26,2025-11-08,12:00,Revisão,1403.64,Pendente
+1218,89,2025-12-03,12:00,Troca de óleo,380.8,Confirmardo
+1219,45,2025-08-10,12:00,Revisão,311.77,Pendente
+1220,6,2025-06-11,12:00,Suspensão,443.38,Cancelado
+1221,76,2026-02-10,11:00,Freios,475.27,Pendente
+1222,78,2025-11-13,11:00,Revisão,690.03,Cancelado
+1223,30,2025-09-28,09:00,Suspensão,1664.92,Pendente
+1224,58,2025-08-26,10:00,Diagnóstico,458.55,Confirmardo
+1225,76,2025-10-03,14:00,Suspensão,591.7,Cancelado
+1226,57,2025-07-19,14:00,Revisão,347.76,Confirmardo
+1227,84,2025-05-31,13:00,Revisão,562.68,Confirmardo
+1228,100,2025-10-18,08:00,Diagnóstico,1884.57,Cancelado
+1229,18,2026-03-25,11:00,Troca de óleo,511.04,Cancelado
+1230,75,2026-02-07,12:00,Revisão,389.56,Pendente
+1231,91,2026-04-04,09:00,Troca de óleo,1491.07,Confirmardo
+1232,38,2025-09-24,08:00,Troca de óleo,259.92,Confirmardo
+1233,81,2025-05-22,08:00,Revisão,776.33,Confirmardo
+1234,5,2025-11-10,11:00,Suspensão,1865.82,Cancelado
+1235,67,2025-05-29,11:00,Troca de óleo,1147.44,Confirmardo
+1236,34,2025-09-07,14:00,Freios,1141.11,Confirmardo
+1237,78,2026-04-04,09:00,Troca de óleo,642.3,Pendente
+1238,42,2026-01-22,14:00,Suspensão,1890.67,Confirmardo
+1239,85,2025-12-20,11:00,Suspensão,1235.87,Cancelado
+1240,31,2025-06-08,11:00,Freios,105.6,Confirmardo
+1241,26,2026-03-06,12:00,Troca de óleo,297.85,Pendente
+1242,83,2025-07-29,14:00,Diagnóstico,446.34,Cancelado
+1243,65,2025-08-01,08:00,Freios,1664.52,Pendente
+1244,59,2025-09-22,14:00,Revisão,879.22,Confirmardo
+1245,60,2025-10-01,12:00,Diagnóstico,1051.22,Cancelado
+1246,37,2025-06-19,09:00,Diagnóstico,1511.62,Pendente
+1247,56,2025-12-04,12:00,Freios,174.31,Confirmardo
+1248,51,2026-01-28,12:00,Troca de óleo,309.15,Pendente
+1249,39,2025-09-03,13:00,Troca de óleo,1021.01,Cancelado
+1250,44,2025-11-05,11:00,Troca de óleo,1154.44,Cancelado
+1251,68,2025-07-20,12:00,Revisão,696.35,Confirmardo
+1252,18,2025-06-03,13:00,Suspensão,873.71,Pendente
+1253,86,2025-10-22,11:00,Suspensão,185.88,Pendente
+1254,32,2025-11-21,08:00,Diagnóstico,283.99,Confirmardo
+1255,19,2025-12-05,15:00,Troca de óleo,1645.84,Cancelado
+1256,68,2025-06-13,11:00,Troca de óleo,1586.8,Pendente
+1257,15,2025-08-07,11:00,Troca de óleo,1585.95,Pendente
+1258,54,2025-08-06,12:00,Suspensão,893.95,Confirmardo
+1259,73,2025-05-08,08:00,Revisão,1547.11,Pendente
+1260,88,2025-08-02,12:00,Revisão,819.76,Cancelado
+1261,17,2026-04-01,12:00,Diagnóstico,828.19,Confirmardo
+1262,49,2025-08-23,15:00,Suspensão,1526.7,Confirmardo
+1263,50,2025-11-28,12:00,Revisão,1692.15,Cancelado
+1264,33,2025-10-08,16:00,Troca de óleo,656.25,Pendente
+1265,53,2025-10-10,16:00,Suspensão,1768.25,Pendente
+1266,63,2026-03-30,12:00,Revisão,286.02,Cancelado
+1267,36,2026-03-16,15:00,Troca de óleo,1122.99,Confirmardo
+1268,46,2025-11-25,12:00,Revisão,1343.08,Cancelado
+1269,66,2026-03-20,09:00,Diagnóstico,320.7,Cancelado
+1270,28,2026-03-22,14:00,Diagnóstico,1899.23,Confirmardo
+1271,49,2026-01-30,16:00,Diagnóstico,1296.47,Pendente
+1272,55,2025-12-17,10:00,Suspensão,1803.29,Confirmardo
+1273,28,2026-01-05,12:00,Suspensão,1043.52,Confirmardo
+1274,23,2025-10-18,10:00,Suspensão,1267.35,Confirmardo
+1275,77,2025-05-30,16:00,Suspensão,293.48,Confirmardo
+1276,29,2025-09-16,10:00,Diagnóstico,819.45,Pendente
+1277,91,2026-01-26,16:00,Freios,543.36,Confirmardo
+1278,67,2025-12-09,11:00,Revisão,373.19,Confirmardo
+1279,1,2026-02-10,11:00,Revisão,1337.93,Confirmardo
+1280,86,2026-05-09,15:00,Troca de óleo,147.38,Pendente
+1281,43,2025-11-22,08:00,Freios,1644.61,Cancelado
+1282,35,2025-08-11,10:00,Freios,1758.25,Pendente
+1283,73,2025-06-09,13:00,Diagnóstico,1036.16,Confirmardo
+1284,82,2025-07-12,10:00,Diagnóstico,708.64,Confirmardo
+1285,68,2026-03-08,15:00,Freios,817.77,Pendente
+1286,56,2026-02-09,11:00,Revisão,1143.61,Confirmardo
+1287,72,2026-05-03,09:00,Freios,632.86,Confirmardo
+1288,56,2025-10-19,09:00,Freios,1578.33,Confirmardo
+1289,83,2025-05-04,08:00,Suspensão,1395.79,Pendente
+1290,5,2025-10-23,15:00,Suspensão,1773.91,Cancelado
+1291,40,2026-03-16,09:00,Troca de óleo,1231.17,Cancelado
+1292,32,2025-07-12,08:00,Diagnóstico,995.4,Confirmardo
+1293,73,2026-01-29,08:00,Suspensão,994.96,Cancelado
+1294,44,2026-01-28,15:00,Freios,1322.09,Pendente
+1295,96,2025-06-18,13:00,Suspensão,537.04,Pendente
+1296,90,2026-02-15,16:00,Diagnóstico,504.61,Cancelado
+1297,62,2026-05-05,16:00,Revisão,1292.14,Cancelado
+1298,23,2025-10-23,09:00,Troca de óleo,919.43,Cancelado
+1299,47,2025-10-06,10:00,Troca de óleo,505.04,Confirmardo
+1300,71,2026-02-27,08:00,Troca de óleo,1415.97,Pendente
+1301,93,2026-03-29,10:00,Troca de óleo,519.7,Pendente
+1302,18,2026-02-18,14:00,Suspensão,588.2,Pendente
+1303,32,2025-08-14,09:00,Revisão,1195.7,Cancelado
+1304,19,2025-08-30,15:00,Suspensão,958.73,Confirmardo
+1305,70,2025-12-21,08:00,Revisão,934.6,Confirmardo
+1306,64,2026-03-20,15:00,Diagnóstico,110.89,Cancelado
+1307,52,2025-07-05,10:00,Freios,130.27,Cancelado
+1308,4,2025-07-08,11:00,Revisão,1304.68,Cancelado
+1309,69,2026-04-06,12:00,Revisão,624.29,Cancelado
+1310,100,2025-08-13,09:00,Freios,1712.87,Confirmardo
+1311,1,2025-09-26,14:00,Freios,306.32,Pendente
+1312,59,2025-06-07,11:00,Freios,212.73,Confirmardo
+1313,53,2025-05-05,15:00,Diagnóstico,1307.15,Pendente
+1314,40,2025-11-09,13:00,Troca de óleo,529.8,Cancelado
+1315,88,2026-01-31,12:00,Diagnóstico,1760.33,Confirmardo
+1316,31,2025-08-02,11:00,Troca de óleo,673.08,Cancelado
+1317,40,2025-07-01,11:00,Freios,527.59,Pendente
+1318,53,2025-11-25,16:00,Troca de óleo,1847.53,Pendente
+1319,68,2025-07-31,12:00,Revisão,184.29,Pendente
+1320,17,2025-11-13,10:00,Freios,1848.25,Pendente
+1321,10,2025-08-04,11:00,Troca de óleo,292.29,Cancelado
+1322,15,2025-06-01,16:00,Suspensão,1211.49,Confirmardo
+1323,59,2025-07-26,12:00,Suspensão,1177.92,Confirmardo
+1324,37,2026-05-06,15:00,Revisão,289.24,Cancelado
+1325,62,2025-06-24,16:00,Suspensão,336.74,Confirmardo
+1326,62,2025-07-09,12:00,Freios,973.79,Pendente
+1327,2,2026-04-20,10:00,Revisão,866.93,Cancelado
+1328,1,2026-03-09,09:00,Freios,1816.84,Pendente
+1329,75,2025-12-21,12:00,Troca de óleo,228.62,Pendente
+1330,46,2025-05-11,15:00,Diagnóstico,152.96,Cancelado
+1331,37,2025-11-30,14:00,Freios,1700.57,Confirmardo
+1332,14,2025-10-04,11:00,Diagnóstico,1833.93,Cancelado
+1333,7,2025-06-15,14:00,Freios,412.92,Cancelado
+1334,78,2026-04-22,10:00,Suspensão,1323.58,Confirmardo
+1335,32,2025-10-06,10:00,Troca de óleo,904.62,Confirmardo
+1336,79,2025-06-24,10:00,Freios,1074.56,Cancelado
+1337,54,2025-12-03,09:00,Suspensão,819.2,Pendente
+1338,90,2025-06-12,11:00,Suspensão,1457.24,Confirmardo
+1339,37,2025-10-17,11:00,Troca de óleo,150.76,Confirmardo
+1340,87,2026-03-30,12:00,Suspensão,238.8,Confirmardo
+1341,63,2026-03-14,12:00,Suspensão,1216.9,Pendente
+1342,13,2025-07-18,09:00,Diagnóstico,1594.02,Cancelado
+1343,35,2025-10-21,13:00,Revisão,1317.6,Cancelado
+1344,8,2025-10-04,13:00,Troca de óleo,255.28,Confirmardo
+1345,34,2026-03-07,14:00,Troca de óleo,692.84,Confirmardo
+1346,5,2025-08-29,15:00,Revisão,577.69,Pendente
+1347,45,2025-11-22,16:00,Revisão,379.81,Cancelado
+1348,80,2025-05-07,09:00,Freios,869.1,Cancelado
+1349,15,2026-04-24,14:00,Revisão,999.25,Pendente
+1350,99,2025-10-27,11:00,Troca de óleo,1361.61,Cancelado
+1351,8,2025-10-28,12:00,Diagnóstico,1923.83,Cancelado
+1352,40,2025-07-06,10:00,Freios,494.76,Cancelado
+1353,46,2025-06-24,14:00,Freios,332.14,Pendente
+1354,32,2025-05-30,16:00,Revisão,1724.58,Cancelado
+1355,81,2025-07-30,08:00,Troca de óleo,405.86,Confirmardo
+1356,60,2026-02-22,12:00,Troca de óleo,1034.44,Cancelado
+1357,69,2025-08-24,08:00,Freios,1272.59,Pendente
+1358,60,2025-07-29,12:00,Revisão,1829.47,Pendente
+1359,61,2026-03-02,13:00,Troca de óleo,559.69,Cancelado
+1360,19,2026-04-30,11:00,Suspensão,1056.14,Cancelado
+1361,32,2025-12-08,11:00,Revisão,1195.43,Cancelado
+1362,90,2025-12-19,14:00,Diagnóstico,925.19,Pendente
+1363,98,2026-02-27,13:00,Diagnóstico,1580.19,Pendente
+1364,36,2025-12-22,16:00,Revisão,1294.25,Pendente
+1365,70,2025-12-23,11:00,Troca de óleo,1189.27,Confirmardo
+1366,27,2025-07-04,10:00,Diagnóstico,1055.48,Cancelado
+1367,32,2025-08-15,10:00,Troca de óleo,680.04,Pendente
+1368,69,2026-03-21,12:00,Freios,464.6,Pendente
+1369,42,2025-06-27,08:00,Freios,1984.41,Confirmardo
+1370,64,2025-07-25,15:00,Suspensão,1816.92,Confirmardo
+1371,32,2025-06-29,14:00,Freios,1473.79,Pendente
+1372,86,2025-09-10,10:00,Revisão,1407.21,Pendente
+1373,96,2025-05-09,08:00,Freios,873.23,Cancelado
+1374,54,2025-09-10,11:00,Revisão,1369.39,Pendente
+1375,97,2025-10-15,16:00,Freios,1223.02,Cancelado
+1376,47,2026-02-28,11:00,Troca de óleo,810.88,Cancelado
+1377,50,2025-07-01,12:00,Revisão,1206.97,Pendente
+1378,37,2026-01-20,09:00,Freios,481.32,Confirmardo
+1379,1,2025-08-28,10:00,Suspensão,1271.16,Confirmardo
+1380,10,2025-07-03,14:00,Suspensão,1304.23,Cancelado
+1381,70,2025-05-29,12:00,Troca de óleo,1129.03,Cancelado
+1382,28,2025-07-09,09:00,Suspensão,1001.48,Confirmardo
+1383,62,2025-10-08,15:00,Troca de óleo,140.8,Confirmardo
+1384,25,2026-01-15,14:00,Diagnóstico,1728.95,Confirmardo
+1385,76,2025-10-30,10:00,Freios,511.63,Cancelado
+1386,46,2026-04-29,09:00,Suspensão,1157.6,Confirmardo
+1387,87,2025-10-08,08:00,Troca de óleo,523.58,Pendente
+1388,13,2025-05-10,16:00,Revisão,322.81,Confirmardo
+1389,17,2026-04-01,15:00,Diagnóstico,1068.41,Confirmardo
+1390,23,2026-01-10,08:00,Troca de óleo,1811.89,Cancelado
+1391,60,2025-08-25,16:00,Freios,1529.34,Cancelado
+1392,35,2026-04-26,09:00,Revisão,119.19,Pendente
+1393,55,2026-01-21,09:00,Revisão,1313.1,Pendente
+1394,20,2025-06-06,16:00,Troca de óleo,1032.62,Cancelado
+1395,10,2026-03-10,09:00,Troca de óleo,1518.44,Cancelado
+1396,32,2026-03-16,16:00,Diagnóstico,1554.92,Confirmardo
+1397,94,2025-10-23,10:00,Diagnóstico,873.67,Pendente
+1398,22,2025-10-13,14:00,Troca de óleo,1917.73,Pendente
+1399,17,2025-12-19,13:00,Suspensão,1199.91,Confirmardo
+1400,6,2026-02-16,14:00,Freios,186.12,Cancelado
+1401,5,2025-10-27,08:00,Troca de óleo,1885.48,Confirmardo
+1402,79,2025-10-20,10:00,Revisão,1077.94,Confirmardo
+1403,66,2026-03-24,16:00,Revisão,1685.99,Cancelado
+1404,65,2025-05-07,09:00,Revisão,1064.08,Confirmardo
+1405,68,2026-02-03,12:00,Revisão,327.08,Confirmardo
+1406,57,2025-05-18,14:00,Troca de óleo,284.11,Pendente
+1407,76,2025-08-08,13:00,Troca de óleo,1027.45,Pendente
+1408,54,2025-08-26,15:00,Troca de óleo,340.49,Confirmardo
+1409,28,2025-07-16,14:00,Diagnóstico,563.32,Cancelado
+1410,66,2025-10-01,11:00,Troca de óleo,278.87,Cancelado
+1411,37,2025-11-01,12:00,Suspensão,215.89,Pendente
+1412,77,2026-03-04,12:00,Suspensão,1960.11,Cancelado
+1413,5,2026-01-07,12:00,Freios,578.61,Pendente
+1414,47,2026-03-15,09:00,Troca de óleo,241.92,Pendente
+1415,47,2026-04-03,16:00,Freios,571.21,Cancelado
+1416,53,2026-03-21,13:00,Troca de óleo,641.17,Pendente
+1417,2,2026-03-19,14:00,Revisão,1205.88,Pendente
+1418,96,2025-12-04,15:00,Troca de óleo,1225.1,Cancelado
+1419,51,2025-12-31,15:00,Diagnóstico,1773.92,Pendente
+1420,75,2025-09-26,11:00,Suspensão,1462.24,Confirmardo
+1421,92,2025-05-21,16:00,Freios,1930.77,Pendente
+1422,64,2026-04-19,10:00,Troca de óleo,1009.24,Cancelado
+1423,62,2025-12-07,11:00,Revisão,541.0,Pendente
+1424,50,2025-06-03,14:00,Suspensão,1276.47,Confirmardo
+1425,66,2026-02-14,16:00,Revisão,1173.09,Pendente
+1426,88,2025-09-07,12:00,Revisão,1941.52,Confirmardo
+1427,74,2025-11-04,13:00,Troca de óleo,1101.52,Cancelado
+1428,48,2025-07-18,08:00,Suspensão,1285.26,Cancelado
+1429,100,2025-12-28,09:00,Diagnóstico,1142.79,Confirmardo
+1430,96,2025-10-20,16:00,Freios,655.8,Pendente
+1431,33,2025-12-28,09:00,Freios,1186.16,Confirmardo
+1432,4,2026-01-21,10:00,Freios,1804.67,Confirmardo
+1433,2,2025-09-10,14:00,Freios,530.16,Pendente
+1434,89,2025-11-05,11:00,Suspensão,280.2,Pendente
+1435,85,2025-06-10,11:00,Revisão,651.3,Pendente
+1436,34,2026-02-04,16:00,Suspensão,435.09,Cancelado
+1437,42,2025-08-10,11:00,Freios,1627.66,Confirmardo
+1438,41,2026-03-09,16:00,Freios,687.79,Cancelado
+1439,45,2025-07-14,16:00,Freios,549.59,Pendente
+1440,25,2025-10-16,08:00,Troca de óleo,517.73,Cancelado
+1441,67,2025-08-07,09:00,Freios,1747.27,Confirmardo
+1442,4,2025-06-11,16:00,Diagnóstico,1209.68,Confirmardo
+1443,60,2025-07-13,08:00,Freios,120.07,Pendente
+1444,47,2025-11-29,08:00,Revisão,1149.88,Confirmardo
+1445,33,2026-03-31,12:00,Diagnóstico,348.56,Cancelado
+1446,81,2026-01-19,16:00,Suspensão,1595.8,Pendente
+1447,42,2025-09-26,11:00,Suspensão,491.02,Pendente
+1448,91,2026-02-12,14:00,Freios,492.97,Pendente
+1449,47,2025-07-15,14:00,Diagnóstico,180.67,Cancelado
+1450,1,2026-05-03,13:00,Troca de óleo,1316.9,Pendente
+1451,16,2025-05-09,11:00,Diagnóstico,883.79,Confirmardo
+1452,28,2025-06-26,11:00,Suspensão,451.78,Confirmardo
+1453,19,2025-09-14,13:00,Troca de óleo,960.81,Confirmardo
+1454,63,2025-07-27,13:00,Revisão,1723.17,Pendente
+1455,31,2025-07-03,09:00,Diagnóstico,358.87,Confirmardo
+1456,29,2025-10-21,12:00,Freios,1301.45,Confirmardo
+1457,12,2025-12-10,08:00,Suspensão,1711.26,Pendente
+1458,7,2025-08-29,11:00,Revisão,947.64,Cancelado
+1459,56,2025-08-07,09:00,Revisão,507.43,Confirmardo
+1460,36,2025-08-02,15:00,Freios,210.48,Confirmardo
+1461,65,2025-06-11,12:00,Diagnóstico,1738.03,Pendente
+1462,34,2026-02-19,12:00,Freios,1443.07,Pendente
+1463,56,2025-07-29,15:00,Revisão,1683.89,Pendente
+1464,59,2025-10-25,13:00,Troca de óleo,1967.96,Pendente
+1465,4,2025-08-20,09:00,Suspensão,1425.66,Pendente
+1466,23,2025-10-03,14:00,Freios,1102.82,Cancelado
+1467,36,2025-05-23,09:00,Diagnóstico,921.02,Cancelado
+1468,5,2025-07-11,09:00,Freios,1564.65,Pendente
+1469,32,2026-04-04,11:00,Troca de óleo,767.89,Cancelado
+1470,22,2025-12-31,11:00,Diagnóstico,1182.84,Pendente
+1471,3,2025-10-14,16:00,Freios,528.03,Confirmardo
+1472,1,2026-02-27,16:00,Suspensão,434.66,Cancelado
+1473,96,2025-08-13,15:00,Diagnóstico,607.82,Pendente
+1474,10,2025-07-05,08:00,Suspensão,1671.19,Cancelado
+1475,7,2026-01-21,16:00,Troca de óleo,1739.02,Cancelado
+1476,20,2026-01-24,16:00,Suspensão,1241.0,Pendente
+1477,60,2025-11-10,11:00,Troca de óleo,356.47,Pendente
+1478,100,2025-10-06,15:00,Revisão,637.17,Confirmardo
+1479,27,2026-03-11,14:00,Diagnóstico,366.64,Pendente
+1480,89,2026-03-22,13:00,Troca de óleo,511.96,Confirmardo
+1481,89,2026-04-27,08:00,Freios,1868.51,Cancelado
+1482,100,2025-08-22,15:00,Diagnóstico,1568.94,Pendente
+1483,88,2025-11-19,11:00,Troca de óleo,831.96,Cancelado
+1484,18,2025-11-24,15:00,Troca de óleo,1704.61,Pendente
+1485,95,2025-09-08,14:00,Revisão,1407.98,Confirmardo
+1486,17,2025-08-27,13:00,Diagnóstico,1627.12,Confirmardo
+1487,77,2025-07-22,10:00,Troca de óleo,537.27,Confirmardo
+1488,42,2026-02-01,16:00,Diagnóstico,1974.17,Confirmardo
+1489,46,2025-12-12,13:00,Revisão,964.52,Pendente
+1490,78,2025-09-18,12:00,Troca de óleo,110.82,Pendente
+1491,63,2026-01-12,12:00,Freios,1894.75,Cancelado
+1492,24,2025-05-13,10:00,Freios,121.37,Pendente
+1493,54,2026-04-15,12:00,Suspensão,175.08,Cancelado
+1494,53,2026-01-14,09:00,Suspensão,691.44,Confirmardo
+1495,85,2026-01-08,16:00,Revisão,211.25,Cancelado
+1496,49,2025-08-17,16:00,Troca de óleo,412.6,Cancelado
+1497,1,2025-09-09,11:00,Freios,898.73,Pendente
+1498,97,2026-02-01,10:00,Freios,268.6,Pendente
+1499,36,2026-04-08,16:00,Suspensão,154.14,Confirmardo
+1500,42,2025-11-10,10:00,Diagnóstico,1314.1,Cancelado
+1501,7,2025-11-30,16:00,Suspensão,1161.56,Pendente
+1502,23,2025-12-14,08:00,Diagnóstico,846.75,Pendente
+1503,15,2025-10-03,14:00,Troca de óleo,981.09,Pendente
+1504,100,2025-05-11,13:00,Troca de óleo,1616.99,Cancelado
+1505,13,2025-05-15,12:00,Revisão,644.62,Cancelado
+1506,97,2025-09-09,12:00,Suspensão,1000.07,Pendente
+1507,94,2026-03-17,08:00,Revisão,834.4,Cancelado
+1508,51,2026-02-18,09:00,Revisão,130.1,Pendente
+1509,16,2025-08-26,16:00,Revisão,339.07,Pendente
+1510,80,2025-11-02,13:00,Troca de óleo,347.13,Cancelado
+1511,99,2026-05-06,16:00,Troca de óleo,1159.21,Confirmardo
+1512,99,2025-06-09,14:00,Revisão,1461.36,Confirmardo
+1513,6,2026-04-13,10:00,Freios,1576.36,Cancelado
+1514,78,2025-10-21,09:00,Suspensão,1380.52,Cancelado
+1515,71,2026-03-01,12:00,Troca de óleo,1329.21,Cancelado
+1516,8,2025-06-14,12:00,Diagnóstico,308.37,Pendente
+1517,93,2025-09-22,10:00,Freios,1834.17,Cancelado
+1518,17,2025-12-23,16:00,Troca de óleo,1364.04,Confirmardo
+1519,98,2025-12-18,10:00,Freios,1573.64,Confirmardo
+1520,37,2025-05-19,13:00,Freios,867.2,Pendente
+1521,17,2025-10-20,08:00,Freios,678.21,Cancelado
+1522,55,2025-06-14,12:00,Revisão,429.68,Cancelado
+1523,20,2026-05-10,10:00,Freios,1485.8,Pendente
+1524,37,2026-02-06,09:00,Troca de óleo,1420.25,Pendente
+1525,63,2026-02-04,08:00,Suspensão,1001.7,Confirmardo
+1526,11,2026-05-06,11:00,Revisão,181.17,Confirmardo
+1527,86,2025-07-10,14:00,Revisão,320.54,Cancelado
+1528,49,2026-02-25,13:00,Freios,1071.98,Cancelado
+1529,14,2025-11-04,09:00,Diagnóstico,368.78,Confirmardo
+1530,26,2025-05-16,15:00,Revisão,161.21,Confirmardo
+1531,64,2026-01-19,10:00,Freios,311.95,Cancelado
+1532,85,2025-09-25,09:00,Revisão,1499.14,Confirmardo
+1533,38,2025-12-16,10:00,Revisão,336.92,Cancelado
+1534,85,2026-02-20,08:00,Freios,1243.81,Cancelado
+1535,98,2026-03-24,15:00,Revisão,1736.62,Confirmardo
+1536,72,2025-06-04,08:00,Suspensão,1825.76,Cancelado
+1537,83,2026-01-20,12:00,Diagnóstico,1406.17,Pendente
+1538,50,2026-03-08,12:00,Revisão,1876.6,Pendente
+1539,11,2025-12-07,09:00,Diagnóstico,1837.77,Confirmardo
+1540,44,2026-03-04,08:00,Troca de óleo,914.63,Cancelado
+1541,16,2025-12-12,09:00,Troca de óleo,224.73,Confirmardo
+1542,66,2026-04-17,09:00,Troca de óleo,1564.4,Cancelado
+1543,74,2025-07-21,14:00,Freios,1193.39,Cancelado
+1544,60,2025-06-19,08:00,Diagnóstico,1899.82,Cancelado
+1545,32,2025-11-24,14:00,Revisão,729.81,Confirmardo
+1546,10,2025-11-06,11:00,Revisão,1543.94,Cancelado
+1547,25,2025-10-21,09:00,Troca de óleo,643.68,Confirmardo
+1548,88,2025-08-30,15:00,Troca de óleo,961.93,Confirmardo
+1549,73,2026-03-13,16:00,Suspensão,205.87,Cancelado
+1550,99,2026-03-02,13:00,Freios,858.86,Pendente
+1551,47,2026-03-10,10:00,Diagnóstico,1860.26,Cancelado
+1552,86,2026-02-09,08:00,Freios,1017.05,Pendente
+1553,72,2025-11-04,15:00,Suspensão,1312.6,Cancelado
+1554,25,2025-10-21,13:00,Freios,191.71,Cancelado
+1555,21,2025-06-30,15:00,Suspensão,614.95,Confirmardo
+1556,24,2025-09-16,10:00,Diagnóstico,285.0,Confirmardo
+1557,34,2025-07-27,13:00,Suspensão,171.61,Pendente
+1558,41,2026-01-01,10:00,Revisão,1645.2,Pendente
+1559,47,2026-05-01,15:00,Troca de óleo,1675.84,Confirmardo
+1560,35,2025-07-25,13:00,Freios,1476.27,Cancelado
+1561,18,2025-10-11,14:00,Revisão,1797.74,Cancelado
+1562,4,2025-09-14,09:00,Diagnóstico,582.54,Confirmardo
+1563,13,2025-08-23,16:00,Freios,1193.85,Pendente
+1564,17,2025-10-25,12:00,Freios,189.84,Cancelado
+1565,23,2026-02-09,12:00,Freios,1304.99,Pendente
+1566,90,2025-12-21,10:00,Troca de óleo,1057.68,Confirmardo
+1567,53,2025-09-20,08:00,Freios,789.7,Pendente
+1568,60,2026-02-05,16:00,Troca de óleo,1634.76,Confirmardo
+1569,74,2026-05-09,09:00,Freios,1507.51,Confirmardo
+1570,29,2026-03-23,10:00,Freios,1362.0,Pendente
+1571,47,2026-04-18,09:00,Freios,560.69,Confirmardo
+1572,99,2025-05-28,13:00,Diagnóstico,1425.04,Pendente
+1573,81,2025-09-23,15:00,Diagnóstico,1956.92,Cancelado
+1574,97,2025-07-15,10:00,Troca de óleo,1106.43,Cancelado
+1575,60,2025-09-13,08:00,Revisão,1750.0,Pendente
+1576,32,2026-04-16,15:00,Freios,1799.62,Confirmardo
+1577,3,2025-10-20,08:00,Freios,217.41,Cancelado
+1578,48,2026-03-06,16:00,Troca de óleo,1285.26,Cancelado
+1579,21,2025-10-05,15:00,Troca de óleo,650.86,Pendente
+1580,63,2026-02-07,14:00,Suspensão,1123.26,Pendente
+1581,79,2025-10-24,16:00,Troca de óleo,209.28,Pendente
+1582,29,2025-08-07,11:00,Revisão,1807.23,Pendente
+1583,34,2025-08-26,08:00,Freios,488.98,Pendente
+1584,9,2025-12-29,16:00,Suspensão,1430.64,Confirmardo
+1585,65,2025-08-07,10:00,Suspensão,717.48,Cancelado
+1586,7,2026-02-18,12:00,Suspensão,261.68,Pendente
+1587,86,2026-01-18,13:00,Diagnóstico,333.71,Cancelado
+1588,48,2025-10-04,12:00,Freios,1620.25,Cancelado
+1589,26,2026-02-28,16:00,Revisão,735.21,Pendente
+1590,91,2025-10-14,14:00,Diagnóstico,1393.8,Pendente
+1591,47,2026-01-28,16:00,Freios,1606.33,Pendente
+1592,84,2025-09-02,13:00,Troca de óleo,805.98,Pendente
+1593,27,2026-01-07,12:00,Diagnóstico,1445.24,Confirmardo
+1594,4,2025-09-07,09:00,Troca de óleo,1064.74,Pendente
+1595,34,2025-09-10,12:00,Freios,392.85,Pendente
+1596,23,2025-09-29,14:00,Freios,787.25,Pendente
+1597,14,2025-07-15,16:00,Freios,721.08,Cancelado
+1598,19,2026-01-21,14:00,Revisão,1109.58,Pendente
+1599,54,2025-12-20,13:00,Diagnóstico,206.27,Confirmardo
+1600,69,2026-01-21,12:00,Freios,1931.01,Cancelado
+1601,90,2026-04-03,09:00,Troca de óleo,669.45,Confirmardo
+1602,10,2025-08-27,13:00,Revisão,1387.04,Confirmardo
+1603,90,2026-05-07,08:00,Diagnóstico,1092.4,Cancelado
+1604,5,2026-01-08,15:00,Freios,114.35,Cancelado
+1605,42,2025-05-15,12:00,Troca de óleo,695.36,Cancelado
+1606,24,2026-02-24,12:00,Freios,420.46,Confirmardo
+1607,92,2025-07-23,08:00,Revisão,1590.14,Pendente
+1608,51,2025-06-28,11:00,Diagnóstico,284.48,Confirmardo
+1609,17,2026-05-01,16:00,Revisão,1643.27,Pendente
+1610,97,2026-03-28,15:00,Troca de óleo,1470.03,Confirmardo
+1611,54,2025-10-08,15:00,Freios,564.64,Pendente
+1612,37,2026-01-21,16:00,Revisão,241.13,Confirmardo
+1613,40,2025-11-28,13:00,Freios,648.43,Confirmardo
+1614,56,2026-04-21,15:00,Troca de óleo,1555.57,Confirmardo
+1615,43,2025-11-16,13:00,Troca de óleo,1577.66,Confirmardo
+1616,52,2025-07-10,12:00,Troca de óleo,277.83,Cancelado
+1617,71,2025-09-23,08:00,Revisão,1370.28,Confirmardo
+1618,55,2025-06-08,08:00,Revisão,1353.5,Cancelado
+1619,61,2025-10-17,16:00,Troca de óleo,1578.33,Confirmardo
+1620,37,2026-01-03,14:00,Diagnóstico,512.25,Confirmardo
+1621,57,2026-01-20,10:00,Freios,244.62,Pendente
+1622,7,2026-03-08,10:00,Diagnóstico,1191.4,Cancelado
+1623,51,2025-06-30,08:00,Revisão,773.31,Cancelado
+1624,2,2025-12-21,09:00,Diagnóstico,545.57,Confirmardo
+1625,96,2026-03-29,09:00,Suspensão,547.34,Confirmardo
+1626,42,2025-05-15,16:00,Troca de óleo,319.65,Pendente
+1627,96,2026-04-20,14:00,Troca de óleo,1376.74,Pendente
+1628,85,2026-03-18,12:00,Troca de óleo,1661.81,Cancelado
+1629,74,2025-11-29,15:00,Revisão,367.42,Confirmardo
+1630,66,2025-10-03,15:00,Suspensão,1453.41,Confirmardo
+1631,58,2026-01-18,13:00,Troca de óleo,967.11,Cancelado
+1632,5,2025-12-05,09:00,Troca de óleo,982.35,Confirmardo
+1633,77,2025-07-08,11:00,Freios,777.96,Pendente
+1634,94,2025-10-12,10:00,Troca de óleo,392.01,Cancelado
+1635,10,2025-06-19,12:00,Troca de óleo,258.77,Cancelado
+1636,12,2026-02-10,13:00,Revisão,451.21,Pendente
+1637,68,2025-08-29,08:00,Troca de óleo,1032.61,Cancelado
+1638,15,2025-11-10,10:00,Freios,1118.63,Pendente
+1639,35,2026-03-18,11:00,Diagnóstico,1579.97,Cancelado
+1640,95,2026-04-28,16:00,Suspensão,1886.19,Confirmardo
+1641,97,2026-03-18,13:00,Revisão,1053.66,Pendente
+1642,24,2025-09-05,11:00,Freios,1982.56,Pendente
+1643,73,2025-06-28,08:00,Revisão,985.68,Cancelado
+1644,36,2026-02-06,09:00,Suspensão,1376.2,Cancelado
+1645,45,2025-09-01,08:00,Diagnóstico,1200.65,Confirmardo
+1646,23,2025-05-26,16:00,Freios,1444.31,Cancelado
+1647,59,2026-01-13,08:00,Troca de óleo,458.03,Cancelado
+1648,89,2026-02-15,15:00,Troca de óleo,1760.85,Pendente
+1649,32,2026-01-25,12:00,Troca de óleo,1756.79,Pendente
+1650,69,2025-05-16,14:00,Diagnóstico,432.88,Confirmardo
+1651,19,2025-08-25,12:00,Diagnóstico,928.28,Pendente
+1652,22,2025-05-24,15:00,Suspensão,516.27,Confirmardo
+1653,35,2026-02-08,15:00,Troca de óleo,509.92,Cancelado
+1654,34,2025-06-26,13:00,Troca de óleo,695.05,Confirmardo
+1655,93,2025-06-26,10:00,Diagnóstico,980.27,Cancelado
+1656,26,2026-03-05,15:00,Troca de óleo,111.82,Pendente
+1657,75,2026-04-28,10:00,Revisão,1278.66,Pendente
+1658,47,2025-10-22,14:00,Freios,973.69,Cancelado
+1659,19,2026-04-08,11:00,Troca de óleo,449.17,Confirmardo
+1660,48,2025-06-29,13:00,Revisão,942.15,Pendente
+1661,19,2025-12-05,16:00,Freios,1146.86,Pendente
+1662,30,2026-01-12,12:00,Revisão,967.18,Confirmardo
+1663,72,2025-12-19,11:00,Revisão,843.63,Confirmardo
+1664,45,2026-03-22,16:00,Revisão,392.63,Confirmardo
+1665,2,2026-03-05,09:00,Troca de óleo,1201.68,Confirmardo
+1666,94,2026-04-28,15:00,Diagnóstico,1993.63,Confirmardo
+1667,59,2025-09-23,12:00,Troca de óleo,1435.83,Cancelado
+1668,75,2026-02-01,15:00,Freios,167.62,Cancelado
+1669,74,2025-05-24,13:00,Troca de óleo,1779.93,Cancelado
+1670,25,2026-04-17,12:00,Troca de óleo,486.3,Cancelado
+1671,79,2025-06-20,16:00,Revisão,1330.66,Confirmardo
+1672,33,2025-07-14,09:00,Freios,722.16,Cancelado
+1673,33,2026-02-21,12:00,Revisão,115.04,Confirmardo
+1674,49,2025-09-23,10:00,Suspensão,522.7,Confirmardo
+1675,74,2025-09-06,12:00,Revisão,638.3,Pendente
+1676,83,2026-04-07,09:00,Suspensão,1593.88,Cancelado
+1677,100,2025-10-24,14:00,Diagnóstico,380.07,Confirmardo
+1678,24,2025-12-12,10:00,Troca de óleo,789.47,Cancelado
+1679,67,2025-09-15,08:00,Suspensão,1947.22,Cancelado
+1680,38,2025-12-26,10:00,Freios,659.26,Cancelado
+1681,35,2025-09-18,08:00,Troca de óleo,543.31,Confirmardo
+1682,43,2025-05-24,15:00,Troca de óleo,380.86,Confirmardo
+1683,82,2025-06-25,13:00,Revisão,1776.24,Cancelado
+1684,3,2025-08-25,09:00,Suspensão,387.04,Confirmardo
+1685,94,2025-10-03,12:00,Suspensão,1963.83,Pendente
+1686,24,2026-02-21,11:00,Freios,784.27,Pendente
+1687,90,2025-12-29,12:00,Freios,985.04,Cancelado
+1688,73,2025-12-13,11:00,Troca de óleo,1971.33,Cancelado
+1689,76,2025-08-25,10:00,Revisão,683.18,Cancelado
+1690,60,2025-12-21,14:00,Troca de óleo,1060.25,Cancelado
+1691,14,2026-04-29,16:00,Revisão,666.36,Confirmardo
+1692,97,2026-03-28,09:00,Troca de óleo,303.46,Confirmardo
+1693,74,2026-01-31,09:00,Diagnóstico,325.24,Cancelado
+1694,60,2025-11-29,09:00,Revisão,1728.95,Pendente
+1695,8,2026-04-12,13:00,Revisão,688.84,Confirmardo
+1696,29,2025-09-09,13:00,Suspensão,186.57,Pendente
+1697,60,2026-02-07,09:00,Freios,899.51,Pendente
+1698,50,2026-03-25,12:00,Revisão,649.94,Confirmardo
+1699,57,2026-01-29,13:00,Revisão,190.23,Pendente
+1700,59,2025-08-11,16:00,Freios,1319.01,Pendente
+1701,76,2025-12-17,10:00,Diagnóstico,314.21,Cancelado
+1702,44,2025-08-19,09:00,Troca de óleo,1739.98,Cancelado
+1703,31,2026-04-05,16:00,Freios,761.16,Pendente
+1704,68,2026-05-08,11:00,Suspensão,1974.5,Cancelado
+1705,78,2025-06-28,14:00,Freios,389.99,Cancelado
+1706,56,2025-10-14,16:00,Freios,1500.96,Confirmardo
+1707,26,2025-06-27,11:00,Suspensão,610.62,Pendente
+1708,5,2025-05-07,12:00,Suspensão,1387.65,Cancelado
+1709,31,2026-02-07,09:00,Freios,1496.58,Cancelado
+1710,64,2025-06-18,15:00,Revisão,1566.43,Pendente
+1711,48,2026-03-18,08:00,Diagnóstico,1762.69,Pendente
+1712,43,2025-10-01,10:00,Troca de óleo,1963.57,Pendente
+1713,25,2025-09-17,09:00,Troca de óleo,938.49,Cancelado
+1714,96,2025-08-09,09:00,Suspensão,614.39,Cancelado
+1715,94,2025-05-11,15:00,Suspensão,183.29,Pendente
+1716,30,2026-03-02,11:00,Freios,848.67,Pendente
+1717,35,2026-02-09,13:00,Diagnóstico,299.74,Pendente
+1718,36,2025-10-11,15:00,Revisão,1332.28,Cancelado
+1719,23,2026-02-09,11:00,Suspensão,1602.94,Confirmardo
+1720,63,2025-06-05,15:00,Diagnóstico,1380.24,Cancelado
+1721,95,2025-12-08,12:00,Freios,572.95,Pendente
+1722,22,2025-10-01,15:00,Revisão,1275.02,Confirmardo
+1723,52,2025-07-13,10:00,Diagnóstico,371.36,Cancelado
+1724,91,2026-02-10,08:00,Freios,122.37,Cancelado
+1725,77,2025-09-14,10:00,Diagnóstico,887.51,Confirmardo
+1726,66,2026-04-23,09:00,Freios,1104.98,Confirmardo
+1727,86,2026-02-03,11:00,Suspensão,1856.68,Confirmardo
+1728,52,2026-03-20,08:00,Revisão,499.95,Pendente
+1729,17,2025-08-09,16:00,Freios,1901.34,Cancelado
+1730,100,2026-02-25,10:00,Troca de óleo,1636.98,Cancelado
+1731,73,2025-05-24,09:00,Revisão,1008.53,Cancelado
+1732,99,2026-03-26,10:00,Revisão,1245.6,Cancelado
+1733,66,2026-02-08,13:00,Diagnóstico,210.3,Cancelado
+1734,62,2025-10-10,11:00,Suspensão,291.57,Confirmardo
+1735,30,2025-12-01,13:00,Troca de óleo,1170.47,Confirmardo
+1736,23,2025-10-09,11:00,Revisão,1170.58,Pendente
+1737,67,2025-07-11,09:00,Revisão,504.8,Confirmardo
+1738,44,2026-05-08,10:00,Diagnóstico,1665.46,Pendente
+1739,63,2026-04-06,08:00,Freios,1235.25,Pendente
+1740,76,2026-01-20,10:00,Freios,923.35,Pendente
+1741,92,2026-05-01,08:00,Troca de óleo,1262.51,Pendente
+1742,7,2026-01-17,08:00,Freios,1107.89,Confirmardo
+1743,34,2025-06-14,10:00,Troca de óleo,1006.01,Confirmardo
+1744,69,2026-03-25,13:00,Freios,628.36,Pendente
+1745,68,2025-05-24,16:00,Troca de óleo,442.72,Cancelado
+1746,88,2026-01-09,11:00,Suspensão,1733.31,Pendente
+1747,29,2025-09-20,12:00,Revisão,1598.24,Pendente
+1748,26,2026-05-04,15:00,Revisão,1194.76,Pendente
+1749,61,2026-04-21,15:00,Troca de óleo,397.15,Cancelado
+1750,44,2026-03-12,08:00,Freios,142.27,Pendente
+1751,15,2025-10-18,10:00,Diagnóstico,1892.62,Confirmardo
+1752,46,2025-12-16,08:00,Freios,609.56,Confirmardo
+1753,12,2025-11-08,13:00,Diagnóstico,1814.41,Pendente
+1754,56,2025-07-30,08:00,Troca de óleo,985.05,Cancelado
+1755,15,2026-05-10,16:00,Suspensão,630.7,Pendente
+1756,33,2025-09-18,13:00,Revisão,1525.44,Confirmardo
+1757,47,2025-12-15,10:00,Suspensão,389.29,Pendente
+1758,83,2025-11-29,13:00,Diagnóstico,1125.65,Confirmardo
+1759,24,2025-10-23,15:00,Revisão,1580.12,Pendente
+1760,52,2026-04-15,09:00,Suspensão,1012.6,Pendente
+1761,78,2026-01-17,11:00,Freios,988.58,Confirmardo
+1762,69,2025-07-15,11:00,Troca de óleo,1638.62,Pendente
+1763,38,2025-12-08,16:00,Diagnóstico,1136.49,Confirmardo
+1764,56,2025-07-18,16:00,Freios,1563.05,Confirmardo
+1765,100,2025-08-26,15:00,Diagnóstico,187.15,Cancelado
+1766,35,2025-11-26,14:00,Troca de óleo,270.91,Cancelado
+1767,42,2025-08-11,11:00,Troca de óleo,1944.33,Confirmardo
+1768,22,2025-07-14,15:00,Diagnóstico,1661.66,Cancelado
+1769,77,2025-09-28,10:00,Freios,1190.25,Pendente
+1770,88,2025-12-21,11:00,Freios,285.19,Cancelado
+1771,35,2026-05-03,16:00,Suspensão,1780.88,Confirmardo
+1772,80,2026-02-17,12:00,Suspensão,425.88,Pendente
+1773,63,2025-08-16,08:00,Freios,144.08,Cancelado
+1774,57,2025-09-08,16:00,Troca de óleo,673.7,Confirmardo
+1775,26,2025-09-29,12:00,Troca de óleo,1610.62,Pendente
+1776,15,2025-09-06,11:00,Suspensão,1041.73,Confirmardo
+1777,57,2025-07-19,10:00,Troca de óleo,947.74,Pendente
+1778,17,2025-12-28,09:00,Revisão,277.83,Confirmardo
+1779,78,2026-01-20,16:00,Revisão,1317.25,Confirmardo
+1780,94,2025-08-03,15:00,Troca de óleo,1748.84,Cancelado
+1781,4,2025-08-16,15:00,Troca de óleo,1419.74,Confirmardo
+1782,13,2025-11-10,14:00,Freios,1772.86,Cancelado
+1783,57,2025-08-25,08:00,Suspensão,795.65,Confirmardo
+1784,10,2025-06-30,14:00,Diagnóstico,1085.43,Cancelado
+1785,91,2025-10-30,16:00,Troca de óleo,243.72,Cancelado
+1786,5,2025-09-24,08:00,Suspensão,1297.33,Pendente
+1787,57,2025-08-10,12:00,Troca de óleo,1892.77,Confirmardo
+1788,55,2026-01-19,16:00,Freios,1828.15,Pendente
+1789,37,2026-03-01,11:00,Troca de óleo,842.59,Pendente
+1790,3,2026-01-14,16:00,Freios,1180.98,Cancelado
+1791,81,2026-02-23,16:00,Troca de óleo,1808.74,Pendente
+1792,32,2025-05-04,15:00,Diagnóstico,1317.48,Pendente
+1793,59,2026-04-25,13:00,Revisão,1734.78,Cancelado
+1794,50,2026-03-29,08:00,Freios,1223.6,Cancelado
+1795,21,2025-10-21,12:00,Diagnóstico,792.87,Cancelado
+1796,12,2025-12-10,16:00,Troca de óleo,1941.73,Pendente
+1797,42,2025-10-17,08:00,Revisão,128.77,Pendente
+1798,92,2025-06-07,10:00,Troca de óleo,1666.59,Pendente
+1799,42,2025-09-13,13:00,Revisão,164.25,Confirmardo
+1800,79,2025-07-27,11:00,Diagnóstico,1750.44,Pendente
+1801,14,2025-07-20,12:00,Revisão,1551.07,Pendente
+1802,92,2026-02-14,11:00,Troca de óleo,1326.96,Confirmardo
+1803,78,2025-06-28,13:00,Troca de óleo,1263.61,Confirmardo
+1804,51,2025-06-27,13:00,Diagnóstico,1568.68,Pendente
+1805,33,2025-08-07,08:00,Diagnóstico,1089.62,Pendente
+1806,54,2026-03-13,15:00,Diagnóstico,764.86,Cancelado
+1807,77,2025-07-15,16:00,Revisão,1493.0,Confirmardo
+1808,38,2025-09-12,15:00,Suspensão,607.08,Confirmardo
+1809,87,2025-05-11,15:00,Troca de óleo,1484.05,Pendente
+1810,81,2026-02-07,12:00,Freios,623.35,Pendente
+1811,13,2025-12-07,14:00,Revisão,1961.89,Cancelado
+1812,1,2025-06-18,15:00,Suspensão,1940.66,Pendente
+1813,55,2025-08-05,11:00,Troca de óleo,317.16,Cancelado
+1814,31,2026-02-09,15:00,Suspensão,236.48,Pendente
+1815,37,2025-07-13,15:00,Freios,634.25,Confirmardo
+1816,86,2025-09-09,08:00,Suspensão,723.25,Cancelado
+1817,100,2025-10-07,09:00,Troca de óleo,481.47,Confirmardo
+1818,79,2025-09-11,10:00,Diagnóstico,746.26,Cancelado
+1819,16,2026-01-22,15:00,Revisão,1485.12,Pendente
+1820,84,2025-10-18,12:00,Freios,1927.6,Pendente
+1821,71,2025-09-15,09:00,Freios,100.28,Cancelado
+1822,80,2025-09-22,14:00,Troca de óleo,1186.96,Pendente
+1823,5,2025-08-22,11:00,Suspensão,657.2,Confirmardo
+1824,6,2025-09-23,14:00,Troca de óleo,1507.81,Cancelado
+1825,40,2026-03-04,14:00,Freios,1515.08,Confirmardo
+1826,34,2025-11-07,15:00,Diagnóstico,1077.38,Confirmardo
+1827,16,2025-11-27,10:00,Suspensão,753.51,Confirmardo
+1828,88,2025-10-28,09:00,Diagnóstico,1182.83,Pendente
+1829,67,2025-08-29,11:00,Suspensão,1587.45,Cancelado
+1830,9,2026-03-06,16:00,Troca de óleo,1455.95,Confirmardo
+1831,13,2026-01-25,11:00,Suspensão,652.91,Cancelado
+1832,81,2025-07-07,08:00,Revisão,1917.21,Pendente
+1833,90,2025-10-16,15:00,Diagnóstico,1554.54,Pendente
+1834,52,2025-06-16,14:00,Suspensão,266.17,Confirmardo
+1835,25,2025-11-01,12:00,Troca de óleo,713.59,Pendente
+1836,91,2025-08-10,12:00,Troca de óleo,457.63,Pendente
+1837,97,2025-06-16,15:00,Freios,1836.87,Pendente
+1838,57,2026-03-17,08:00,Freios,1045.46,Cancelado
+1839,81,2025-06-14,14:00,Freios,998.43,Pendente
+1840,9,2026-03-25,09:00,Freios,1670.21,Pendente
+1841,38,2025-05-18,10:00,Revisão,958.69,Pendente
+1842,97,2026-02-20,13:00,Troca de óleo,789.21,Pendente
+1843,43,2025-05-10,09:00,Revisão,1501.96,Cancelado
+1844,37,2026-02-25,13:00,Troca de óleo,412.69,Pendente
+1845,26,2025-11-19,15:00,Revisão,1564.61,Confirmardo
+1846,83,2026-04-05,09:00,Suspensão,374.19,Cancelado
+1847,3,2025-11-28,12:00,Revisão,891.51,Pendente
+1848,43,2026-01-13,15:00,Freios,1700.55,Confirmardo
+1849,6,2025-10-25,08:00,Revisão,330.38,Cancelado
+1850,27,2025-10-08,11:00,Troca de óleo,759.77,Pendente
+1851,4,2026-05-03,10:00,Freios,931.18,Cancelado
+1852,31,2026-02-27,16:00,Troca de óleo,1348.83,Confirmardo
+1853,91,2025-10-09,13:00,Troca de óleo,1344.39,Pendente
+1854,16,2026-03-30,11:00,Suspensão,823.18,Pendente
+1855,22,2025-05-27,09:00,Suspensão,169.5,Pendente
+1856,14,2026-02-11,13:00,Revisão,1706.09,Confirmardo
+1857,42,2026-02-12,09:00,Suspensão,561.74,Cancelado
+1858,70,2025-08-12,14:00,Troca de óleo,1217.5,Pendente
+1859,65,2025-06-01,12:00,Troca de óleo,1726.93,Pendente
+1860,57,2025-05-22,16:00,Diagnóstico,320.7,Confirmardo
+1861,48,2025-05-06,10:00,Suspensão,315.85,Confirmardo
+1862,54,2025-12-24,16:00,Diagnóstico,1166.73,Cancelado
+1863,44,2025-07-21,12:00,Freios,491.23,Confirmardo
+1864,53,2026-03-10,13:00,Freios,402.94,Pendente
+1865,65,2025-12-29,14:00,Troca de óleo,877.14,Cancelado
+1866,55,2026-04-29,09:00,Freios,1074.37,Pendente
+1867,86,2026-03-27,14:00,Suspensão,163.75,Pendente
+1868,83,2026-03-31,09:00,Diagnóstico,1625.09,Confirmardo
+1869,1,2025-07-12,11:00,Diagnóstico,230.23,Pendente
+1870,70,2025-07-01,16:00,Diagnóstico,1550.52,Confirmardo
+1871,47,2025-11-03,13:00,Diagnóstico,1125.44,Pendente
+1872,63,2025-06-13,09:00,Troca de óleo,1651.44,Pendente
+1873,97,2026-02-01,15:00,Freios,1520.71,Confirmardo
+1874,13,2026-02-13,13:00,Troca de óleo,534.71,Pendente
+1875,8,2026-02-28,14:00,Troca de óleo,383.89,Pendente
+1876,73,2025-12-08,15:00,Revisão,765.53,Pendente
+1877,82,2025-12-05,15:00,Suspensão,761.76,Pendente
+1878,67,2026-01-01,11:00,Diagnóstico,921.43,Confirmardo
+1879,79,2025-10-22,15:00,Freios,407.98,Pendente
+1880,70,2025-11-11,12:00,Revisão,1480.18,Confirmardo
+1881,64,2025-07-16,14:00,Diagnóstico,868.96,Cancelado
+1882,10,2025-07-26,12:00,Troca de óleo,933.85,Confirmardo
+1883,31,2025-12-16,15:00,Troca de óleo,1418.85,Cancelado
+1884,9,2025-07-08,09:00,Freios,1085.26,Cancelado
+1885,74,2025-06-30,14:00,Freios,969.91,Confirmardo
+1886,88,2026-04-21,12:00,Diagnóstico,159.11,Confirmardo
+1887,29,2026-03-18,10:00,Diagnóstico,1536.91,Cancelado
+1888,50,2025-06-05,10:00,Revisão,942.77,Confirmardo
+1889,50,2025-11-16,16:00,Suspensão,1069.8,Cancelado
+1890,42,2025-09-06,10:00,Troca de óleo,1648.64,Cancelado
+1891,18,2025-08-10,09:00,Diagnóstico,840.9,Cancelado
+1892,14,2025-07-16,16:00,Freios,1254.65,Pendente
+1893,72,2025-11-11,12:00,Suspensão,554.43,Confirmardo
+1894,46,2025-05-22,16:00,Diagnóstico,626.01,Confirmardo
+1895,46,2025-08-19,12:00,Troca de óleo,960.42,Confirmardo
+1896,95,2026-02-23,15:00,Diagnóstico,1608.01,Cancelado
+1897,95,2026-02-12,16:00,Freios,1043.91,Confirmardo
+1898,61,2026-03-21,09:00,Suspensão,301.31,Pendente
+1899,74,2025-07-29,13:00,Suspensão,1799.88,Confirmardo
+1900,30,2025-08-14,11:00,Freios,487.35,Confirmardo
+1901,23,2025-09-13,14:00,Diagnóstico,867.38,Pendente
+1902,26,2025-05-24,14:00,Freios,471.7,Cancelado
+1903,55,2025-05-28,15:00,Suspensão,196.38,Cancelado
+1904,85,2026-03-06,13:00,Diagnóstico,854.69,Pendente
+1905,81,2026-03-31,11:00,Troca de óleo,363.95,Pendente
+1906,10,2026-04-06,09:00,Suspensão,766.74,Confirmardo
+1907,59,2026-05-02,16:00,Suspensão,993.36,Cancelado
+1908,53,2025-07-07,15:00,Troca de óleo,1664.88,Pendente
+1909,36,2025-11-09,09:00,Freios,386.15,Pendente
+1910,43,2025-07-20,15:00,Diagnóstico,527.49,Confirmardo
+1911,9,2025-09-29,16:00,Freios,1364.67,Cancelado
+1912,63,2026-01-05,15:00,Suspensão,556.77,Pendente
+1913,30,2025-09-05,13:00,Revisão,222.97,Pendente
+1914,17,2025-09-16,13:00,Troca de óleo,1218.45,Confirmardo
+1915,55,2025-10-12,14:00,Revisão,1304.63,Pendente
+1916,24,2025-07-01,16:00,Diagnóstico,831.18,Confirmardo
+1917,52,2025-05-06,10:00,Troca de óleo,1751.88,Confirmardo
+1918,47,2026-03-11,08:00,Troca de óleo,392.71,Pendente
+1919,82,2025-10-05,09:00,Troca de óleo,1116.03,Confirmardo
+1920,88,2025-12-20,11:00,Freios,185.43,Cancelado
+1921,5,2026-01-11,11:00,Diagnóstico,681.5,Pendente
+1922,28,2025-10-07,08:00,Diagnóstico,1890.91,Cancelado
+1923,43,2025-07-27,11:00,Revisão,394.2,Pendente
+1924,44,2025-07-23,11:00,Revisão,208.28,Pendente
+1925,16,2026-05-09,09:00,Suspensão,1138.34,Pendente
+1926,69,2026-03-16,16:00,Revisão,1439.01,Pendente
+1927,37,2025-11-09,15:00,Freios,1751.77,Pendente
+1928,21,2025-10-22,12:00,Freios,1852.92,Confirmardo
+1929,14,2025-11-29,10:00,Diagnóstico,246.47,Cancelado
+1930,85,2025-11-08,13:00,Suspensão,686.49,Cancelado
+1931,63,2026-01-14,12:00,Diagnóstico,1840.83,Confirmardo
+1932,80,2025-12-05,10:00,Freios,795.53,Confirmardo
+1933,40,2026-02-08,08:00,Troca de óleo,1872.58,Cancelado
+1934,5,2025-05-27,11:00,Troca de óleo,374.0,Cancelado
+1935,69,2025-09-28,09:00,Diagnóstico,1148.56,Confirmardo
+1936,3,2025-12-02,13:00,Diagnóstico,502.62,Pendente
+1937,47,2026-01-13,12:00,Revisão,1196.08,Confirmardo
+1938,19,2025-08-27,15:00,Suspensão,955.89,Cancelado
+1939,61,2026-04-13,10:00,Suspensão,1088.47,Cancelado
+1940,22,2026-04-10,10:00,Suspensão,982.62,Cancelado
+1941,21,2025-07-01,11:00,Diagnóstico,975.53,Cancelado
+1942,48,2025-05-17,11:00,Suspensão,1013.22,Confirmardo
+1943,91,2025-07-30,08:00,Troca de óleo,523.08,Confirmardo
+1944,9,2026-04-17,12:00,Freios,1569.3,Pendente
+1945,31,2026-03-06,09:00,Freios,1522.21,Cancelado
+1946,41,2025-05-27,12:00,Freios,1277.98,Cancelado
+1947,60,2025-07-18,10:00,Suspensão,660.65,Cancelado
+1948,36,2025-07-14,15:00,Troca de óleo,1841.0,Cancelado
+1949,95,2026-04-10,12:00,Freios,494.34,Pendente
+1950,96,2026-03-19,16:00,Revisão,1055.1,Pendente
+1951,4,2026-03-14,14:00,Diagnóstico,1639.01,Cancelado
+1952,85,2025-12-03,15:00,Diagnóstico,1042.79,Confirmardo
+1953,21,2025-06-20,16:00,Freios,254.33,Confirmardo
+1954,18,2025-06-08,10:00,Revisão,1179.45,Confirmardo
+1955,75,2025-10-09,08:00,Troca de óleo,337.91,Confirmardo
+1956,4,2025-12-24,08:00,Diagnóstico,1768.5,Confirmardo
+1957,51,2025-11-14,13:00,Freios,1613.16,Confirmardo
+1958,52,2025-08-20,15:00,Revisão,405.37,Confirmardo
+1959,55,2025-05-17,11:00,Troca de óleo,1419.13,Pendente
+1960,40,2025-09-23,08:00,Diagnóstico,1774.67,Cancelado
+1961,80,2026-03-25,08:00,Revisão,1014.81,Confirmardo
+1962,16,2025-06-14,16:00,Troca de óleo,1691.09,Cancelado
+1963,7,2026-02-20,15:00,Suspensão,474.35,Cancelado
+1964,52,2025-08-14,11:00,Diagnóstico,1890.62,Pendente
+1965,29,2025-09-14,15:00,Revisão,1338.77,Pendente
+1966,94,2026-03-17,14:00,Suspensão,1841.15,Pendente
+1967,88,2026-02-27,15:00,Freios,1472.37,Confirmardo
+1968,57,2026-02-19,16:00,Troca de óleo,616.43,Confirmardo
+1969,21,2026-03-17,16:00,Revisão,577.57,Cancelado
+1970,14,2025-12-14,15:00,Freios,343.33,Confirmardo
+1971,38,2025-05-12,08:00,Troca de óleo,406.17,Pendente
+1972,50,2026-02-21,13:00,Freios,1193.78,Pendente
+1973,39,2025-12-11,08:00,Suspensão,1973.62,Pendente
+1974,66,2025-06-15,13:00,Revisão,1530.25,Cancelado
+1975,40,2025-07-28,08:00,Diagnóstico,1236.49,Confirmardo
+1976,16,2025-09-22,09:00,Suspensão,1102.14,Pendente
+1977,86,2025-12-23,12:00,Suspensão,1398.94,Cancelado
+1978,85,2026-01-04,14:00,Diagnóstico,331.48,Pendente
+1979,85,2025-10-08,08:00,Troca de óleo,1102.26,Cancelado
+1980,43,2025-05-24,15:00,Diagnóstico,247.65,Confirmardo
+1981,37,2025-09-26,11:00,Suspensão,900.26,Confirmardo
+1982,19,2025-07-28,16:00,Diagnóstico,472.56,Cancelado
+1983,93,2026-01-23,14:00,Revisão,1346.37,Pendente
+1984,4,2026-01-23,12:00,Troca de óleo,767.7,Confirmardo
+1985,89,2026-03-16,14:00,Revisão,369.91,Cancelado
+1986,98,2025-06-30,08:00,Troca de óleo,1880.38,Cancelado
+1987,35,2026-01-24,09:00,Troca de óleo,616.23,Confirmardo
+1988,22,2025-06-05,12:00,Suspensão,1957.15,Cancelado
+1989,32,2025-10-31,16:00,Troca de óleo,1170.69,Pendente
+1990,68,2026-03-24,11:00,Suspensão,558.38,Pendente
+1991,89,2026-01-04,09:00,Suspensão,547.69,Confirmardo
+1992,61,2026-01-14,15:00,Revisão,1366.89,Confirmardo
+1993,93,2026-01-10,16:00,Suspensão,1204.33,Confirmardo
+1994,72,2025-05-08,16:00,Suspensão,1755.31,Pendente
+1995,89,2025-11-01,09:00,Freios,208.7,Cancelado
+1996,53,2025-06-21,13:00,Troca de óleo,565.13,Pendente
+1997,13,2025-10-06,10:00,Troca de óleo,1465.82,Pendente
+1998,35,2025-08-24,15:00,Troca de óleo,1844.91,Cancelado
+1999,7,2025-10-18,09:00,Freios,105.39,Confirmardo
+2000,38,2025-10-09,11:00,Suspensão,722.33,Pendente
