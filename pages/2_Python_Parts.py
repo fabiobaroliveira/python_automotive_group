@@ -18,13 +18,26 @@ df["mes"] = df["data_venda"].dt.to_period("M").astype(str)
 
 # Sidebar - filtros
 st.sidebar.title("Filtros")
+periodo = st.sidebar.selectbox("Período", options=[ "Todo o período", "Último mês", "Últimos 3 meses", "Últimos 6 meses", "Último ano"])
+mes = []
+if periodo == "Todo o período":
+    mes = df["mes"].unique() 
+elif periodo == "Último mês":
+    mes = [df["mes"].max()]
+elif periodo == "Últimos 3 meses":
+    mes = df["mes"].unique()[-3:]
+elif periodo == "Últimos 6 meses":
+    mes = df["mes"].unique()[-6:]
+elif periodo == "Último ano":
+    mes = df["mes"].unique()[-12:]
+ 
+
 regiao = st.sidebar.multiselect("Região", options=df["regiao"].unique(), default=df["regiao"].unique())
 canal = st.sidebar.multiselect("Canal de Venda", options=df["canal_venda"].unique(), default=df["canal_venda"].unique())
     
 
 # Aplicar filtros
-df_filtrado = df[df["regiao"].isin(regiao) & df["canal_venda"].isin(canal)]
-
+df_filtrado = df[df["regiao"].isin(regiao) & df["canal_venda"].isin(canal) & df["mes"].isin(mes)]
 # Métricas principais
 st.metric("Receita Total", f"R$ {df_filtrado['receita'].sum():,.2f}")
 st.metric("Lucro Bruto", f"R$ {df_filtrado['lucro'].sum():,.2f}")
