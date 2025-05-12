@@ -68,7 +68,7 @@ tab1, tab2, tab3 = st.tabs(["Clientes", "Veículos", "Serviços"])
 with tab1:
     st.subheader("📋 Lista de Clientes")
 
-    filtro_cliente = st.text_input("🔎 Buscar por Nome ou CPF", key="filtro_cliente_tab1").strip()
+    filtro_cliente = st.text_input("🔎 Buscar por Nome ou CPF (início exato)", key="filtro_cliente_tab1").strip()
 
     if filtro_cliente:
         clientes_filtrados = clientes_df[
