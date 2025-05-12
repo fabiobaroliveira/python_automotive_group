@@ -42,7 +42,15 @@ with col3:
         st.switch_page("pages/3_Python_Car_Repair_Shop.py")
 
 # Rodapé
-st.markdown("---")
-st.markdown("Python Automotive Group 🐍 - Dados fictícios gerados para fins didáticos")
-st.write("Criado por Fabio B. Oliveira")
-st.write("Linkedin: https://www.linkedin.com/in/fbarbosaoliveira/")
+st.markdown("---", unsafe_allow_html=True)
+
+st.markdown("""
+<div style="font-family: Arial; background-color: #fafafa; padding: 10px; border-radius: 8px;">
+    <p><strong>Python Automotive Group 🐍</strong> – Dados fictícios gerados para fins didáticos</p>
+    <p>Criado por <strong>Fabio B. Oliveira</strong></p>
+    <p>
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="18" style="vertical-align:middle; margin-right:5px;" />
+        <a href="https://www.linkedin.com/in/fbarbosaoliveira/" target="_blank">LinkedIn: fbarbosaoliveira</a>
+    </p>
+</div>
+""", unsafe_allow_html=True)
