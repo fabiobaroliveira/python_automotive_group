@@ -23,39 +23,41 @@ clientes_df, veiculos_df, agendamentos_df = load_data()
 
 # Agendado do Dia
 
+#Agendado do Dia
 # Filtra agendamentos apenas para a data de hoje
 hoje = date.today()
 agendamentos_hoje = agendamentos_df[agendamentos_df["data_agendamento"] == hoje]
+# Junta com veículos
+agenda_veiculo = agendamentos_hoje.merge(veiculos_df, on="id_veiculo", how="left")
+# Junta com clientes
+agenda_completa = agenda_veiculo.merge(clientes_df[["id_cliente", "nome"]], on="id_cliente", how="left")
 
-# Junção 
-agenda_completa = (
-    agendamentos_hoje.merge(veiculos_df, on="id_veiculo", how="left")
-    .merge(clientes_df[["id_cliente", "nome"]], on="id_cliente", how="left")
-)
-
+# Seleciona e reorganiza as colunas
 agenda_final = agenda_completa[[
-    "id_agendamento", "horario_agendamento", "nome", 
-    "marca", "modelo", "tipo_servico", "status"
-]].sort_values(by="horario_agendamento")
+    "id_agendamento",
+    "horario_agendamento",
+    "nome",
+    "marca",
+    "modelo",
+    "tipo_servico",
+    "status"
+]]
+
+# Ordena por horário
+agenda_final = agenda_final.sort_values(by="horario_agendamento").reset_index(drop=True)
+
+# Filtra os confirmardos (status "Confirmardo")
+confirmardos = agenda_final[agenda_final["status"] == "Confirmardo"]
 
 st.title("📆 Agenda do dia")
+#subititulo
 st.subheader(f"Hoje é {hoje.strftime('%d/%m/%Y')}")
-
-# Filtros interativos
-status_options = st.multiselect(
-    "Filtrar por status:",
-    options=agenda_final['status'].unique(),
-    default=['Confirmado','Pendente']
-)
-
-agenda_filtrada = agenda_final[agenda_final['status'].isin(status_options)]
-
-# Métricas
+# Estatísticas simples
+st.markdown("---")
 col1, col2 = st.columns(2)
 col1.metric("📆 Agendamentos", len(agenda_final))
-col2.metric("✅ Confirmados", len(agenda_filtrada))
-
-st.dataframe(agenda_filtrada, use_container_width=True, hide_index=True)
+col2.metric("✅ Confirmardos", len(confirmardos))
+st.dataframe(agenda_final,use_container_width=True, hide_index=True)
 
 # Consultas
 st.markdown("---")
