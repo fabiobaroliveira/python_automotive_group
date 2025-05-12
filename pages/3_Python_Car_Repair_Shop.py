@@ -67,16 +67,65 @@ tab1, tab2, tab3 = st.tabs(["Clientes", "Veículos", "Serviços"])
 
 with tab1:
     st.subheader("📋 Lista de Clientes")
-    st.dataframe(clientes_df, use_container_width=True, hide_index=True)
+
+    filtro_cliente = st.text_input("🔎 Buscar por Nome ou CPF", key="filtro_cliente_tab1").strip()
+
+    if filtro_cliente:
+        clientes_filtrados = clientes_df[
+            clientes_df['nome'].str.lower().str.startswith(filtro_cliente.lower(), na=False) |
+            clientes_df['cpf'].astype(str).str.startswith(filtro_cliente)
+        ]
+
+        if not clientes_filtrados.empty:
+            st.dataframe(clientes_filtrados, use_container_width=True, hide_index=True)
+        else:
+            st.error("🔍 Nenhum cliente encontrado com os dados informados.")
+    else:
+        st.dataframe(clientes_df, use_container_width=True, hide_index=True)
+
 
 with tab2:
     st.subheader("🚗 Veículos por Cliente")
-    st.dataframe(veiculos_df, use_container_width=True, hide_index=True)
+
+    # Campo de busca
+    filtro = st.text_input("🔎 Buscar por Nome, CPF ou Placa").strip()
+
+    if filtro:
+        # Tenta localizar cliente primeiro
+        clientes_encontrados = clientes_df[
+            clientes_df['nome'].str.contains(filtro, case=False, na=False) |
+            clientes_df['cpf'].astype(str).str.contains(filtro, na=False)
+        ]
+
+        # Se encontrar cliente, busca os veículos dele
+        if not clientes_encontrados.empty:
+            ids_clientes = clientes_encontrados['id_cliente'].tolist()
+
+            # Filtra veículos pelos clientes encontrados
+            veiculos_encontrados = veiculos_df[veiculos_df['id_cliente'].isin(ids_clientes)]
+            veiculos_completo = veiculos_encontrados.merge(clientes_df, on="id_cliente", how="left")
+
+            if not veiculos_completo.empty:
+                st.dataframe(veiculos_completo, use_container_width=True, hide_index=True)
+            else:
+                st.warning("🙁 Cliente encontrado, mas não possui veículo cadastrado.")
+        else:
+            # Se não encontrou cliente, tenta pela placa diretamente
+            veiculos_encontrados = veiculos_df[veiculos_df['placa'].str.upper().str.contains(filtro.upper(), na=False)]
+            veiculos_completo = veiculos_encontrados.merge(clientes_df, on="id_cliente", how="left")
+
+            if not veiculos_completo.empty:
+                st.dataframe(veiculos_completo, use_container_width=True, hide_index=True)
+            else:
+                st.error("🔍 Nenhum resultado encontrado.")
+    else:
+        # Se nada for digitado, mostra todos
+        veiculos_completo = veiculos_df.merge(clientes_df, on="id_cliente", how="left")
+        st.dataframe(veiculos_completo, use_container_width=True, hide_index=True)
 
 with tab3:
     st.subheader("📅 Serviços")
     
-
     # Converter para datetime se ainda não for
     agendamentos_df['data_agendamento'] = pd.to_datetime(agendamentos_df['data_agendamento'])
     
