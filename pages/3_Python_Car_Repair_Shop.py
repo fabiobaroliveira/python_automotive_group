@@ -23,7 +23,6 @@ clientes_df, veiculos_df, agendamentos_df = load_data()
 
 # Agendado do Dia
 
-#Agendado do Dia
 # Filtra agendamentos apenas para a data de hoje
 hoje = date.today()
 agendamentos_hoje = agendamentos_df[agendamentos_df["data_agendamento"] == hoje]
@@ -46,8 +45,8 @@ agenda_final = agenda_completa[[
 # Ordena por horário
 agenda_final = agenda_final.sort_values(by="horario_agendamento").reset_index(drop=True)
 
-# Filtra os confirmardos (status "Confirmardo")
-confirmardos = agenda_final[agenda_final["status"] == "Confirmardo"]
+# Filtra os confirmardos (status "Confirmado")
+confirmados = agenda_final[agenda_final["status"] == "Confirmado"]
 
 st.title("📆 Agenda do dia")
 #subititulo
@@ -56,7 +55,7 @@ st.subheader(f"Hoje é {hoje.strftime('%d/%m/%Y')}")
 st.markdown("---")
 col1, col2 = st.columns(2)
 col1.metric("📆 Agendamentos", len(agenda_final))
-col2.metric("✅ Confirmardos", len(confirmardos))
+col2.metric("✅ Confirmardos", len(confirmados))
 st.dataframe(agenda_final,use_container_width=True, hide_index=True)
 
 # Consultas
