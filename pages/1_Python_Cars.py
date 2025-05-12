@@ -2,13 +2,15 @@ import streamlit as st
 import pandas as pd
 
 # Configuração inicial do app
-st.set_page_config(page_title="Python Cars 🐍", layout="wide")
+st.set_page_config(page_title="Python Cars 🐍",
+                    layout="wide")
 
 # Título do aplicativo
 st.title('🚗 Dashboard de Vendas - Veículos Seminovos')
 
 # Carrega os dados do arquivo CSV
 @st.cache_data
+
 def load_data():
     url = "https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/vendas_loja_seminovos.csv"
     try:

@@ -5,7 +5,6 @@ st.set_page_config(
     page_title="Python AG",
     page_icon="🐍",
     layout="wide",
-    auto_reload=False
 )
 
 # Título e introdução
