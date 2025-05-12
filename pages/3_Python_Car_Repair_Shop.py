@@ -21,7 +21,7 @@ def load_data():
 
 clientes_df, veiculos_df, agendamentos_df = load_data()
 
-# Agendado do Dia
+#region AGENDA DO DIA
 
 # Filtra agendamentos apenas para a data de hoje
 hoje = date.today()
@@ -53,11 +53,12 @@ st.title("📆 Agenda do dia")
 st.subheader(f"Hoje é {hoje.strftime('%d/%m/%Y')}")
 # Estatísticas simples
 st.markdown("---")
-col1, col2 = st.columns(2)
+col1, col2, col3, col4 = st.columns(4)
 col1.metric("📆 Agendamentos", len(agenda_final))
 col2.metric("✅ Confirmados", len(confirmados))
 st.dataframe(agenda_final,use_container_width=True, hide_index=True)
 
+#region CADASTROS
 # Consultas
 st.markdown("---")
 st.title("📖 Cadastros")
@@ -154,7 +155,7 @@ with tab3:
     col1.metric("📆 Agendamentos", len(df_filtrado))
     st.dataframe(df_filtrado, use_container_width=True, hide_index=True)
 
-
+#region RESUMO FINANCEIRO
 # Metricas principais
 st.markdown("---")
 st.title("💰 Resumo Financeiro")
