@@ -1,0 +1,101 @@
+id_cliente;nome;cpf;email;telefone;data_nascimento;sexo;cidade;estado
+1;Ágatha Aragão;152.768.049-58;joao-pedrosantos@example.org;(031) 9600 7691;1975-05-16;Feminino;Goiânia;GO
+2;Yuri Cavalcanti;860.239.514-06;theonogueira@example.com;0300-584-9410;1958-09-23;Masculino;Goiânia;GO
+3;Thomas da Rosa;571.930.842-32;daniel94@example.net;+55 71 7365-3237;2002-04-22;Masculino;Recife;PE
+4;Vitória Sales;247.381.096-69;jade97@example.com;(061) 2230 3989;1968-02-02;Feminino;Goiânia;GO
+5;Gustavo da Rosa;408.761.325-90;alice82@example.net;+55 21 7182 6202;2006-04-20;Masculino;Maceió;AL
+6;Agatha Dias;369.017.548-84;miguel32@example.org;(071) 9465-1363;1961-04-15;Feminino;Campo Grande;MS
+7;Caleb das Neves;125.379.064-70;ualmeida@example.net;+55 11 3929 7556;1964-07-08;Masculino;João Pessoa;PB
+8;Arthur Gabriel Fogaça;763.942.058-00;iborges@example.net;0300 160 2814;1985-12-23;Masculino;Teresina;PI
+9;Diego Freitas;207.659.841-30;da-conceicaokaique@example.net;+55 31 9164 1099;1998-03-10;Masculino;Teresina;PI
+10;Gabrielly Carvalho;954.613.028-15;camargocatarina@example.com;+55 11 8785 1828;1977-03-25;Feminino;Recife;PE
+11;Carolina Costa;792.314.056-16;maria-luizaporto@example.net;(031) 5247-5077;1959-05-07;Feminino;Vitória;ES
+12;Antony Albuquerque;250.841.963-05;pastorana-clara@example.org;(051) 8213-0677;1982-07-21;Masculino;Goiânia;GO
+13;Murilo Cunha;354.609.218-05;peixotovinicius@example.org;(041) 6478 8880;1974-03-18;Masculino;Natal;RN
+14;Evelyn Farias;867.593.102-68;opeixoto@example.net;(011) 6002-7480;1963-12-20;Feminino;Manaus;AM
+15;Anthony Vasconcelos;065.492.731-61;vitoria43@example.com;(071) 7599 3825;2003-12-26;Masculino;Belo Horizonte;MG
+16;Breno Ramos;670.543.298-56;ayllaaragao@example.com;(081) 2937 2658;1963-03-12;Masculino;Campinas;SP
+17;Maria Cecília Viana;260.514.739-80;maite08@example.net;+55 81 7643 2912;1980-02-04;Feminino;Teresina;PI
+18;Joana Sales;635.794.820-92;luanacamargo@example.com;81 9870 7683;1962-11-08;Feminino;Teresina;PI
+19;Amanda Barbosa;862.743.091-87;cbrito@example.org;+55 (031) 6876 3733;1959-11-24;Feminino;Belo Horizonte;MG
+20;Milena Martins;592.074.681-58;catarina51@example.net;+55 61 9879 6761;1970-03-27;Feminino;Manaus;AM
+21;Luara Duarte;846.903.725-00;rmendonca@example.com;+55 (084) 2593 4318;1996-02-03;Feminino;Campinas;SP
+22;Maria Fernanda Alves;162.034.587-08;bernardo63@example.net;+55 (051) 1005 0395;1980-11-22;Feminino;Florianópolis;SC
+23;Pedro Lucas Porto;597.084.136-66;andradejoao-gabriel@example.com;81 2233 9352;1987-07-06;Masculino;São Luís;MA
+24;Camila Moura;692.750.138-02;kaique09@example.net;+55 (084) 0371 8897;1956-08-21;Feminino;Porto Alegre;RS
+25;Josué Machado;639.472.850-00;vitor-hugo01@example.org;31 5382 9487;1961-06-19;Masculino;Salvador;BA
+26;Maria Alice Pimenta;759.184.032-05;sda-rosa@example.com;81 6549-9774;1978-01-22;Feminino;Florianópolis;SC
+27;Caroline Novais;470.159.328-14;salesisabelly@example.org;(051) 0646-3357;1983-03-11;Feminino;Boa Vista;RR
+28;Arthur Câmara;742.081.569-02;ana-liviacampos@example.org;+55 (071) 9220-9500;1985-07-14;Masculino;Maceió;AL
+29;Rafael Cardoso;610.372.985-86;cavalcantigabriela@example.org;+55 84 4003 2836;2002-07-30;Masculino;Palmas;TO
+30;Maria Luísa Souza;938.520.164-60;qduarte@example.net;0500 132 4895;2005-08-30;Feminino;Rio Branco;AC
+31;Bianca da Rosa;843.905.712-14;tmoreira@example.com;51 9736 1300;2004-06-30;Feminino;Maceió;AL
+32;Noah Pires;264.175.893-82;bsampaio@example.org;(061) 1390-4497;1960-02-29;Masculino;São Luís;MA
+33;Lucas Peixoto;184.357.296-64;bernardo01@example.com;81 4059 3526;1975-06-24;Masculino;Natal;RN
+34;Benício Sampaio;694.082.571-11;macedorebeca@example.com;84 1958-7814;1993-11-27;Masculino;Aracaju;SE
+35;Renan Pereira;016.794.352-99;isisandrade@example.org;31 3078 8940;1987-04-11;Masculino;Vitória;ES
+36;Daniela Castro;752.316.894-91;davi-luizcarvalho@example.com;84 5887-3355;1987-08-30;Feminino;Florianópolis;SC
+37;Cecília Freitas;274.869.105-94;vpeixoto@example.com;+55 (081) 6489-6604;1961-07-31;Feminino;Boa Vista;RR
+38;Benício Fonseca;209.376.584-56;isabel35@example.org;(071) 8450-1549;1964-08-18;Masculino;Boa Vista;RR
+39;Luísa da Cunha;537.649.810-75;tda-mota@example.com;+55 (041) 3620-1974;1974-12-18;Feminino;Salvador;BA
+40;Henrique Gomes;640.915.238-89;agathadas-neves@example.com;(051) 8989 0687;1970-03-13;Masculino;Aracaju;SE
+41;Felipe Costela;720.964.158-02;joao-felipepeixoto@example.net;0800-639-7588;2005-04-22;Masculino;Fortaleza;CE
+42;Luiza Camargo;342.065.789-74;luan79@example.net;+55 41 6890-2517;2006-11-30;Feminino;Belo Horizonte;MG
+43;Ísis Fernandes;924.357.861-82;giovannamelo@example.org;(084) 0761-3751;1995-12-13;Feminino;São Luís;MA
+44;Stella Cirino;569.017.843-84;ana-beatriz50@example.org;(011) 4434 1920;1987-05-01;Feminino;Manaus;AM
+45;Agatha da Cunha;280.316.945-24;davi-luizmelo@example.net;+55 (051) 0751 6292;1966-12-06;Feminino;Rio Branco;AC
+46;Cecília Rodrigues;284.031.975-60;yasmin26@example.com;(041) 0756 3708;2002-05-15;Feminino;Campo Grande;MS
+47;Maria Fernanda Moura;236.915.708-95;sabrina53@example.com;+55 (011) 5283 9170;1977-03-16;Feminino;São Luís;MA
+48;Clarice Campos;283.410.756-44;valentinajesus@example.net;61 1308 7894;1995-03-27;Feminino;Porto Alegre;RS
+49;Bruna Freitas;782.195.063-77;maria-aliceda-cruz@example.org;(021) 6710-3872;1979-07-30;Feminino;Boa Vista;RR
+50;Milena Siqueira;028.534.917-14;xpacheco@example.net;+55 (011) 3962 9715;1974-05-14;Feminino;Natal;RN
+51;Juan Lopes;713.280.496-04;da-cruzemilly@example.com;+55 21 0344-2936;1981-02-20;Masculino;Campo Grande;MS
+52;Alícia Azevedo;650.492.173-34;psousa@example.net;+55 (061) 5759-1422;1966-04-02;Feminino;Belo Horizonte;MG
+53;Sabrina Costa;831.674.059-10;eda-conceicao@example.net;+55 81 4711-9092;1960-04-11;Feminino;São Paulo;SP
+54;Maria Helena Monteiro;418.092.563-05;antonella31@example.org;84 7161 8423;1979-06-13;Feminino;Goiânia;GO
+55;João Felipe Porto;710.538.962-12;mlopes@example.net;(011) 2127 0628;1969-03-10;Masculino;Rio de Janeiro;RJ
+56;Helena Caldeira;518.926.034-89;barbosaluigi@example.net;(031) 3759-0766;1992-11-22;Feminino;São Paulo;SP
+57;Mateus Aragão;324.951.708-97;eduardaaraujo@example.com;+55 84 7321-6043;1998-11-25;Masculino;Boa Vista;RR
+58;Benjamim Correia;091.483.567-00;da-conceicaoester@example.net;61 9137-8257;1974-07-17;Masculino;Rio de Janeiro;RJ
+59;Zoe Freitas;206.789.153-77;salesfrancisco@example.net;+55 84 8445 5167;1985-11-12;Feminino;Belém;PA
+60;Murilo Sá;531.420.679-06;gmoreira@example.com;+55 41 9252-0810;1966-09-14;Masculino;Maceió;AL
+61;Breno Duarte;361.574.829-82;carlos-eduardodas-neves@example.net;(041) 3899-3395;1962-12-26;Masculino;Cuiabá;MT
+62;Ana Clara Vieira;492.806.317-13;da-cruzrhavi@example.net;+55 51 8564 6483;1960-12-02;Feminino;Campinas;SP
+63;Ravy Santos;921.036.754-52;isaque18@example.net;11 7533 4891;1959-12-19;Masculino;João Pessoa;PB
+64;Arthur Cavalcanti;971.340.256-16;brenofonseca@example.com;41 2053 9354;1970-04-04;Masculino;Teresina;PI
+65;Ana Cecília Andrade;241.376.509-34;maria-claramacedo@example.net;+55 21 6231 9417;1975-09-24;Feminino;Aracaju;SE
+66;Sabrina Barros;680.547.231-80;agatha50@example.net;+55 51 9089 9787;1966-06-11;Feminino;Salvador;BA
+67;Sarah Rezende;169.253.480-70;yago81@example.com;41 6829 4282;1996-04-21;Feminino;Fortaleza;CE
+68;Théo Pereira;843.052.679-00;joanamoura@example.com;61 7581 3918;1976-07-09;Masculino;Belo Horizonte;MG
+69;Luigi Silveira;327.815.096-12;lunnavieira@example.org;+55 (031) 4809 2555;1993-06-09;Masculino;Boa Vista;RR
+70;Evelyn Moreira;485.162.073-07;miguelporto@example.com;+55 31 7457-8815;1965-05-06;Feminino;Belém;PA
+71;Eloah Cardoso;340.159.786-84;macedolara@example.org;+55 71 5911 3210;1986-11-28;Feminino;Palmas;TO
+72;José Miguel Guerra;489.160.372-04;livia13@example.org;(071) 2164-7321;1988-07-03;Masculino;Brasília;DF
+73;Pedro Lucas Moreira;403.562.891-33;pimentaanthony-gabriel@example.com;0800 775 6085;1978-08-31;Masculino;Boa Vista;RR
+74;Breno Martins;648.790.312-40;vdas-neves@example.org;+55 (021) 4467 9587;1983-08-29;Masculino;Rio Branco;AC
+75;Ana Julia Souza;962.351.047-07;gabriel71@example.org;31 7421-0099;1972-08-24;Feminino;Belo Horizonte;MG
+76;Stella Cavalcanti;127.389.560-68;fonsecamirella@example.net;51 5702 8257;1958-03-15;Feminino;Florianópolis;SC
+77;Anthony Lopes;809.246.157-02;maria-fernanda58@example.org;+55 84 6338 0777;1970-01-18;Masculino;Curitiba;PR
+78;Ravy Freitas;019.467.832-69;asafe13@example.com;+55 (011) 7890-1800;2000-06-27;Masculino;Rio de Janeiro;RJ
+79;Alice Fogaça;214.506.873-26;joaquim27@example.net;41 0395-1177;1964-11-18;Feminino;Teresina;PI
+80;Lívia Araújo;694.205.137-34;raulpires@example.net;31 7551-6292;1992-03-04;Feminino;Cuiabá;MT
+81;Thales Campos;621.097.584-49;gustavo-henriqueribeiro@example.org;(051) 8843 9709;1999-09-28;Masculino;Campo Grande;MS
+82;Ester Costa;652.481.307-35;alexia91@example.net;+55 (031) 0857 1516;1960-11-04;Feminino;Macapá;AP
+83;Maria Laura da Cruz;289.704.613-96;leorodrigues@example.com;+55 21 8940 1065;2005-10-12;Feminino;Palmas;TO
+84;Breno Vargas;469.871.305-66;montenegrodavi-lucas@example.net;81 6995 1336;1969-03-06;Masculino;Goiânia;GO
+85;Samuel Duarte;107.246.835-26;hadassa50@example.com;51 6679 1746;1979-01-14;Masculino;Cuiabá;MT
+86;Pietra Lopes;257.683.401-90;vieiramiguel@example.net;+55 (031) 2797 1007;1976-06-17;Feminino;Vitória;ES
+87;Anthony Gabriel Ferreira;210.395.687-77;marcelo43@example.org;(081) 7816-8942;1978-01-19;Masculino;Palmas;TO
+88;Rafaela Lima;604.357.198-66;camaramatheus@example.org;71 1787 7002;2007-01-26;Feminino;Brasília;DF
+89;Lorena da Cruz;290.837.415-32;liviamartins@example.org;+55 (084) 5954 9336;1957-06-25;Feminino;São Paulo;SP
+90;Maria Julia Ferreira;490.286.751-67;klima@example.org;+55 (011) 5305 7124;1977-05-18;Feminino;Belém;PA
+91;Enzo Gabriel Nunes;874.063.952-56;camarasarah@example.net;31 5493 8679;1957-12-25;Masculino;São Paulo;SP
+92;Enrico da Costa;874.293.156-82;gustavobrito@example.com;(061) 5908-7976;1975-06-12;Masculino;São Paulo;SP
+93;Rafaela Pastor;391.852.064-15;mlopes@example.org;81 2667-1275;1960-04-11;Feminino;Aracaju;SE
+94;Brenda Novais;678.201.934-50;varaujo@example.org;61 7713-5843;1978-07-17;Feminino;São Luís;MA
+95;Benjamim Novaes;832.159.467-00;rviana@example.com;+55 21 3920-4238;1980-09-26;Masculino;Belo Horizonte;MG
+96;Raul Rios;456.978.210-85;lavinia38@example.org;(021) 6979-2166;1990-03-09;Masculino;Florianópolis;SC
+97;Ana Liz Sá;986.172.450-85;luiz-gustavo92@example.net;+55 31 4457-5244;1960-10-31;Feminino;Macapá;AP
+98;Sophie Lopes;920.637.185-12;valentina58@example.org;0900 878 2400;1994-09-17;Feminino;Cuiabá;MT
+99;Allana Rezende;172.058.964-01;pedro-miguelda-paz@example.net;(011) 7926-6845;1982-02-14;Feminino;Belém;PA
+100;Arthur Oliveira;861.209.475-58;sophia13@example.org;+55 11 1599 1776;1991-02-24;Masculino;João Pessoa;PB
