@@ -1,3 +1,4 @@
 pandas
 streamlit
 faker
+plotly.graph_objects
