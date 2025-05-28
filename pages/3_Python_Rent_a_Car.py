@@ -25,8 +25,8 @@ clientes_df, veiculos_df, locacoes_df,equipes_df, lojas_df = load_data()
 # Merge dos dataframes
 df = locacoes_df.merge(clientes_df, on="id_cliente") \
                 .merge(veiculos_df, on="id_veiculo") \
-                .merge(equipes_df, on= "id_atendente")\
-                .merge(lojas_df, on="id_loja")
+                .merge(lojas_df, on="id_loja")\
+                
 
 # Alterar tipos numéricos
 df["valor_total"] = df["valor_total"].astype(str).str.replace(".", "", regex=False).str.replace(",", ".", regex=False).astype(float)
@@ -45,14 +45,13 @@ df_hoje = df[df["data_locacao"].dt.date == data_hoje]
 faturamento = df_hoje["valor_total"].sum()
 num_locacoes = df_hoje["id_locacao"].nunique()
 ticket_medio = faturamento / num_locacoes if num_locacoes > 0 else 0
-ocupacao_frota = 100 * df[df["status"] == "Ativa"]["id_veiculo"].nunique() / veiculos_df["id_veiculo"].nunique()
 
 # Layout do dashboard
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("Faturamento do dia", f"R$ {faturamento:,.2f}")
 col2.metric("Nº de locações", num_locacoes)
 col3.metric("Ticket médio", f"R$ {ticket_medio:,.2f}")
-col4.metric("Ocupação da frota", f"{ocupacao_frota:.1f}%")
+
 
 
 # Agrupamento por loja para gerar indicadores
@@ -63,6 +62,8 @@ df_lojas = df_hoje.groupby("nome_loja").agg(
 
 # Formatar valores para moeda
 df_lojas["Faturamento"] = df_lojas["Faturamento"].apply(lambda x: f"R$ {x:,.2f}".replace(",", "X").replace(".", ",").replace("X", "."))
+
+st.dataframe(df_lojas)
 
 # Rodapé
 st.markdown("---")
