@@ -72,9 +72,6 @@ faturamento = df_filtrado["valor_total"].sum()
 num_locacoes = df_filtrado["id_locacao"].nunique()
 ticket_medio = faturamento / num_locacoes if num_locacoes > 0 else 0
 
-
-
-
 def format_currency(value):
     if value >= 1_000_000:
         return f"R$ {value / 1_000_000:,.1f} mi"
