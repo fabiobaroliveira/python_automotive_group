@@ -1,0 +1,29 @@
+id_equipe;id_loja;nome_equipe;gerente;id_atendente_1;id_atendente_2;id_atendente_3;atendente_1;atendente_2;atendente_3
+1;1;Equipe São Paulo;Aurora Oliveira;97;66;94;Valentim Lima;Ísis Ferreira;Yasmin da Mata
+2;2;Equipe Rio de Janeiro;Renan Almeida;78;36;40;Théo Carvalho;Arthur Miguel Cassiano;Rebeca Aragão
+3;3;Equipe Belo Horizonte;Maria Vitória Silva;9;64;41;Isaque Alves;Vitor Cavalcanti;Nicolas Barbosa
+4;4;Equipe Porto Alegre;Isaac Leão;84;4;4;Sr. Oliver Vieira;Noah Melo;Isaac Pereira
+5;5;Equipe Curitiba;Vicente Rios;78;36;16;Brenda Barros;Luiz Felipe Novais;Yago Montenegro
+6;6;Equipe Salvador;Breno Castro;89;77;52;Ana Júlia Pires;Evelyn Cardoso;Zoe Novaes
+7;7;Equipe Fortaleza;Luna Sousa;35;83;25;Antony Costa;Emilly Nascimento;Maria Luiza Sousa
+8;8;Equipe Recife;Davi Miguel Caldeira;76;8;95;Jade Monteiro;Sr. Pedro Miguel da Rosa;Ravy Borges
+9;9;Equipe Brasília;João Pedro Macedo;77;28;1;Rhavi Machado;Isabella Cavalcanti;Heloísa Sales
+10;10;Equipe Manaus;Dra. Nicole Duarte;79;11;42;Alícia Cavalcanti;Carolina Moura;Ayla Pires
+11;11;Equipe Belém;Valentina Viana;96;13;79;Théo da Mota;Sra. Luna Correia;Luiz Otávio da Cunha
+12;12;Equipe Goiânia;Gabrielly Pires;2;90;36;Rafael Borges;Dr. Josué Alves;Srta. Maria Luísa da Paz
+13;13;Equipe Campinas;Ana Lívia Costela;75;7;92;Ana Lívia Martins;Gabrielly Peixoto;Brayan da Cunha
+14;14;Equipe São Luís;Sra. Nicole Barros;2;9;67;Isaac Pimenta;Bárbara Brito;Luísa Novaes
+15;15;Equipe Maceió;Miguel Santos;13;8;24;Dr. Léo Aparecida;Luísa Pastor;Lavínia Siqueira
+16;16;Equipe Natal;Maria Isis Pacheco;14;36;45;Ryan Silveira;Dr. Pietro Castro;Daniela Novais
+17;17;Equipe Teresina;Davi Lucas Almeida;86;56;2;Davi Lucca Azevedo;Antônio da Paz;Sr. Marcos Vinicius Almeida
+18;18;Equipe João Pessoa;Sr. Enzo Gabriel da Mota;26;69;44;Sr. Heitor Sá;Brayan Aragão;Benicio Castro
+19;19;Equipe Aracaju;Camila Silva;45;79;59;José Miguel Ferreira;Manuela Camargo;Isabelly da Luz
+20;20;Equipe Florianópolis;Laura Rios;88;31;32;Davi Miguel Montenegro;Thiago Nunes;Maria Isis da Conceição
+21;21;Equipe Vitória;Luigi Lopes;54;27;51;Maria Julia Sousa;Diogo Pinto;Maria Clara Rios
+22;22;Equipe Cuiabá;Srta. Bruna Pinto;19;44;18;Allana da Rocha;Lunna Lopes;Emilly das Neves
+23;23;Equipe Campo Grande;Davi Luiz Pinto;99;82;26;Breno das Neves;Rhavi Cavalcante;Théo Gomes
+24;24;Equipe Porto Velho;Vitória Novais;48;40;8;Lavínia Fogaça;Luigi Abreu;Yuri Pastor
+25;25;Equipe Boa Vista;Sr. Luiz Otávio Rezende;49;67;22;Ana Julia da Cruz;Alana da Mota;Cecília Barbosa
+26;26;Equipe Palmas;Ísis Caldeira;79;56;54;Pietro Garcia;Dr. Noah Farias;Sra. Alana Duarte
+27;27;Equipe Rio Branco;Isaque Cassiano;23;68;28;Sra. Luna Melo;Benjamin Pimenta;Lorenzo Correia
+28;28;Equipe Macapá;Dr. Luan Aparecida;10;48;94;Kevin Aparecida;Gabrielly Rios;Raul Mendes
