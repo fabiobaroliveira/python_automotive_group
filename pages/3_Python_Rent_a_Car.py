@@ -25,7 +25,8 @@ clientes_df, veiculos_df, locacoes_df,equipes_df, lojas_df = load_data()
 # Merge dos dataframes
 df = locacoes_df.merge(clientes_df, on="id_cliente") \
                 .merge(veiculos_df, on="id_veiculo") \
-                .merge(lojas_df, on="id_loja")\
+                .merge(equipes_df, on="id_atendente")\
+                .merge(lojas_df, on="id_loja")               
                 
 
 # Alterar tipos numéricos
