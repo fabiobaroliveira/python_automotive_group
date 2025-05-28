@@ -14,15 +14,18 @@ def load_data():
     clientes_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/clientes_locadora.csv", sep=";")
     veiculos_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/veiculos_locadora.csv", sep=";")
     locacoes_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/locacoes.csv", sep=";")
+    equipes_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/equipes.csv", sep=";")
     lojas_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/lojas.csv", sep=";")
-    return clientes_df, veiculos_df, locacoes_df, lojas_df
+    
+    return clientes_df, veiculos_df, locacoes_df, equipes_df, lojas_df
 
-clientes_df, veiculos_df, locacoes_df,lojas_df = load_data()
+clientes_df, veiculos_df, locacoes_df,equipes_df, lojas_df = load_data()
 
 
 # Merge dos dataframes
 df = locacoes_df.merge(clientes_df, on="id_cliente") \
                 .merge(veiculos_df, on="id_veiculo") \
+                .merge(equipes_df, on= "id_atendente")\
                 .merge(lojas_df, on="id_loja")
 
 # Alterar tipos numéricos
@@ -61,20 +64,6 @@ df_lojas = df_hoje.groupby("nome_loja").agg(
 # Formatar valores para moeda
 df_lojas["Faturamento"] = df_lojas["Faturamento"].apply(lambda x: f"R$ {x:,.2f}".replace(",", "X").replace(".", ",").replace("X", "."))
 
-# Criar tabela com Plotly
-fig = go.Figure(data=[go.Table(
-    header=dict(
-        values=list(df_lojas.columns),
-        fill_color='darkolivegreen',
-        font=dict(color='white', size=14),
-        align='left'
-    ),
-    cells=dict(
-        values=[df_lojas[col] for col in df_lojas.columns],
-        fill_color='lightgray',
-        align='left'
-    )
-)])
-
-st.subheader("Desempenho por Loja (Hoje)")
-st.plotly_chart(fig, use_container_width=True)
+# Rodapé
+st.markdown("---")
+st.markdown("Python Rent a Car 🐍 - Dados fictícios gerados para fins didáticos")
