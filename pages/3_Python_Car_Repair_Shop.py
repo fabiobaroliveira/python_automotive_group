@@ -51,7 +51,7 @@ with tab_agenda:
     # Filtra os confirmardos (status "Confirmado")
     confirmados = agenda_final[agenda_final["status"] == "Confirmado"]
 
-        # Adicione isso na seção da AGENDA DO DIA (substitua o código atual)
+    
     st.title("📆 Agenda do dia")
     st.subheader(f"Hoje é {hoje.strftime('%d/%m/%Y')}")
 
@@ -59,7 +59,7 @@ with tab_agenda:
     col1, col2, col3 = st.columns(3)
     col1.metric("📆 Agendamentos", len(agenda_final))
     col2.metric("✅ Confirmados", len(confirmados))
-    col3.metric("⏳ Horários Livres", 16 - len(agenda_final))  # Supondo 16 horários disponíveis (8h-17h)
+    col3.metric("⏳ Horários Livres", 16 - len(agenda_final))  # horários disponíveis (8h-17h)
 
     # Visualização da agenda
     st.dataframe(agenda_final, use_container_width=True, hide_index=True)
@@ -163,14 +163,14 @@ with tab_agenda:
                     st.rerun()
 
 with tab_cadastros:
-    #region CADASTROS
+    #region TABELAS
     # Consultas
     st.markdown("---")
     st.title("📖 Cadastros")
     st.markdown("---")
 
     tab1, tab2, tab3 = st.tabs(["Clientes", "Veículos", "Serviços"])
-
+#region LISTA DE CLIENTES
     with tab1:
         st.subheader("📋 Lista de Clientes")
 
@@ -189,7 +189,7 @@ with tab_cadastros:
         else:
             st.dataframe(clientes_df, use_container_width=True, hide_index=True)
 
-
+#region VEICULOS POR CLIENTE
     with tab2:
         st.subheader("🚗 Veículos por Cliente")
 
@@ -229,6 +229,7 @@ with tab_cadastros:
             veiculos_completo = veiculos_df.merge(clientes_df, on="id_cliente", how="left")
             st.dataframe(veiculos_completo, use_container_width=True, hide_index=True)
 
+#region SERVICOS
     with tab3:
         st.subheader("📅 Serviços")
         
