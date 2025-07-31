@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
-from datetime import date , timedelta 
+from datetime import date , timedelta , datetime
 st.set_page_config(page_title="Python Rent a Car 🐍", layout="wide")
 
-st.title("Python Rent a Car ")
+st.title("Python Rent a Car (em desenvolvimento)")
 st.markdown("---")
 
 # Carregar os dados
@@ -99,6 +99,97 @@ df_lojas = df_filtrado.groupby("nome_loja").agg(
 df_lojas["Faturamento"] = df_lojas["Faturamento"].apply(lambda x: f"R$ {x:,.2f}".replace(",", "X").replace(".", ",").replace("X", "."))
 
 st.dataframe(df_lojas)
+
+'''
+
+# Painel 
+
+KPIs Operacionais
+
+### Taxa de Ocupação da Frota
+
+(Nº de veículos alugados / Total de veículos disponíveis) × 100
+
+Mostra a eficiência no uso dos veículos.
+
+'''
+
+# Função para adicionar nova coluna com Status Correto
+
+data_hoje = date.today()  # YYYY-MM-DD  Data de hoje no formato date
+
+def status_real(data_devolucao_str):
+    # Se for None ou NaN 
+    if pd.isna(data_devolucao_str):
+        return "Sem data"    
+    # Converte a string "dd-mm-yyyy" para um objeto date
+    try:
+        data_devolucao = datetime.strptime(data_devolucao_str, "%d-%m-%Y").date()
+    except ValueError:
+        return "Formato inválido"
+    
+    # Compara as datas
+    if data_devolucao >= data_hoje:
+        return "Ativa"
+    else:
+        return "Finalizada"
+
+# Aplica a função na coluna 'data_devolucao'
+locacoes_df['status_real'] = locacoes_df['data_devolucao'].apply(status_real)
+
+# Filtrar apenas locações "Ativa"
+locacoes_ativas = locacoes_df[locacoes_df['status_real'] == 'Ativa']
+
+# Calcular o número de veículos alugados 
+veiculos_alugados = len(locacoes_ativas)
+
+# Total de veículos na frota
+total_veiculos = len(veiculos_df)
+
+# Calculo Taxa de Ocupação
+taxa_ocupacacao_frota = (veiculos_alugados/total_veiculos)*100
+
+# Layout do dashboard Painel Operacional
+col100, col110, col120 = st.columns(3)
+col100.metric("Taxa de Ocupação da Frota", f"{taxa_ocupacacao_frota:.2f}%")
+
+
+'''
+
+### Dias Médios de Aluguel por Veículo
+
+(Total de dias alugados / Nº total de veículos na frota)
+
+Indica o tempo médio que um veículo passa alugado.
+
+'''
+
+
+
+
+'''
+### Tempo de Indisponibilidade (Downtime)
+
+(Tempo em manutenção ou parado / Tempo total disponível)
+
+Ajuda a identificar gargalos na manutenção.
+
+
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Rodapé
 st.markdown("---")
