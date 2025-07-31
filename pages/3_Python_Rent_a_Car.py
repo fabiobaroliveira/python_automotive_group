@@ -164,31 +164,43 @@ Indica o tempo médio que um veículo passa alugado.
 
 '''
 
-
-
-
 '''
-### Tempo de Indisponibilidade (Downtime)
+### Tempo de Indisponibilidade 
 
 (Tempo em manutenção ou parado / Tempo total disponível)
 
 Ajuda a identificar gargalos na manutenção.
 
+'''
+
+'''
+KPIs Financeiros
+
+### Receita Média Diária (RAD)
+
+(Receita total de aluguéis / Nº total de dias alugados)
+
+Mede a rentabilidade por dia de aluguel.
 
 '''
 
+'''
 
+KPIs de Gestão de Frota
 
+### Idade Média da Frota
 
+(Soma da idade dos veículos / Nº total de veículos)
 
+Frota muito antiga pode aumentar custos de manutenção.
 
+### Quilometragem Média por Veículo
 
+(Quilometragem total / Nº de veículos)
 
+Ajuda a planejar a renovação da frota.
 
-
-
-
-
+'''
 
 
 # Rodapé
