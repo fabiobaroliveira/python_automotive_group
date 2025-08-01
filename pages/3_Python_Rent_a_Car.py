@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+import random
+from faker import Faker
 import plotly.graph_objects as go
 from datetime import date , timedelta , datetime
 st.set_page_config(page_title="Python Rent a Car 🐍", layout="wide")
@@ -7,152 +9,187 @@ st.set_page_config(page_title="Python Rent a Car 🐍", layout="wide")
 st.title("Python Rent a Car (em desenvolvimento)")
 st.markdown("---")
 
-# Carregar os dados
-@st.cache_data
-def load_data():
-    clientes_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/clientes_locadora.csv", sep=";")
-    veiculos_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/veiculos_locadora.csv", sep=";")
-    locacoes_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/locacoes.csv", sep=";")
-    equipes_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/equipes.csv", sep=";")
-    lojas_df = pd.read_csv("https://raw.githubusercontent.com/fabiobaroliveira/python_automotive_group/main/pages/lojas.csv", sep=";")
-    
-    return clientes_df, veiculos_df, locacoes_df, equipes_df, lojas_df
 
-clientes_df, veiculos_df, locacoes_df,equipes_df, lojas_df = load_data()
+# Criando Dados
+fake = Faker('pt_BR')
 
+# Parâmetros
+num_clientes = 100
+num_veiculos = 50
+num_lojas = 5
+num_locacoes = 555
 
-# Merge dos dataframes
-df = locacoes_df.merge(clientes_df, on="id_cliente") \
-                .merge(veiculos_df, on="id_veiculo") \
-                .merge(lojas_df, on="id_loja")\
-                .merge(equipes_df, on="id_atendente")
-                
+# Gerar Clientes
+clientes = []
+for i in range(num_clientes):
+    clientes.append({
+        'id_cliente': i + 1,
+        'nome': fake.name(),
+        'cpf': fake.unique.cpf(),
+        'email': fake.email(),
+        'telefone': fake.phone_number(),
+        'nps': random.choices([10, 9, 8, 7, 6, 5, 4], weights=[0.3, 0.3, 0.2, 0.05, 0.05, 0.05, 0.05])[0]
+    })
+clientes_df = pd.DataFrame(clientes)
 
-# Alterar tipos numéricos
-df["valor_total"] = df["valor_total"].astype(str).str.replace(".", "", regex=False).str.replace(",", ".", regex=False).astype(float)
-df["valor_diaria"] = df["valor_diaria"].astype(str).str.replace(".", "", regex=False).str.replace(",", ".", regex=False).astype(float)
+# Gerar Veículos
 
-# Conversão de datas
-df["data_locacao"] = pd.to_datetime(df["data_locacao"], dayfirst=True)
-df["data_devolucao"] = pd.to_datetime(df["data_devolucao"], dayfirst=True)
+# Categorias e faixas de preço por dia
+categorias = {
+    'Econômico': (98, 157),
+    'Intermediário': (180, 247),
+    'SUV': (299, 433)
+}
 
-
-# Opções de filtro
-filtro_data = st.selectbox(
-    "Filtrar por período:",
-    ("Hoje", "Últimos 7 dias", "Último mês", "Período completo")
-)
-
-# Define o intervalo de datas
-data_fim = df["data_locacao"].max().date()
-data_inicio = df["data_locacao"].min().date()
-
-if filtro_data == "Hoje":
-        data_inicio_filtro = date.today()
-        data_fim_filtro = date.today()
-elif filtro_data == "Últimos 7 dias":
-        data_inicio_filtro = date.today() - timedelta(days=6)
-        data_fim_filtro = date.today()
-elif filtro_data == "Último mês":
-        data_inicio_filtro = date.today() - timedelta(days=30)
-        data_fim_filtro = date.today()
-else:  # Período completo
-        data_inicio_filtro = data_inicio
-        data_fim_filtro = data_fim
-
-
-# Aplica o filtro
-df_filtrado = df[
-        (df["data_locacao"].dt.date >= data_inicio_filtro) &
-        (df["data_locacao"].dt.date <= data_fim_filtro)
+# Marcas, modelos e categorias
+marcas_modelos_categorias = [
+    ('Fiat', 'Argo', 'Econômico'),
+    ('Chevrolet', 'Onix', 'Econômico'),
+    ('Volkswagen', 'Gol', 'Econômico'),
+    ('Hyundai', 'HB20', 'Intermediário'),
+    ('Ford', 'Ka', 'Econômico'),
+    ('Toyota', 'Corolla', 'Intermediário'),
+    ('Jeep', 'Renegade', 'SUV'),
+    ('Honda', 'HR-V', 'SUV')
 ]
 
-# KPIs
-faturamento = df_filtrado["valor_total"].sum()
-num_locacoes = df_filtrado["id_locacao"].nunique()
-ticket_medio = faturamento / num_locacoes if num_locacoes > 0 else 0
+veiculos = []
+for i in range(num_veiculos):
+    marca, modelo, categoria = random.choice(marcas_modelos_categorias)
+    ano = random.randint(2018, 2023)
+    veiculos.append({
+        'id_veiculo': i + 1,
+        'marca': marca,
+        'modelo': modelo,
+        'categoria': categoria,
+        'ano': ano,
+        'placa': fake.unique.license_plate(),
+        'status': 'disponível',
+        'km_total': random.randint(20000, 150000),
+        'tempo_manutencao_dias': random.randint(0, 20)
+    })
+veiculos_df = pd.DataFrame(veiculos)
 
-def format_currency(value):
-    if value >= 1_000_000:
-        return f"R$ {value / 1_000_000:,.1f} mi"
-    elif value >= 1_000:
-        return f"R$ {value / 1_000:,.1f} mil"
-    else:
-        return f"R$ {value:,.2f}"
+# Gerar Lojas
+cidades_estados = { "São Paulo": "SP",
+                  "Rio de Janeiro": "RJ",
+                  "Belo Horizonte": "MG",
+                  "Porto Alegre": "RS",
+                  "Curitiba": "PR"}
 
-# Layout do dashboard
-col1, col2, col3, col4 = st.columns(4)
-col1.metric("Faturamento do período", format_currency(faturamento))
-#col2.metric
-col3.metric("Nº de locações", num_locacoes)
-col4.metric("Ticket médio", f"R$ {ticket_medio:,.2f}")
+lojas = []
+for i, (cidade, estado) in enumerate(cidades_estados.items(), start=1):
+    lojas.append({
+        "id_loja": i,
+        "nome_loja": f"Locadora {cidade}",
+        "cidade": cidade,
+        "estado": estado
+    })
 
+lojas_df = pd.DataFrame(lojas)
 
+# Gerar Locações 
+locacoes = []
+historico_veiculos = {v: [] for v in veiculos_df['id_veiculo'].tolist()}
+tentativas = 0
+while len(locacoes) < num_locacoes and tentativas < num_locacoes * 10:
+    tentativas += 1
+    id_cliente = random.choice(clientes_df['id_cliente'].tolist())
+    id_veiculo = random.choice(veiculos_df['id_veiculo'].tolist())
+    id_loja = random.choice(lojas_df['id_loja'].tolist())
+    data_inicio = fake.date_between(start_date='-2y', end_date='today')
+    duracao = random.randint(1, 15)
+    data_fim = data_inicio + timedelta(days=duracao)
+    if random.random() < 0.2:
+        data_fim = None  # locação ativa
 
-# Agrupamento por loja para gerar indicadores
-df_lojas = df_filtrado.groupby("nome_loja").agg(
-    Faturamento=("valor_total", "sum"),
-    Locações=("id_locacao", "count")
-).sort_values("Faturamento", ascending=False).reset_index()
+    conflito = False
+    for loc in historico_veiculos[id_veiculo]:
+        inicio = loc['data_inicio']
+        fim = loc['data_fim'] if loc['data_fim'] else datetime.today().date()
+        if data_fim:
+            if not (data_fim <= inicio or data_inicio >= fim):
+                conflito = True
+                break
+        else:
+            if data_inicio <= fim:
+                conflito = True
+                break
 
-# Formatar valores para moeda
-df_lojas["Faturamento"] = df_lojas["Faturamento"].apply(lambda x: f"R$ {x:,.2f}".replace(",", "X").replace(".", ",").replace("X", "."))
+    if not conflito:
+        categoria = veiculos_df.loc[veiculos_df['id_veiculo'] == id_veiculo, 'categoria'].values[0]
+        preco_min, preco_max = categorias[categoria]
+        preco_dia = random.randint(preco_min, preco_max)
+        receita = preco_dia * duracao if data_fim else 0
+        custo = receita * random.uniform(0.4, 0.7)
+        km_rodado = random.randint(100, 1000)
+        reclamacao = random.choices([0, 1], weights=[0.9, 0.1])[0]
+        sinistro = random.choices([0, 1], weights=[0.95, 0.05])[0]
 
-st.dataframe(df_lojas)
+        nova_loc = {
+            'id_locacao': len(locacoes) + 1,
+            'id_cliente': id_cliente,
+            'id_veiculo': id_veiculo,
+            'id_loja': id_loja,
+            'data_inicio': data_inicio,
+            'data_fim': data_fim,
+            'receita': receita,
+            'custo': custo,
+            'km_rodado': km_rodado,
+            'reclamacao': reclamacao,
+            'sinistro': sinistro,
+            'preco_dia': preco_dia
+        }
+        locacoes.append(nova_loc)
+        historico_veiculos[id_veiculo].append(nova_loc)
+
+locacoes_df = pd.DataFrame(locacoes)
+
+# Vendas e Marketing
+marketing = []
+
+for mes in pd.date_range(start='2023-01-01', end='2024-12-01', freq='MS'):
+    cotacoes = random.randint(150, 400)
+    alugueis_confirmados = random.randint(int(cotacoes * 0.3), cotacoes)
+    investimento_marketing = random.randint(5000, 15000)
+    novos_clientes = random.randint(20, 80)
+
+    taxa_conversao = alugueis_confirmados / cotacoes
+    cac = investimento_marketing / novos_clientes if novos_clientes else 0
+
+    marketing.append({
+        'mes': mes.strftime('%Y-%m'),
+        'cotacoes': cotacoes,
+        'alugueis_confirmados': alugueis_confirmados,
+        'taxa_conversao': round(taxa_conversao, 2),
+        'investimento_marketing': investimento_marketing,
+        'novos_clientes': novos_clientes,
+        'cac': round(cac, 2)
+    })
+
+marketing_df = pd.DataFrame(marketing)
+
 
 '''
 
 # Painel 
 
-KPIs Operacionais
-
-### Taxa de Ocupação da Frota
-
-(Nº de veículos alugados / Total de veículos disponíveis) × 100
-
-Mostra a eficiência no uso dos veículos.
-
+## KPIs Operacionais
 '''
+# Filtrar apenas veiculos disponiveis 
+veiculos_disponiveis = veiculos_df[veiculos_df['status'] == 'disponível']
 
-# Função para adicionar nova coluna com Status Correto
+# Filtrar apenas veículos em locação ativa
+veiculos_alugados = (
+    locacoes_df[locacoes_df['data_fim'].isna()]
+    ['id_veiculo'].unique()
+)
+# Números de veiculos em locação ativa
+numero_alugados = len(veiculos_alugados)
 
-data_hoje = date.today()  # YYYY-MM-DD  Data de hoje no formato date
+taxa_ocupacao_frota = (numero_alugados /num_veiculos)*100
 
-def status_real(data_devolucao_str):
-    # Se for None ou NaN 
-    if pd.isna(data_devolucao_str):
-        return "Sem data"    
-    # Converte a string "dd-mm-yyyy" para um objeto date
-    try:
-        data_devolucao = datetime.strptime(data_devolucao_str, "%d-%m-%Y").date()
-    except ValueError:
-        return "Formato inválido"
-    
-    # Compara as datas
-    if data_devolucao >= data_hoje:
-        return "Ativa"
-    else:
-        return "Finalizada"
-
-# Aplica a função na coluna 'data_devolucao'
-locacoes_df['status_real'] = locacoes_df['data_devolucao'].apply(status_real)
-
-# Filtrar apenas locações "Ativa"
-locacoes_ativas = locacoes_df[locacoes_df['status_real'] == 'Ativa']
-
-# Calcular o número de veículos alugados 
-veiculos_alugados = len(locacoes_ativas)
-
-# Total de veículos na frota
-total_veiculos = len(veiculos_df)
-
-# Calculo Taxa de Ocupação
-taxa_ocupacacao_frota = (veiculos_alugados/total_veiculos)*100
-
-# Layout do dashboard Painel Operacional
-col100, col110, col120 = st.columns(3)
-col100.metric("Taxa de Ocupação da Frota", f"{taxa_ocupacacao_frota:.2f}%")
-
+st.metric("Taxa de Ocupação da Frota",f"{taxa_ocupacao_frota:.2f}%")
 
 '''
 
