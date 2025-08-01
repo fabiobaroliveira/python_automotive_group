@@ -176,6 +176,8 @@ marketing_df = pd.DataFrame(marketing)
 
 ## KPIs Operacionais
 '''
+# Taxa de Ocupação de Frota
+
 # Filtrar apenas veiculos disponiveis 
 veiculos_disponiveis = veiculos_df[veiculos_df['status'] == 'disponível']
 
@@ -191,15 +193,28 @@ taxa_ocupacao_frota = (numero_alugados /num_veiculos)*100
 
 st.metric("Taxa de Ocupação da Frota",f"{taxa_ocupacao_frota:.2f}%")
 
-'''
+# Média de Dias de Aluguel por Veículo
 
-### Dias Médios de Aluguel por Veículo
+# Adionando nova coluna para mostrar totais de dias alugados
+locacoes_df['data_inicio'] = pd.to_datetime(locacoes_df['data_inicio'])
+locacoes_df['data_fim'] = pd.to_datetime(locacoes_df['data_fim'])
 
-(Total de dias alugados / Nº total de veículos na frota)
+def calcular_dias_alugados(inicio, fim):
+    hoje = date.today()
+    return (hoje - inicio.date()).days
 
-Indica o tempo médio que um veículo passa alugado.
+locacoes_df['dias_alugados'] = locacoes_df.apply(
+    lambda x: calcular_dias_alugados(x['data_inicio'], x['data_fim']), 
+    axis=1
+)
+# Contar total de dias alugados
+total_dias_alugados = locacoes_df['dias_alugados'].sum()
 
-'''
+media_de_dias_alugados = (total_dias_alugados/num_veiculos)
+
+
+st.metric("Média de Dias de Aluguel por Veículo",f"{media_de_dias_alugados:.0f}")
+
 
 '''
 ### Tempo de Indisponibilidade 
@@ -211,7 +226,7 @@ Ajuda a identificar gargalos na manutenção.
 '''
 
 '''
-KPIs Financeiros
+## KPIs Financeiros
 
 ### Receita Média Diária (RAD)
 
@@ -223,7 +238,7 @@ Mede a rentabilidade por dia de aluguel.
 
 '''
 
-KPIs de Gestão de Frota
+## KPIs de Gestão de Frota
 
 ### Idade Média da Frota
 
